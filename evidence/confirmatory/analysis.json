@@ -1,0 +1,218 @@
+{
+  "summary": [
+    {
+      "family": "elf",
+      "train_sequences": 1024,
+      "test_set": "test",
+      "fit_seeds": 3,
+      "agreement_mean": 0.9643063708474229,
+      "fit_seed_sd": 3.26970032367261e-05,
+      "sequence_ci_low": 0.963412567059605,
+      "sequence_ci_high": 0.965201419596257,
+      "test_sequences": 1024,
+      "valid_tokens": 1047171
+    },
+    {
+      "family": "elf",
+      "train_sequences": 1024,
+      "test_set": "fresh_test",
+      "fit_seeds": 3,
+      "agreement_mean": 0.9631834619400516,
+      "fit_seed_sd": 9.605867121269553e-05,
+      "sequence_ci_low": 0.9616564050262942,
+      "sequence_ci_high": 0.9646209265330562,
+      "test_sequences": 512,
+      "valid_tokens": 523560
+    },
+    {
+      "family": "elf",
+      "train_sequences": 4096,
+      "test_set": "test",
+      "fit_seeds": 3,
+      "agreement_mean": 0.9709573062406555,
+      "fit_seed_sd": 0.00012938244716917313,
+      "sequence_ci_low": 0.9702028604955406,
+      "sequence_ci_high": 0.9717134316284354,
+      "test_sequences": 1024,
+      "valid_tokens": 1047171
+    },
+    {
+      "family": "elf",
+      "train_sequences": 4096,
+      "test_set": "fresh_test",
+      "fit_seeds": 3,
+      "agreement_mean": 0.9698283545980085,
+      "fit_seed_sd": 0.000265664102007173,
+      "sequence_ci_low": 0.9684783600728518,
+      "sequence_ci_high": 0.9710966927684874,
+      "test_sequences": 512,
+      "valid_tokens": 523560
+    },
+    {
+      "family": "elf",
+      "train_sequences": 16384,
+      "test_set": "test",
+      "fit_seeds": 3,
+      "agreement_mean": 0.9728143732017025,
+      "fit_seed_sd": 0.00021869069151523292,
+      "sequence_ci_low": 0.9721134482705461,
+      "sequence_ci_high": 0.9735296890115033,
+      "test_sequences": 1024,
+      "valid_tokens": 1047171
+    },
+    {
+      "family": "elf",
+      "train_sequences": 16384,
+      "test_set": "fresh_test",
+      "fit_seeds": 3,
+      "agreement_mean": 0.9716695953345049,
+      "fit_seed_sd": 0.0002313887950311341,
+      "sequence_ci_low": 0.9703506122566864,
+      "sequence_ci_high": 0.9728765293158148,
+      "test_sequences": 512,
+      "valid_tokens": 523560
+    },
+    {
+      "family": "langflow",
+      "train_sequences": 1024,
+      "test_set": "test",
+      "fit_seeds": 3,
+      "agreement_mean": 0.6262359619140625,
+      "fit_seed_sd": 0.00037032046812474355,
+      "sequence_ci_low": 0.6226245880126953,
+      "sequence_ci_high": 0.6298730214436848,
+      "test_sequences": 512,
+      "valid_tokens": 65536
+    }
+  ],
+  "paired_improvements": [
+    {
+      "comparison": "16384 minus 1024",
+      "test_set": "test",
+      "delta": 0.00850800235427961,
+      "ci_low": 0.008105431125627857,
+      "ci_high": 0.008912230712649273
+    },
+    {
+      "comparison": "16384 minus 1024",
+      "test_set": "fresh_test",
+      "delta": 0.008486133394453357,
+      "ci_low": 0.007998624639212509,
+      "ci_high": 0.009012762806885621
+    }
+  ],
+  "lookup": [
+    {
+      "family": "elf",
+      "test_set": "test",
+      "method": "frozen_cosine_lookup",
+      "agreement": 0.9336832284316506,
+      "sequence_ci_low": 0.9328324206567914,
+      "sequence_ci_high": 0.934517710486384
+    },
+    {
+      "family": "elf",
+      "test_set": "fresh_test",
+      "method": "frozen_cosine_lookup",
+      "agreement": 0.9321434028573612,
+      "sequence_ci_low": 0.9307585369644469,
+      "sequence_ci_high": 0.9334857903796855
+    }
+  ],
+  "langflow_phase": [
+    {
+      "step": 0,
+      "method": "lookup",
+      "agreement": 0.0001373291015625,
+      "sequence_ci_low": 6.103515625e-05,
+      "sequence_ci_high": 0.000244140625,
+      "test_sequences": 512,
+      "positions": 65536
+    },
+    {
+      "step": 0,
+      "method": "residual",
+      "agreement": 0.940582275390625,
+      "sequence_ci_low": 0.9387664794921875,
+      "sequence_ci_high": 0.9423526763916016,
+      "test_sequences": 512,
+      "positions": 65536
+    },
+    {
+      "step": 16,
+      "method": "lookup",
+      "agreement": 0.00885009765625,
+      "sequence_ci_low": 0.0081634521484375,
+      "sequence_ci_high": 0.009552001953125,
+      "test_sequences": 512,
+      "positions": 65536
+    },
+    {
+      "step": 16,
+      "method": "residual",
+      "agreement": 0.35833740234375,
+      "sequence_ci_low": 0.3529811859130859,
+      "sequence_ci_high": 0.3637546539306641,
+      "test_sequences": 512,
+      "positions": 65536
+    },
+    {
+      "step": 32,
+      "method": "lookup",
+      "agreement": 0.034332275390625,
+      "sequence_ci_low": 0.032928466796875,
+      "sequence_ci_high": 0.035797119140625,
+      "test_sequences": 512,
+      "positions": 65536
+    },
+    {
+      "step": 32,
+      "method": "residual",
+      "agreement": 0.447784423828125,
+      "sequence_ci_low": 0.4409477233886719,
+      "sequence_ci_high": 0.4546665191650391,
+      "test_sequences": 512,
+      "positions": 65536
+    },
+    {
+      "step": 48,
+      "method": "lookup",
+      "agreement": 0.1136016845703125,
+      "sequence_ci_low": 0.1112213134765625,
+      "sequence_ci_high": 0.115997314453125,
+      "test_sequences": 512,
+      "positions": 65536
+    },
+    {
+      "step": 48,
+      "method": "residual",
+      "agreement": 0.529327392578125,
+      "sequence_ci_low": 0.5230556488037109,
+      "sequence_ci_high": 0.5355987548828125,
+      "test_sequences": 512,
+      "positions": 65536
+    },
+    {
+      "step": 63,
+      "method": "lookup",
+      "agreement": 0.8968963623046875,
+      "sequence_ci_low": 0.894134521484375,
+      "sequence_ci_high": 0.89959716796875,
+      "test_sequences": 512,
+      "positions": 65536
+    },
+    {
+      "step": 63,
+      "method": "residual",
+      "agreement": 0.558563232421875,
+      "sequence_ci_low": 0.55322265625,
+      "sequence_ci_high": 0.5639495849609375,
+      "test_sequences": 512,
+      "positions": 65536
+    }
+  ],
+  "ci_scope": "4000 paired sequence-cluster bootstrap draws, seed 61013, conditional on three fitted seeds; fit-seed SD separately reported",
+  "rare_definition": "largest-ELF-training-set token count from 1 to 99, fixed threshold; no test selection",
+  "numeric_definition": "tokenizer token string contains a Unicode digit",
+  "protocol_sha256": "765e06c2701723826777df3f89277af197eec507461999b0ab42506f9bbdd522"
+}

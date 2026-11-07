@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-02",
+  "purpose": "Boundary experiments for What Simple Readouts Miss in Continuous Language Diffusion; no automatic broadening to all continuous language models",
+  "status_at_creation": "Official code and metadata inspected; no new checkpoint outputs or outcome measurements inspected",
+  "calm": {
+    "checkpoint": "cccczshao/CALM-Autoencoder, revision 615a8d00f37f3aebb34e43271d7b61f171bd0c56",
+    "unit": "One 128-dimensional latent representing four tokens; four position-specific affine classifiers, full vocabulary",
+    "data": "Local OpenWebText parquet shard 79, unique exact document hashes; seed 61102001; first 256 tokens per eligible document, no BOS or padding; 4096 fit, 256 validation, 512 test documents",
+    "training_states": "One posterior sample per four-token chunk, fixed seed 61102002, from the released autoencoder",
+    "targets": "Native decoder argmax on the identical state; reference reconstruction measured separately",
+    "initialization": "Ridge regression of final native decoder features on the raw latent plus intercept, alpha=1e-3 times mean Gram diagonal; unpenalized intercept. The effective affine vocabulary head uses the original tied unembedding. Initialization alone is also retained.",
+    "fit": "Three AdamW fits (seeds 17,29,43); 2048 updates, 64 chunks per batch, learning rate 0.0003, weight decay 0.01; full-vocabulary cross entropy; fixed budget, no claimed affine optimum",
+    "validation": "Evaluate after 0,512,1024,2048 updates; maximize native token agreement, earliest tie; no test-based model selection",
+    "test_conditions": ["posterior sample", "posterior mean", "posterior mean plus isotropic Gaussian noise of coordinate SD 0.25"],
+    "primary": "Native-decision agreement on the fixed posterior-sample test, averaged over fitting seeds; separate four-token exact agreement",
+    "controls": ["Native-reference reconstruction", "Ridge initialization", "Reference frequency coverage", "Validation learning curves", "Radial scale 0.5 and 2 on the same posterior sample; no direction changes"],
+    "generation_extension": "If CALM-M weights load successfully, collect teacher-prefix-conditioned latent predictions from disjoint test documents at temperature 1 using official generative_head.sample. These are conditional one-step predictions, not free-running benchmark reproduction; reference continuation agreement is not generation correctness.",
+    "inference": "4000 paired document bootstrap draws, seed 61102009, 95% descriptive intervals; one checkpoint and one source corpus; fitting seeds are not pretrained model replicas"
+  },
+  "llaco": {
+    "checkpoint": "escapist413/LLaCO-8B, revision 60cf1dff9154bdde70fa099ed8430b8edc67081e",
+    "scope": "Released geometry and learned directional adapter component; no claim of full 8B model benchmark replication or contextual decoder replacement",
+    "data": "1024 uniformly sampled non-special nonzero codewords, seed 61102101; one paired random spherical and mask-biased endpoint per source; 256 development and 768 test, no method selection from test",
+    "trajectories": "Gamma=0,0.5,0.8,0.9,0.95,0.98,1 with official slerp and mask-biased terminal_noise; retain full vocabulary competitors including special tokens",
+    "readouts": ["Cosine nearest codeword", "Euclidean nearest raw embedding", "Released learned adapter posterior mode"],
+    "radial_control": "Scale the exact same state by 0.1,0.5,1,2; theoretical invariance checked for cosine and normalized adapter, not asserted for arbitrary contextual decoder",
+    "method_pilot": "Mass-budgeted adapter expectation: compute full vocabulary posterior, use shortest leading set with mass >=1-epsilon when k<=64, otherwise exact dense expectation; epsilon=0.001 and 0.01 both retained, no winner selection",
+    "bound": "For omitted mass delta, renormalized retained expectation differs by at most 2*delta*max_v||embedding_v|| in Euclidean norm; this bounds adapter input error, not final decoded tokens or task quality",
+    "baselines": ["Unmodified upstream streamed full softmax", "Algebraically exact dense FP32 full softmax expectation", "Mass-budgeted expectation with exact fallback"],
+    "runtime": "Batch4, FP32 accumulation, warmup5 repetitions20, same device and inputs; complete adapter work including similarities, posterior, selection, and gathering; no denoiser or end-to-end speedup claim",
+    "failure_policy": "Retain all signs, nulls, expensive fallbacks and overheads; optimized dense exact baseline must be reported even if sparse loses"
+  },
+  "resources": "One GPU inference/training worker on idle GPU2 with 12 GiB allocator cap and 2 GiB additional free headroom; at most two CPU threads per compute worker; bounded HTTP range downloads; never alter others' jobs",
+  "paper_inclusion": "Cite both primary works with accurate distinctions. Put bounded experiments and limitations in a compact appendix and connect them briefly to the main scope. No invented causal or universal algorithmic claims. Preserve all prior evidence."
+}

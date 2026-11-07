@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-22T12:49:41.126858+00:00",
+  "question": "Can preceding endpoint context explain residual decisions beyond equal additional focal-only parameters?",
+  "status": "Exploratory new intervention on previously inspected test cohorts; not a new prospective confirmation.",
+  "families": [
+    "elf",
+    "aurora"
+  ],
+  "base": "Previously frozen seed17 affine OWT readout, all weights frozen",
+  "formula": "logits_i = W x_i + b + U V standardized(q_i) + c; rank=8",
+  "arms": {
+    "focal": "q_i=x_i",
+    "context": "mean of up to four immediately preceding full-canvas endpoint states, excluding focal; zero at position0",
+    "shuffled": "same context feature replaced by an independently chosen other-sequence context during training and a fixed other-sequence context during evaluation"
+  },
+  "boundaries": "Context uses full-canvas positions, including source positions on XSum and latent positions whose native token may be special. Native labels/margins never select features. All compared outputs use the same native lexical evaluation mask.",
+  "training": {
+    "tokens": 131072,
+    "selection": "Uniform with replacement over original valid training tokens; deterministic seed61022912; original raw ELF shards recover exact full-canvas preceding states",
+    "seeds": [
+      71,
+      73
+    ],
+    "rank": 8,
+    "updates": 1024,
+    "batch_tokens": 256,
+    "lr": 0.0005,
+    "weight_decay": 0.01,
+    "init": "V normal std 1/sqrt(D), U and output bias zero",
+    "normalization": "Feature dimension means/SD from sampled training features only; context and shuffled share statistics",
+    "validation_tokens": 16384,
+    "validation_checkpoints": [
+      0,
+      256,
+      512,
+      1024
+    ],
+    "selection_rule": "Maximum native agreement on fixed original validation tokens; earliest checkpoint on ties; baseline step0 eligible",
+    "precision": "FP32 parameters and evaluation; BF16 training matrix multiplications; TF32 disabled"
+  },
+  "evaluation": "All original prospective OWT conditions/seeds and all4096 XSum generations; no XSum fitting, selection, or retuning. Store full selected predictions.",
+  "primary_diagnostics": [
+    "context minus focal native agreement, macro per sequence",
+    "context minus shuffled agreement",
+    "rare-token native agreement and corrected-versus-new errors"
+  ],
+  "inference": "Exploratory descriptive paired bootstrap; average two adapter fits; preserve condition/seed and paired XSum document structure. No quality or acceleration claim from fidelity alone.",
+  "limits": "Rank8 and four preceding states test a narrow cheap context model, not all contextual decoders or the full diffusion mechanism. Prior tests were already observed. Additional fit seeds are not independently trained generators.",
+  "resources": "One low-priority GPU worker,3.5GiB allocator ceiling,2CPUthreads,nice10; no denoiser training/generation.",
+  "base_sha256": {
+    "elf": "e987d4b05f0d83d049bf179391d0cf364bf73168cf2ff81fc2fd036c55b0c64d",
+    "aurora": "2ec1bc63dd0ae0ec682e4d8273072ed9c80533b232f3e0f2998d6642f5f2f4f5"
+  }
+}

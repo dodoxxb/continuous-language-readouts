@@ -1,0 +1,28 @@
+Checkpoint terms
+
+Copyright 2026 Zhicheng Du and Lan Ma.
+
+The 42 checkpoint files listed in weights/manifest.json, and the five Release
+archives that group them, are research-fitted affine readouts, contextual
+controls and CALM coefficients produced by the authors for this work. They are
+not pretrained ELF, AURORA, LangFlow, CALM or LLaCO generators, and contain no
+upstream model weights, tokenizer vocabularies or source datasets.
+
+Zhicheng Du and Lan Ma, the authors and rights holders of these fitted
+artifacts, make them available under the Apache License, Version 2.0, the
+same license governing this repository's newly authored source code; the full
+text is in LICENSE. Use, reproduction, modification and redistribution,
+including in commercial works, are permitted subject to that license. When
+redistributing the checkpoints, retain this notice and a copy of LICENSE.
+
+This is a permissive grant consistent with the upstream projects' own terms
+(ELF: MIT; AURORA: Apache-2.0), but it is a separate grant over the authors'
+own artifacts only. It conveys no rights in the upstream pretrained models,
+their tokenizers, the frozen CALM vocabulary matrix, the source datasets or
+records generated from them. Those assets are not bundled in the five weight
+archives; obtain them from their respective publishers and follow their
+license terms. The retained upstream notices are in LICENSES/.
+
+The checkpoints are provided "AS IS", without warranty of any kind. They are
+research probes fitted to specified saved interface states, not standalone
+generative models; see weights/README.md for their scope and limitations.

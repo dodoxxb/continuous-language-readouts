@@ -1,0 +1,26 @@
+[
+  {
+    "step": 0,
+    "validation_agreement": 0.91241455078125,
+    "validation_ce": 0.7007891499670222,
+    "elapsed": 0.35431661014445126
+  },
+  {
+    "step": 512,
+    "validation_agreement": 0.89764404296875,
+    "validation_ce": 0.7685046754777431,
+    "elapsed": 3.8109836489893496
+  },
+  {
+    "step": 1024,
+    "validation_agreement": 0.887054443359375,
+    "validation_ce": 0.8164532780647278,
+    "elapsed": 6.809564819093794
+  },
+  {
+    "step": 2048,
+    "validation_agreement": 0.880218505859375,
+    "validation_ce": 0.8977171971928328,
+    "elapsed": 12.629651402123272
+  }
+]

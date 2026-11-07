@@ -1,0 +1,17 @@
+[
+  {
+    "step": 1024,
+    "lexical_agreement": 0.9290497363567487,
+    "all_position_agreement": 0.9261932373046875
+  },
+  {
+    "step": 2048,
+    "lexical_agreement": 0.9538681707214411,
+    "all_position_agreement": 0.9509353637695312
+  },
+  {
+    "step": 4096,
+    "lexical_agreement": 0.9640389074684891,
+    "all_position_agreement": 0.9610748291015625
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "free_lr1e-05_seed43",
+  "family": "free",
+  "lr": 1e-05,
+  "seed": 43,
+  "best_step": 2048,
+  "validation_agreement": 0.9130706787109375,
+  "weight_sha256": "5e95dcbe8a30778cf45ced273d3d99e5dcd48e59ebb19cbf48d63df85b67ae2f"
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "6a38930118519c78e2fb3035",
+  "id": "embedded-language-flows/ELF-B-owt-teacher",
+  "private": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "embedded-language-flows/ELF-B-owt-teacher",
+  "author": "embedded-language-flows",
+  "sha": "55831b5c1e21ea210b3de62c1cf3c75c1217de3b",
+  "lastModified": "2026-06-22T01:42:37.000Z",
+  "gated": false,
+  "disabled": false,
+  "config": {},
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "70961c7a6a61baf33acd00b7375f8c6198dc7424",
+      "size": 1572
+    },
+    {
+      "rfilename": "checkpoint_95085",
+      "blobId": "60dd73276ee8e8bed934483217871664a8b96f7c",
+      "size": 889247149,
+      "lfs": {
+        "sha256": "706a5e7c6056d77eb52bbd72fdc547a802af7250d27b2e504002fb73e6ee84ec",
+        "size": 889247149,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "config.yml",
+      "blobId": "b29ab2f6e38422ef468f1249edb370584bcff26e",
+      "size": 1299
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-06-22T01:42:25.000Z",
+  "usedStorage": 889247149
+}

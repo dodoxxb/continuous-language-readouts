@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scope": "Pilot only; all arms intentionally identical; excluded from formal pools",
+  "workers": 2,
+  "threads_each": 6,
+  "score_files": 10,
+  "exactly_one_writer_per_file": true,
+  "bitwise_equal_losses_across_workers": true,
+  "seconds": 12.253843885031529
+}

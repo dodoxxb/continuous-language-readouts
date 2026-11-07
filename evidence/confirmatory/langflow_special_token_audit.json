@@ -1,0 +1,93 @@
+{
+  "scope": "Post-fit descriptive mask audit; original all-position primary unchanged",
+  "special_ids": [
+    100,
+    102,
+    0,
+    101,
+    103
+  ],
+  "special_tokens": [
+    "[UNK]",
+    "[SEP]",
+    "[PAD]",
+    "[CLS]",
+    "[MASK]"
+  ],
+  "special_positions": 3172,
+  "total_positions": 65536,
+  "most_common_tokens": [
+    [
+      "[CLS]",
+      3172
+    ],
+    [
+      ".",
+      2774
+    ],
+    [
+      "the",
+      2759
+    ],
+    [
+      ",",
+      2533
+    ],
+    [
+      "to",
+      1310
+    ],
+    [
+      "of",
+      1150
+    ],
+    [
+      "a",
+      1089
+    ],
+    [
+      "-",
+      1083
+    ],
+    [
+      "and",
+      1072
+    ],
+    [
+      "in",
+      1022
+    ],
+    [
+      "'",
+      781
+    ],
+    [
+      "\"",
+      724
+    ],
+    [
+      "s",
+      603
+    ],
+    [
+      "that",
+      502
+    ],
+    [
+      "for",
+      479
+    ]
+  ],
+  "learned_seed17": {
+    "nonspecial_correct": 37896,
+    "nonspecial_denominator": 62364
+  },
+  "learned_seed29": {
+    "nonspecial_correct": 37862,
+    "nonspecial_denominator": 62364
+  },
+  "learned_seed43": {
+    "nonspecial_correct": 37849,
+    "nonspecial_denominator": 62364
+  }
+}

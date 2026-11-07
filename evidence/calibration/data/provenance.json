@@ -1,0 +1,75 @@
+{
+  "rows": 4992,
+  "checkpoint_conditions": 11,
+  "direction_cells": 22,
+  "sha256": "a3a2ad2d0af59b4abab68652ae48aeb0e487006ad70783907f677bceb9b00116",
+  "source_provenance": [
+    {
+      "model": "released",
+      "relative_source": "calibration/released/sensitivity_rows.json",
+      "source_sha256": "17b810529b04cc2f90175989a33e4fe8217d2748de6c71a9e778aade80e97426",
+      "heldout_rows": 1152
+    },
+    {
+      "model": "s42_prob0p2",
+      "relative_source": "calibration/s42_prob0p2/sensitivity_rows.json",
+      "source_sha256": "7692df61d602868102ba04b2b1f6efe4deda1f6ce413d096669ec1b244ab6b03",
+      "heldout_rows": 384
+    },
+    {
+      "model": "s43_prob0p2",
+      "relative_source": "calibration/s43_prob0p2/sensitivity_rows.json",
+      "source_sha256": "d45b5189042c9c546431a81c0fb5f5fdce2ae9fb2c6481fc639f9864f8ab48d2",
+      "heldout_rows": 384
+    },
+    {
+      "model": "s42_prob0p5",
+      "relative_source": "calibration/s42_prob0p5/sensitivity_rows.json",
+      "source_sha256": "3c77073efee5c63d95345b0e19e5dff182c8faf7497e6ee282df32a1f56adf44",
+      "heldout_rows": 384
+    },
+    {
+      "model": "s43_prob0p5",
+      "relative_source": "calibration/s43_prob0p5/sensitivity_rows.json",
+      "source_sha256": "b3b6b3a8251875342bfacdbe6cb0074f21b1dd9f0dad8bbb41f8b312424a9ba4",
+      "heldout_rows": 384
+    },
+    {
+      "model": "s42_prob0p8",
+      "relative_source": "calibration/s42_prob0p8/sensitivity_rows.json",
+      "source_sha256": "7b28902aa36ff3b39ed59a030c5a9cca7df7de1c80ed30861069875606afb688",
+      "heldout_rows": 384
+    },
+    {
+      "model": "s43_prob0p8",
+      "relative_source": "calibration/s43_prob0p8/sensitivity_rows.json",
+      "source_sha256": "5869eb6ac775fe0ed48187ececdbd0ae98b1bb6f3772e020feadcac7211fe878",
+      "heldout_rows": 384
+    },
+    {
+      "model": "s42_prob1p0",
+      "relative_source": "calibration/s42_prob1p0/sensitivity_rows.json",
+      "source_sha256": "92e67cdbdec60c5ec0a516bd0b6855e89dcaf15eba677e290c9a1eea008db33a",
+      "heldout_rows": 384
+    },
+    {
+      "model": "s43_prob1p0",
+      "relative_source": "calibration/s43_prob1p0/sensitivity_rows.json",
+      "source_sha256": "18456508e0e1517f411384951aaaaebc8aee58fee1a3a2d1f7b713ca1496dfe3",
+      "heldout_rows": 384
+    },
+    {
+      "model": "s42_prob0p8_e5",
+      "relative_source": "calibration/s42_prob0p8_e5/sensitivity_rows.json",
+      "source_sha256": "a4d30bd3f2b87aef030af8b0ad42f9ba95468c210def4e36df627b74b196c1f1",
+      "heldout_rows": 384
+    },
+    {
+      "model": "s43_prob0p8_e5",
+      "relative_source": "calibration/s43_prob0p8_e5/sensitivity_rows.json",
+      "source_sha256": "0389dd547eaeb3df783b1d56836535ee5805bfd633e49d72609c2165f33aec6b",
+      "heldout_rows": 384
+    }
+  ],
+  "scope": "de-texted scalar held-out perturbation measurements only; no text, tokens, latent vectors, weights, or training data; original JSON sources are not included"
+}

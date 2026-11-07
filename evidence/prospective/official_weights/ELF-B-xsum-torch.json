@@ -1,0 +1,44 @@
+{
+  "_id": "6a0a223b5b0719e68d451838",
+  "id": "embedded-language-flows/ELF-B-xsum-torch",
+  "private": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "embedded-language-flows/ELF-B-xsum-torch",
+  "author": "embedded-language-flows",
+  "sha": "aca4abd1c7ff5f841f0e2a3ec8a18b0a927927f1",
+  "lastModified": "2026-05-17T20:18:56.000Z",
+  "gated": false,
+  "disabled": false,
+  "config": {},
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "5dbdf68d7f5b9d383e3a0f5abf14d857640556fe",
+      "size": 1572
+    },
+    {
+      "rfilename": "checkpoint_39800",
+      "blobId": "eb989ea521ece7ffcce01f3c12e8af40b383f612",
+      "size": 836742776,
+      "lfs": {
+        "sha256": "fb2cb9a2aba0328d0de30d53800c0976a019303b9a31f16051981982ed8795ae",
+        "size": 836742776,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "config.yml",
+      "blobId": "19c7a98ae3dfde4ec994785b19e554c3cdbecd87",
+      "size": 995
+    }
+  ],
+  "spaces": [
+    "Raja-65/new-language_model"
+  ],
+  "createdAt": "2026-05-17T20:16:59.000Z",
+  "usedStorage": 836742776
+}

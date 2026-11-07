@@ -1,0 +1,305 @@
+{
+  "status": "prepared",
+  "intended_repository": "https://github.com/dodoxxb/continuous-language-readouts",
+  "description": "Research-fitted readouts and small components; no pretrained generator or upstream model is included.",
+  "weights_terms": "Author-fitted checkpoints and the five Release bundles are released by Zhicheng Du and Lan Ma under Apache-2.0 (see WEIGHTS_NOTICE.txt and LICENSE). Upstream models, tokenizers, frozen CALM vocabulary and datasets are not included and retain their publishers' terms.",
+  "weights": [
+    {
+      "path": "weights/release_assets/elf/seed17.pt",
+      "sha256": "e987d4b05f0d83d049bf179391d0cf364bf73168cf2ff81fc2fd036c55b0c64d",
+      "bytes": 65871021,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/elf/seed17.json"
+    },
+    {
+      "path": "weights/release_assets/elf/seed29.pt",
+      "sha256": "d777a827075ae4445cee94fb14b37230f67e42d130ee8a0a2c7ee20ccb99587e",
+      "bytes": 65871021,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/elf/seed29.json"
+    },
+    {
+      "path": "weights/release_assets/elf/seed43.pt",
+      "sha256": "9194bd54b7d1f964b7d1796227449ed2ac79ea66d5dd5f0b11bb9f7b82a7a425",
+      "bytes": 65871021,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/elf/seed43.json"
+    },
+    {
+      "path": "weights/release_assets/langflow_1k/seed17.pt",
+      "sha256": "7410d6b79ad065508de7fc383364dd2d4608fb7631465b2e9a8586bc0263a834",
+      "bytes": 93887469,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/langflow_1k/seed17.json"
+    },
+    {
+      "path": "weights/release_assets/langflow_1k/seed29.pt",
+      "sha256": "a08b8774a8f2d21a64880e6be5ad9d9c7157fef7bfd5c9402061148fec960ced",
+      "bytes": 93887469,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/langflow_1k/seed29.json"
+    },
+    {
+      "path": "weights/release_assets/langflow_1k/seed43.pt",
+      "sha256": "1637ddb040d6fd9e063306fee33d96a62ea3000fd6605caf15b6b4340aa8d67b",
+      "bytes": 93887469,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/langflow_1k/seed43.json"
+    },
+    {
+      "path": "weights/release_assets/langflow_8k/seed17.pt",
+      "sha256": "25bf6113537aa9760fb68fd8b39b2f4f4743e06d333abe6ec558cd52b0173b7b",
+      "bytes": 93887469,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/langflow_8k/seed17.json"
+    },
+    {
+      "path": "weights/release_assets/langflow_8k/seed29.pt",
+      "sha256": "38e1fc1abc9925cf043659d094011f1995e20e5f560a70522fa79d07e6d109ad",
+      "bytes": 93887469,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/langflow_8k/seed29.json"
+    },
+    {
+      "path": "weights/release_assets/langflow_8k/seed43.pt",
+      "sha256": "715c2a09a6eeeff28c94902cdc6d258dff628b59df8c7c10c65ac4b676258427",
+      "bytes": 93887469,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/langflow_8k/seed43.json"
+    },
+    {
+      "path": "weights/release_assets/aurora/seed17.pt",
+      "sha256": "2ec1bc63dd0ae0ec682e4d8273072ed9c80533b232f3e0f2998d6642f5f2f4f5",
+      "bytes": 154592365,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/aurora/seed17.json"
+    },
+    {
+      "path": "weights/release_assets/aurora/seed29.pt",
+      "sha256": "9c91d659868031d3ac29bc2ae72ea7def1296264a40d31fc6de4ed1fdab24cce",
+      "bytes": 154592365,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/aurora/seed29.json"
+    },
+    {
+      "path": "weights/release_assets/aurora/seed43.pt",
+      "sha256": "cb55eca9f3cebc8125c901d69da233ccf2536db58f4390dbbbb1b41c894625f5",
+      "bytes": 154592365,
+      "category": "fitted_affine_readout",
+      "provenance": "weights/provenance/aurora/seed43.json"
+    },
+    {
+      "path": "weights/release_assets/context/elf/focal_seed71.pt",
+      "sha256": "8c9695fd3a027e697074e7ae29191649c5a0f7ba32da10923e9cb15afd8994c4",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/elf/focal_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context/elf/focal_seed73.pt",
+      "sha256": "1aa7e1bd827f057e6efe28e982cec07df265abca04acc5c737acb8f3823518fb",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/elf/focal_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context/elf/context_seed71.pt",
+      "sha256": "4e8ebf036b2834469d6f70120a33851cd85f5620f9d2f0c39dcd20fe61bc16c5",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/elf/context_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context/elf/context_seed73.pt",
+      "sha256": "48370e968a93ef028b342fed12257fc88193d70a0789d82a865b7a5ec80d1659",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/elf/context_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context/elf/shuffled_seed71.pt",
+      "sha256": "2e034ed0d7f0b3f61ea0014fca214532f9e7fb7438cb40a7304e8df32070bb67",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/elf/shuffled_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context/elf/shuffled_seed73.pt",
+      "sha256": "6519b6f36ca1c2cac41e635a0053b7d443cede00172b781f655520b1e1c8893b",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/elf/shuffled_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context/aurora/focal_seed71.pt",
+      "sha256": "464ac29b0369627fd6d81dbd458739a5c8d450370b89a0a66e98cafbf8e593b3",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/aurora/focal_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context/aurora/focal_seed73.pt",
+      "sha256": "2d6b2f9300139453906305abfc6ca61b9bda37b38f2f1896345d14b6e06c80ec",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/aurora/focal_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context/aurora/context_seed71.pt",
+      "sha256": "a3ff2dd8cd4a4cdb0b843ef217e7eefd70f904d27fb7f66de50b77782a453251",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/aurora/context_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context/aurora/context_seed73.pt",
+      "sha256": "7b40306ca607cb3c935d244d44a22b7ff89c7d9c837634842ed13afbbf4506bd",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/aurora/context_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context/aurora/shuffled_seed71.pt",
+      "sha256": "198d77f5119291fa960a1b20ed22b9d8c3cee12ecba68afc4c83d03ad53e2815",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/aurora/shuffled_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context/aurora/shuffled_seed73.pt",
+      "sha256": "dbd25e1a4daa67c88616b4e5f948158361a79d3a0b86b1f648a291e97b941614",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context/aurora/shuffled_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/elf/focal_seed71.pt",
+      "sha256": "fddb928726cf469f218634c54cbb750c6371a1b3d8bf68cdb11bee2090b9ac0a",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/elf/focal_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/elf/focal_seed73.pt",
+      "sha256": "1d6a91e9132face2bbf5fb2bbdba74ca740c70447b6fe85239cc86fc5d57915f",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/elf/focal_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/elf/context_seed71.pt",
+      "sha256": "1ad1d7f29ae0f35a19588bd4ad9a7585cb2fe449da8fc26c354ea29cf513ab6a",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/elf/context_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/elf/context_seed73.pt",
+      "sha256": "7f97efbd677168f0f2887de18ca561587cac048ef48d388a6ade432d87467d07",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/elf/context_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/elf/shuffled_seed71.pt",
+      "sha256": "bf5334004eda5103fe734f622f3056a045c1dac673ab2e57a8b5d67e41836842",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/elf/shuffled_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/elf/shuffled_seed73.pt",
+      "sha256": "ab01c64e81a1432c8eaba0d7c25a9f4d9eb8e02c5a1bd9307c5fdb1b4829d7fd",
+      "bytes": 1178660,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/elf/shuffled_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/aurora/focal_seed71.pt",
+      "sha256": "e775e08fd6bd2d1fccb9379546af1cc5305902d65c5cb0e8690e944e7d9b3ea8",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/aurora/focal_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/aurora/focal_seed73.pt",
+      "sha256": "e7cd43ddf10f4cbb0d1d9c570329f21246d1140a54e880da8f0251e57eb24d7e",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/aurora/focal_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/aurora/context_seed71.pt",
+      "sha256": "da35d69be2721234690abb88dd6e6aefa1b02f43aff515cdd687c14197500f1d",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/aurora/context_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/aurora/context_seed73.pt",
+      "sha256": "1a67a7812f71955f60bfe486bf4d4aedb76b4e15acc28d378812a3853abd04d6",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/aurora/context_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/aurora/shuffled_seed71.pt",
+      "sha256": "9dc8c90dc8737ff464021001085a1cb40c469bea2ee14f3c94542bcc2fc8f2c1",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/aurora/shuffled_seed71.json"
+    },
+    {
+      "path": "weights/release_assets/context_global/aurora/shuffled_seed73.pt",
+      "sha256": "c84714c0b3c8f6b002d1ad9145a43e70292bb7b077e35d6b9dee774f8f854f55",
+      "bytes": 1842532,
+      "category": "exploratory_residual_adapter",
+      "provenance": "weights/provenance/context_global/aurora/shuffled_seed73.json"
+    },
+    {
+      "path": "weights/release_assets/calm/posterior_seed17.pt",
+      "sha256": "d74b7e4448d5ec6e708dc143d32057f814e9faa18895c39d5683950ec0257bf4",
+      "bytes": 1058451,
+      "category": "calm_affine_coefficients",
+      "provenance": "weights/provenance/calm/posterior_seed17.json"
+    },
+    {
+      "path": "weights/release_assets/calm/posterior_seed29.pt",
+      "sha256": "c1442de87c0aac044ef48463078b1a3416a07b903081a66ac10c759f76b1a876",
+      "bytes": 1058451,
+      "category": "calm_affine_coefficients",
+      "provenance": "weights/provenance/calm/posterior_seed29.json"
+    },
+    {
+      "path": "weights/release_assets/calm/posterior_seed43.pt",
+      "sha256": "d14c09260b6eaf44143412c5e7c9c866b3d80cd284e88fcd994f09eb1028e322",
+      "bytes": 1058451,
+      "category": "calm_affine_coefficients",
+      "provenance": "weights/provenance/calm/posterior_seed43.json"
+    },
+    {
+      "path": "weights/release_assets/calm/prior_seed17.pt",
+      "sha256": "f3865dd43a35565a54f994802dbdf76e8bd786b26e672d2b256a7435c430f364",
+      "bytes": 1058451,
+      "category": "calm_affine_coefficients",
+      "provenance": "weights/provenance/calm/prior_seed17.json"
+    },
+    {
+      "path": "weights/release_assets/calm/prior_seed29.pt",
+      "sha256": "0323ef73804c6ec48464ea8168e354dd269ccd3897990db1bab803ea7b4ddfbe",
+      "bytes": 1058451,
+      "category": "calm_affine_coefficients",
+      "provenance": "weights/provenance/calm/prior_seed29.json"
+    },
+    {
+      "path": "weights/release_assets/calm/prior_seed43.pt",
+      "sha256": "83507b7700bac01f866bc4f4431676a2e731711d69233728d4e33effedf8cb5d",
+      "bytes": 1058451,
+      "category": "calm_affine_coefficients",
+      "provenance": "weights/provenance/calm/prior_seed43.json"
+    }
+  ],
+  "count": 42,
+  "total_bytes": 1267319982,
+  "intended_release_tag": "v0.1.0"
+}

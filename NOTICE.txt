@@ -1,0 +1,18 @@
+What Simple Readouts Miss in Continuous Language Diffusion
+Copyright 2026 Zhicheng Du and Lan Ma.
+
+Newly authored source code is provided under Apache License 2.0. Upstream code
+and patches retain their original notices and license terms. In particular,
+the ELF source distributed by the ELF authors is MIT-licensed; its notice is
+retained in LICENSES/ELF-MIT.txt. AURORA-LM is Apache-2.0-licensed; its license
+is retained in LICENSES/AURORA-APACHE-2.0.txt. This repository does not bundle
+the upstream model weights or complete upstream repositories.
+
+Model weights, tokenizer vocabularies, datasets, generated records and figures
+are not automatically covered by the source-code license. The 42 author-fitted
+checkpoints listed in weights/manifest.json are released by their rights
+holders, Zhicheng Du and Lan Ma, under Apache License 2.0; see
+WEIGHTS_NOTICE.txt for the grant and its boundaries. Upstream model weights
+and data are not bundled here and remain subject to their publishers' terms,
+including the ELF MIT notice and the AURORA Apache-2.0 license retained in
+LICENSES/.

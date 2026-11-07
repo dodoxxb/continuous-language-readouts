@@ -1,0 +1,11 @@
+{
+  "seed": 29,
+  "selected_step": 4096,
+  "validation_agreement": 0.9643603303002243,
+  "sha256": "9c91d659868031d3ac29bc2ae72ea7def1296264a40d31fc6de4ed1fdab24cce",
+  "protocol_sha256": "809564e875f921d14280e3d1e94abc370ac83fd8339badf5b4c6b705cfc4c074",
+  "elapsed": 57.50674539594911,
+  "device": "cuda:0",
+  "train_lexical_tokens": 1045290,
+  "torch": "2.7.1+cu128"
+}

@@ -1,0 +1,132 @@
+{
+  "_id": "6a01f58b1c837a52621593e5",
+  "id": "embedded-language-flows/ELF-B-owt",
+  "private": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 3,
+  "modelId": "embedded-language-flows/ELF-B-owt",
+  "author": "embedded-language-flows",
+  "sha": "506a81d3ed3b2475e9ae754bae308e10f765d327",
+  "lastModified": "2026-05-17T18:22:38.000Z",
+  "gated": false,
+  "disabled": false,
+  "config": {},
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "9d200d7db2de6d01c7c342e595f295fcb95579d8",
+      "size": 2119
+    },
+    {
+      "rfilename": "ELF-B-owt.yml",
+      "blobId": "39f884cf170d0c268cb7c8a8b223b1a1b5fc53ed",
+      "size": 1248
+    },
+    {
+      "rfilename": "checkpoint_0/_CHECKPOINT_METADATA",
+      "blobId": "bf39c3542174ede723d539ba6e4d61574b7c84e4",
+      "size": 92
+    },
+    {
+      "rfilename": "checkpoint_0/_METADATA",
+      "blobId": "460e32d53cb6067f5de274649e861f4e94cc66a6",
+      "size": 102187
+    },
+    {
+      "rfilename": "checkpoint_0/d/6208032b3f03b52e547ecec7a454d7ca",
+      "blobId": "9d0eacd85be9fe70756fd2bb028c33fee52ce032",
+      "size": 14580
+    },
+    {
+      "rfilename": "checkpoint_0/d/b2956458b381bb217a79647c7089da38",
+      "blobId": "4524340781cdcdc49e1a32d6401750739f547d64",
+      "size": 14675
+    },
+    {
+      "rfilename": "checkpoint_0/manifest.ocdbt",
+      "blobId": "7f1d57411a6f88b8f6bfc858cef9348e6c0a4e14",
+      "size": 118
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/08d814311c8bcea9e19ae58d8551efda",
+      "blobId": "8c31f8093e574ecb827ce6b8f6d8c92f0183e731",
+      "size": 321552384,
+      "lfs": {
+        "sha256": "02216527048c03b0daaff0f9c3c2af922506a83b51f30c760c21aaba63930951",
+        "size": 321552384,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/0e7ab4f3f368d144d7c4c258982b46ab",
+      "blobId": "079e58c62cb179e20fb58a03e6670a8d8b119247",
+      "size": 441221120,
+      "lfs": {
+        "sha256": "ac82f340836e6de299f1ad9cc250a64df48be839c80dbc4cd8336fbfd69243d9",
+        "size": 441221120,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/2633e0ceb216c7296fd0fbd3f73f684c",
+      "blobId": "a95f4c14bb5a8d69a48280a974dff7d2d2628c6e",
+      "size": 33722368,
+      "lfs": {
+        "sha256": "05379428f522f8c535397455c4c46086b80f51806dc5ca660c11743844c41932",
+        "size": 33722368,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/7bbad8dd18280b677505212b34d448d6",
+      "blobId": "45c7862aa8eb9446d1653625d34411c2f17eac80",
+      "size": 418967552,
+      "lfs": {
+        "sha256": "3d0b15d2faefccced56602ee73de829d5341ea788e3b67b64a6429463e6b4e05",
+        "size": 418967552,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/9229cf90e63f93ddd36abb838dde8b52",
+      "blobId": "aa1cf27af1f27c97f88a9a509e24b6b3fc9e9ce6",
+      "size": 295
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/a81aa518a0f3a1c96445302e15102b43",
+      "blobId": "6c0a2319e1fb24770799ea495ee0a8527ebf5cf1",
+      "size": 301690880,
+      "lfs": {
+        "sha256": "ea4f8854c3627f38ae3b33cd50ddb6107d4dbacc4b5c5fe34e9762ead4f5891c",
+        "size": 301690880,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/c9317992e501144a8a6c0bdef4569b2c",
+      "blobId": "b0db50a351c6640bb3f5afcc4f5946bb9cf025e0",
+      "size": 35909632,
+      "lfs": {
+        "sha256": "25ddf92c09165fa5b8f19fec8efb64ef0f504b2894ff11c2dcf02fa0fdc8cc49",
+        "size": 35909632,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/cfc804c81b4c74de303f6af62fad5fb0",
+      "blobId": "0678742fcda443756468bcc51780d478caf7a53d",
+      "size": 205
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/manifest.ocdbt",
+      "blobId": "84ab01dc58721bca7bb0ec173e4bc0f9f4e7ce1a",
+      "size": 281
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-05-11T15:28:11.000Z",
+  "usedStorage": 1553063936
+}

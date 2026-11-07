@@ -1,0 +1,8 @@
+{
+  "family": "prior",
+  "seed": 17,
+  "selected_step": 2048,
+  "validation_agreement": 0.43959263392857145,
+  "selected_sha256": "687c380dc408ffbb184258103b125de59695e565ce2b2b1e469665a47142d00b",
+  "coef_sha256": "f3865dd43a35565a54f994802dbdf76e8bd786b26e672d2b256a7435c430f364"
+}

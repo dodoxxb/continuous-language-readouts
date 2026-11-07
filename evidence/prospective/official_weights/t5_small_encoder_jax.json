@@ -1,0 +1,42 @@
+{
+  "_id": "6a01494b39958d20f7377e74",
+  "id": "embedded-language-flows/t5_small_encoder_jax",
+  "private": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 1,
+  "modelId": "embedded-language-flows/t5_small_encoder_jax",
+  "author": "embedded-language-flows",
+  "sha": "c77f0a84a7549dd1ca4b3976840150d46e9da7dd",
+  "lastModified": "2026-05-11T03:30:46.000Z",
+  "gated": false,
+  "disabled": false,
+  "config": {},
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "e0be6c883ca1d7ce053d6a7a73b1cb3845f00480",
+      "size": 89
+    },
+    {
+      "rfilename": "t5_small_encoder_jax.pkl",
+      "blobId": "55eb0193e09a51a940ccfa2c3e5f78f3a29e2acb",
+      "size": 141326890,
+      "lfs": {
+        "sha256": "b35bd8396cda497ed315357201bc7bffd69d3c90e3d498c5ec75a294278278f0",
+        "size": 141326890,
+        "pointerSize": 134
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-05-11T03:13:15.000Z",
+  "usedStorage": 141326890
+}

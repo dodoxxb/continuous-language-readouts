@@ -1,0 +1,27 @@
+{
+  "family": "elf",
+  "train_sequences": 16384,
+  "train_tokens": 16754550,
+  "fit_seed": 29,
+  "selected_update": 4096,
+  "validation_agreement": 0.9715171922479702,
+  "selection": "validation only",
+  "runtime_seconds": 23.155069828033447,
+  "checkpoint_sha256": "d777a827075ae4445cee94fb14b37230f67e42d130ee8a0a2c7ee20ccb99587e",
+  "test": {
+    "agreement": 0.9727188778146072,
+    "macro_agreement": 0.9727194087527643,
+    "autonomous_eos_agreement": 0.9727188778146072,
+    "sequences": 1024,
+    "valid_tokens": 1047171,
+    "zero_valid_sequences": 0
+  },
+  "fresh_test": {
+    "agreement": 0.9714970585988234,
+    "macro_agreement": 0.9714977029684959,
+    "autonomous_eos_agreement": 0.9714970585988234,
+    "sequences": 512,
+    "valid_tokens": 523560,
+    "zero_valid_sequences": 0
+  }
+}

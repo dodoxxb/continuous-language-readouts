@@ -1,0 +1,146 @@
+{
+  "_id": "68f8c7cc70c36dad545c43f7",
+  "id": "cccczshao/CALM-Autoencoder",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "safetensors",
+    "large language models",
+    "language modeling",
+    "text-generation",
+    "en",
+    "dataset:monology/pile-uncopyrighted",
+    "arxiv:2510.27688",
+    "license:mit",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 312,
+  "likes": 8,
+  "modelId": "cccczshao/CALM-Autoencoder",
+  "author": "cccczshao",
+  "sha": "615a8d00f37f3aebb34e43271d7b61f171bd0c56",
+  "lastModified": "2025-12-02T11:45:50.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "Autoencoder"
+    ],
+    "tokenizer_config": {
+      "bos_token": "<|begin_of_text|>",
+      "eos_token": "<|end_of_text|>",
+      "pad_token": "[PAD]"
+    }
+  },
+  "cardData": {
+    "datasets": [
+      "monology/pile-uncopyrighted"
+    ],
+    "language": [
+      "en"
+    ],
+    "library_name": "transformers",
+    "license": "mit",
+    "metrics": [
+      "BrierLM"
+    ],
+    "tags": [
+      "large language models",
+      "language modeling"
+    ],
+    "pipeline_tag": "text-generation"
+  },
+  "transformersInfo": {
+    "auto_model": "Autoencoder"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "e33b8fc8e54968619fa2628191f9155ae8521bcf",
+      "size": 2595
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "73962282b6d718083dd9167a152e2b04dbdda10b",
+      "size": 729
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "3b1c84cbb729fb97b95bcdeeebce9531d4596ed2",
+      "size": 303331264,
+      "lfs": {
+        "sha256": "a773f5566fac6d65793f883fbb8326a14a565819267b88d633800973012e51ed",
+        "size": 303331264,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "pytorch_model.bin",
+      "blobId": "8ea32551b647ed6b75e56d3da541423d5756658c",
+      "size": 303337154,
+      "lfs": {
+        "sha256": "5b2e858de38839e7fbeca9dba4f0e0c215978afbbc9fa7d7626618602c6e0c0f",
+        "size": 303337154,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "special_tokens_map.json",
+      "blobId": "6949c5975ee0e961ef61cf31010dce04df0a03f8",
+      "size": 439
+    },
+    {
+      "rfilename": "tokenizer.json",
+      "blobId": "1ee8f4a6d9d09554fafbd1ba976c95fe605cbb1e",
+      "size": 9084672
+    },
+    {
+      "rfilename": "tokenizer_config.json",
+      "blobId": "fd250cd637dfc228caec2acfda7479c400197465",
+      "size": 50762
+    },
+    {
+      "rfilename": "training_args.bin",
+      "blobId": "501349b93cd929ec4101e55b62b0bb9a89e48eb9",
+      "size": 4987,
+      "lfs": {
+        "sha256": "d322250ea424514e877718b9826d2e88598136d09682b94935f7906289a2e8da",
+        "size": 4987,
+        "pointerSize": 129
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2025-10-22T12:02:20.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 75832064
+    },
+    "total": 75832064
+  },
+  "usedStorage": 606673405
+}

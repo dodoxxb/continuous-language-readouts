@@ -1,0 +1,13 @@
+family,fit_seed,group,correct,tokens,agreement
+langflow,17,all,41068,65536,0.62664794921875
+langflow,17,unseen_training_token,0,2743,0.0
+langflow,17,train_count_1_to_99,7937,29354,0.2703890440825782
+langflow,17,train_count_at_least_100,33131,33439,0.9907891982415742
+langflow,29,all,41034,65536,0.626129150390625
+langflow,29,unseen_training_token,0,2743,0.0
+langflow,29,train_count_1_to_99,7926,29354,0.2700143081011106
+langflow,29,train_count_at_least_100,33108,33439,0.9901013786297437
+langflow,43,all,41021,65536,0.6259307861328125
+langflow,43,unseen_training_token,0,2743,0.0
+langflow,43,train_count_1_to_99,7908,29354,0.26940110376779997
+langflow,43,train_count_at_least_100,33113,33439,0.9902509046323156

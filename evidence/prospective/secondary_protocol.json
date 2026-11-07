@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-13T15:48:29+0800",
+  "status": "secondary addition after initial protocol and generation, before reading any primary scoring outcomes",
+  "rationale": "Check whether equal-agreement repair score effects depend on a single evaluator family.",
+  "evaluator": "local OPT-125M",
+  "readout_outputs": "Exact same ten frozen text arms as GPT-2-Large; no new selection, regression fitting or repair policy.",
+  "metric": "Same native mask, T5 detokenization, max 1024 evaluator tokens, float16 weights and float32 NLL.",
+  "inference": "Paired random-minus-targeted per-sequence mean NLL and conditional 95% bootstrap; secondary descriptive, not a third confirmatory primary.",
+  "scope": "Sensitivity of external language-model scores, not human preference, factuality or frontier model evaluation.",
+  "code_sha256": "21cc6e5b5c4427da8d43ef6f4dc9369bc85f141c1be5a34d32f8bc14e8986d0b"
+}

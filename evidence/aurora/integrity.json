@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "frozen_files_and_upstream_hashes_verified": true,
+  "weight_hashes_verified": true,
+  "exact_equal_count_native_repairs_verified": true,
+  "priority_order_verified": true,
+  "scorer_token_boundaries_verified": true,
+  "independent_prediction_reconstruction_verified": true,
+  "pools": [
+    {
+      "condition": "S16",
+      "generation_seed": 61022401,
+      "sequences": 256,
+      "source_errors": 7096,
+      "corrections_per_arm": 3482,
+      "lexical_positions": 130662
+    },
+    {
+      "condition": "S16",
+      "generation_seed": 61022402,
+      "sequences": 256,
+      "source_errors": 7458,
+      "corrections_per_arm": 3669,
+      "lexical_positions": 130661
+    },
+    {
+      "condition": "S32",
+      "generation_seed": 61022401,
+      "sequences": 256,
+      "source_errors": 5347,
+      "corrections_per_arm": 2609,
+      "lexical_positions": 130659
+    },
+    {
+      "condition": "S32",
+      "generation_seed": 61022402,
+      "sequences": 256,
+      "source_errors": 4676,
+      "corrections_per_arm": 2272,
+      "lexical_positions": 130664
+    },
+    {
+      "condition": "S64",
+      "generation_seed": 61022401,
+      "sequences": 256,
+      "source_errors": 4496,
+      "corrections_per_arm": 2192,
+      "lexical_positions": 130651
+    },
+    {
+      "condition": "S64",
+      "generation_seed": 61022402,
+      "sequences": 256,
+      "source_errors": 4346,
+      "corrections_per_arm": 2108,
+      "lexical_positions": 130647
+    }
+  ],
+  "primary_prediction_records": 4608
+}

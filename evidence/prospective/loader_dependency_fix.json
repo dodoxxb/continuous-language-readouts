@@ -1,0 +1,8 @@
+{
+  "time": "2026-10-13T15:45:20+0800",
+  "failure": "PD configuration referenced an absent local sampling YAML; no PD trajectories generated before fix",
+  "source": "scripts/p1_pd_official_fewstep_sampling.yml",
+  "destination": "official-ELF-pytorch_elf/src/configs/sampling_configs/uncond_fewstep_sampling_configs.yml",
+  "sha256": "a7211fd57ff15934bcc7f889d66a92afcf886e4213b51badf6f758afb52fd9ad",
+  "impact": "Restores config loading only. Experiment uses explicit frozen steps/gamma/CFG in script, not this parsed sampling list."
+}

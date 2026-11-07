@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the associated arXiv preprint and relevant upstream model papers."
+title: "What Simple Readouts Miss in Continuous Language Diffusion"
+type: software
+repository-code: "https://github.com/dodoxxb/continuous-language-readouts"
+url: "https://github.com/dodoxxb/continuous-language-readouts/releases/tag/v0.1.0"
+license: Apache-2.0
+authors:
+  - family-names: Du
+    given-names: Zhicheng
+  - family-names: Ma
+    given-names: Lan
+identifiers:
+  - type: url
+    value: "https://arxiv.org/abs/2606.08810"

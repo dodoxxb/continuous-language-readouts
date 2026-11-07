@@ -1,0 +1,8 @@
+{
+  "family": "posterior",
+  "seed": 43,
+  "selected_step": 2048,
+  "validation_agreement": 0.4338107638888889,
+  "selected_sha256": "1b9c4074f989c97f39a055c949d70d705c568c8939b09dc84bd66740ff02d985",
+  "coef_sha256": "d14c09260b6eaf44143412c5e7c9c866b3d80cd284e88fcd994f09eb1028e322"
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "6a3de4fe4f2dcb9010f317a3",
+  "id": "embedded-language-flows/ELF-B-PD-owt-torch",
+  "private": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "embedded-language-flows/ELF-B-PD-owt-torch",
+  "author": "embedded-language-flows",
+  "sha": "ae2da3dcdd2cbf9e51071b210d81fd297e196b78",
+  "lastModified": "2026-06-26T02:33:46.000Z",
+  "gated": false,
+  "disabled": false,
+  "config": {},
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "d1af0ee9f6ce7875c94279bb56052216c4b9d30d",
+      "size": 1572
+    },
+    {
+      "rfilename": "checkpoint_19017",
+      "blobId": "cdadea25f92798e5e6c7b9bbab2534eda365298d",
+      "size": 857001698,
+      "lfs": {
+        "sha256": "c593da8527f0a207568b7e81c7f39011f5a6f262df909db61b4d9c7055e7f8c2",
+        "size": 857001698,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "config.yml",
+      "blobId": "f8ab48decb3aa84ecda39fafe11928b7a5be5f2c",
+      "size": 1164
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-06-26T02:33:34.000Z",
+  "usedStorage": 857001698
+}

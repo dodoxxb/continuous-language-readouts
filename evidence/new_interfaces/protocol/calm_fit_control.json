@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-02",
+  "status": "Exploratory fit-adequacy follow-up, specified after inspecting the original 512-document test; the original study is retained unchanged",
+  "motivation": "All three full-vocabulary CE fits selected their shared ridge initialization. Do not describe identical selected models as three independent replications or infer intrinsic nonlinearity from finite-budget fitting.",
+  "methods": {
+    "free_lower_lr": "Original unrestricted affine vocabulary head, learning rate 1e-5, seeds17/29/43",
+    "tied_affine": "Four affine latent-to-native-feature maps with the released unembedding fixed; same representational initialization, CE learning rates1e-5,3e-5,1e-4; seeds17/29/43"
+  },
+  "fit": "2048 updates,64chunks,beta defaults of AdamW,weight_decay0.01; maximize original256-document validation agreement at0/512/1024/2048, earliest tie. Tied initialization is recovered by least squares from the existing ridge effective weights; record reconstruction error.",
+  "selection": "Select one tied learning rate by mean validation agreement over three runs, earliest listed tie. Retain all learning curves and checkpoints. Original test is not used for this selection.",
+  "fresh_test": "The next512eligible documents in exactly the original seeded permutation, after the original4864. Assert the first4864document hashes reproduce the existing cohort. Freeze selected weights before encoding/decoding the new test.",
+  "primary_followup": "Paired posterior-state native-agreement gain of selected tied affine vs original ridge, averaged across three fits,4000document-bootstrap draws,seed61102209; report all three runs and native-reference reconstruction",
+  "limits": "One autoencoder,one corpus; probe improvement rather than generator/task-quality gain; no test-based sample-size or method changes. Native parameter sharing and initialization are explicit priors."
+}

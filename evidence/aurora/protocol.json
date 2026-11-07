@@ -1,0 +1,251 @@
+{
+  "date": "2026-10-22",
+  "model": "AURORA-LM-S OWT; published denoiser EMA and shared text AE",
+  "hypothesis": "Does error composition predict excess evaluator NLL beyond overall error rate, and does equal-count targeted repair improve NLL, on an independent continuous-language architecture?",
+  "scope": "Local affine readout fits in AURORA coordinates. Cross-architecture replication of a protocol; no ELF readout weight transfer. Sampling-condition transfer within one AURORA checkpoint is not checkpoint or training-seed transfer.",
+  "representation": "Raw, denormalized sampler endpoint immediately BEFORE the full six-layer native AE decoder; no decoder hidden-state leakage.",
+  "sampler": {
+    "solver": "sde_dpmpp",
+    "self_cond_cfg_scale": 4.0,
+    "block_size": 16,
+    "length": 512,
+    "native_early_stop": false
+  },
+  "training": {
+    "sequences": 2048,
+    "steps": 64,
+    "seed": 61022101
+  },
+  "validation": {
+    "sequences": 256,
+    "steps": 64,
+    "seed": 61022201
+  },
+  "calibration": {
+    "sequences": 512,
+    "steps": 64,
+    "seed": 61022301
+  },
+  "test": {
+    "conditions": {
+      "S16": 16,
+      "S32": 32,
+      "S64": 64
+    },
+    "seeds": [
+      61022401,
+      61022402
+    ],
+    "sequences_per_seed": 256
+  },
+  "batch_size": 16,
+  "fit_seeds": [
+    17,
+    29,
+    43
+  ],
+  "fit": {
+    "updates": 4096,
+    "batch_tokens": 1024,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.01,
+    "noise_aug": 0.02,
+    "validation_updates": [
+      1024,
+      2048,
+      4096
+    ],
+    "selection": "Maximum validation lexical native agreement; earlier update breaks ties; test never used."
+  },
+  "boundary": "Generate 512-token prefixes with the released 16-token block sampler (the training/default maximum is 1024). OWT is packed text: retain native EOS separators, not first-EOS truncation. Readout fitting and lexical-error analysis exclude native EOS positions. All scored arms share native EOS separators; all-position raw agreement is also reported.",
+  "score": "Decode each edited sequence with native EOS fixed, prepend one EOS literal based on the common native first-token boundary, then re-tokenize with evaluator. GPT-2-Large primary; OPT-125M secondary. float32 losses; BF16 inference; CPU and GPU precision recorded. Common boundary, not autonomous stopping or factual correctness.",
+  "scoring_note": "Prespecified common scorable set: retain a sequence only if every compared arm has 2..1024 evaluator tokens, so no arm is truncated. Persist all outputs and exclusion reasons. The 512-source-token horizon gives room for retokenization. Report the primary and secondary common sets separately.",
+  "frequency": "Counts from native non-EOS training labels only; rare=count<100, including unseen; numeric=Unicode digit in decoded single token; lowmargin=native top1-top2 logit gap<2.",
+  "frequency_sensitivity": {
+    "elf_reference_tokens": 16754550,
+    "reference_count": 100,
+    "definition": "Secondary predictor substitutes rare=count/N_AURORA < 100/16754550, matching the ELF relative-frequency cutoff. It is fit on calibration before test. Repair order is unchanged by this positive rescaling. Main count<100 result is always retained.",
+    "caveat": "Matching pools differ in size, tokenizer and generation distribution; this is a within-architecture protocol replication, not an architecture-isolated ranking."
+  },
+  "regression": {
+    "features": [
+      "error_rate",
+      "log_length",
+      "native_nll",
+      "rare_error_rate",
+      "numeric_error_rate",
+      "lowmargin_error_rate"
+    ],
+    "baseline_features": [
+      "error_rate",
+      "log_length",
+      "native_nll"
+    ],
+    "alpha": 10.0,
+    "standardization": "calibration only; unpenalized intercept",
+    "calibration": "512 independent native generations; fit predictor separately for each frozen readout seed"
+  },
+  "repair": "Seed 17 readout; exactly floor(e/2) native corrections within each sequence. Policies: ascending training count, numeric first, ascending native margin, three uniform random permutations. Fixed policy-specific random tie breaks. All final mismatch counts must be identical.",
+  "inference": "4000 paired sequence-bootstrap draws, stratified by condition and generation seed. Shared resampling indices across conditions with common random seeds. Average three readout errors within each sequence. Two primary pooled contrasts use Bonferroni 97.5% CIs; per-condition and other policies use descriptive 95% CIs.",
+  "primary": [
+    "Baseline MAE minus composition-augmented MAE on fresh test sequences",
+    "Mean random-repair NLL minus rare-first-repair NLL, using readout seed 17"
+  ],
+  "controls": [
+    "All three readout fits",
+    "All six repair policies",
+    "Frequency-coverage agreement breakdown",
+    "Native, linear and repaired evaluator scores",
+    "Native EOS and truncation diagnostics",
+    "Secondary OPT-125M on exactly the same output edits"
+  ],
+  "failure_policy": "Retain every fit, condition, sign, exclusion and failed transfer. No test-based retuning or selection of successful architectures. Oracle native labels/margins diagnose text-score effects; not deployment gates or truth labels.",
+  "resources": "Low-priority GPU stream; sequential native decoding; bounded per-process CUDA allocator; at most two GPU workers on distinct GPUs and two CPU workers (<=8 threads each); no data loader workers or concurrent compilation; logs to files.",
+  "pilot_disclosure": "Pilot only checks downloads, native interface parity, finite outputs, batching/memory/runtime. Pilot sequences never enter fitting, calibration or test.",
+  "source": {
+    "sha": "cfa6cfe87fb612880cd9158e43f31e0d7b91d178",
+    "date": "2026-09-19T17:18:41Z",
+    "url": "https://github.com/fyv587/AURORA-LM/commit/cfa6cfe87fb612880cd9158e43f31e0d7b91d178"
+  },
+  "weights": [
+    {
+      "repo": "fyv587/aurora-gpt2-owt",
+      "revision": "c3bcad3fc9da7801cd771f48e5491b8d802a3c84",
+      "path": "models/aurora-lm/owt/250000.safetensors",
+      "bytes": 1040022432,
+      "sha256": "076b133131b3942c44d71bd1fc4aa8228efd5e40b92a1bcb6740af70b4a2cb3f",
+      "upstream_lfs_sha256": "076b133131b3942c44d71bd1fc4aa8228efd5e40b92a1bcb6740af70b4a2cb3f"
+    },
+    {
+      "repo": "fyv587/aurora-gpt2-owt",
+      "revision": "c3bcad3fc9da7801cd771f48e5491b8d802a3c84",
+      "path": "models/aurora-lm/owt/README.md",
+      "bytes": 210,
+      "sha256": "c696827ac5ef641bea8e04994cd970ed43c7043d74855b00caaab1a2f0afe5b3",
+      "upstream_lfs_sha256": null
+    },
+    {
+      "repo": "fyv587/aurora-gpt2-owt",
+      "revision": "c3bcad3fc9da7801cd771f48e5491b8d802a3c84",
+      "path": "models/aurora-lm/owt/config.yaml",
+      "bytes": 14270,
+      "sha256": "0f3d9e087a9647a819c358f4f24da36134df5cae51752d59d0c7e87eaa75d937",
+      "upstream_lfs_sha256": null
+    },
+    {
+      "repo": "fyv587/aurora-text-autoencoder",
+      "revision": "c3def2093c99cf5cdcfafa0fd45c1c50c925b05a",
+      "path": "models/aurora-lm/autoencoder/100000.safetensors",
+      "bytes": 551132872,
+      "sha256": "4736db88b7596c866ef086d4cb1f84d951fdb697e734c188b46205ac5254b3f9",
+      "upstream_lfs_sha256": "4736db88b7596c866ef086d4cb1f84d951fdb697e734c188b46205ac5254b3f9"
+    },
+    {
+      "repo": "fyv587/aurora-text-autoencoder",
+      "revision": "c3def2093c99cf5cdcfafa0fd45c1c50c925b05a",
+      "path": "models/aurora-lm/autoencoder/README.md",
+      "bytes": 308,
+      "sha256": "865b681fdeb6aa4db1ce0f6fa1803552981559fdc4c3d61d40bd27e7f9a8be68",
+      "upstream_lfs_sha256": null
+    },
+    {
+      "repo": "fyv587/aurora-text-autoencoder",
+      "revision": "c3def2093c99cf5cdcfafa0fd45c1c50c925b05a",
+      "path": "models/aurora-lm/autoencoder/config.yaml",
+      "bytes": 4385,
+      "sha256": "d20fabe61c041adda042606047f75d0c8b9a4355afc6f6460e7764b7ec431a65",
+      "upstream_lfs_sha256": null
+    }
+  ],
+  "upstream_files": {
+    "third_party/AURORA-LM/conf/ae_config.yaml": "3859c93bace46716a1687bebb9c435dc671e49f7d79b21550e14488d388f3299",
+    "third_party/AURORA-LM/conf/causal_autoencoder/default.yaml": "7f42d01103d43c3255ae31a4e54e6c1ad482944cfd648e794d03c4738e03a65f",
+    "third_party/AURORA-LM/conf/causal_decoder/default.yaml": "19fe95a623db251b5e44cc0db8f10d73f3438929f0c91ab0094d6388ac1cbbd8",
+    "third_party/AURORA-LM/conf/causal_encoder/default.yaml": "714dbf5a32a2783166b5204c29a48558cc90df9b179b437f0b88c36c598a86da",
+    "third_party/AURORA-LM/conf/conditional/default.yaml": "ed4045ef941c2a1bd522806d1f5d79b2c32ff4a9320a169647b2e6d18069c697",
+    "third_party/AURORA-LM/conf/dataset/default.yaml": "d3ad505f215b6e92f45c409dd4939b911944a242bcb44032de355ffbe5bd1bfe",
+    "third_party/AURORA-LM/conf/dataset/gpt2-openwebtext-1024-wrap.yaml": "1e3211615196de666cd2ad6af6d163b12b69bdca18c1a69d9f258cc062bb6d56",
+    "third_party/AURORA-LM/conf/dataset/openwebtext.yaml": "20de83387305d98536d6dfeef2be473bb608d11a86bf6cfa4210efce1b40a5da",
+    "third_party/AURORA-LM/conf/dataset/xsum-gpt2-1024-conditional.yaml": "080e59aceb7e351011b852b96df15fd6853b8555c3103c6c32550c69a51a48c5",
+    "third_party/AURORA-LM/conf/diffusion/default.yaml": "9925852865111e5923ec91df711d4291fbc1a3b22ec87fb976fd399a0586c757",
+    "third_party/AURORA-LM/conf/diffusion/optimizer/adamw.yaml": "d2390647364aef260ab3685841b9a1862e3971fcba3b1743e0e9544b0e40e3c7",
+    "third_party/AURORA-LM/conf/diffusion/optimizer/stableadam.yaml": "8ab799e8098ab049cd902dc508ee697ba4585a180f674fbde728c24fb4a5aea6",
+    "third_party/AURORA-LM/conf/diffusion_config.yaml": "707f416a86d534070e3d63d0a183d8e581fe94b18e6abb979fe93409d0950e8f",
+    "third_party/AURORA-LM/conf/sampling/conditional.yaml": "e0c7ebf44ca645427fa82c9d5f17ab9ff115adc078e1f44e30120e13128d921c",
+    "third_party/AURORA-LM/conf/sampling/uncond.yaml": "8c9d810d27384d4e8f214ffa4a8957c4db2aec238fc55042e037574d63474ed3",
+    "third_party/AURORA-LM/conf/tokenizer/default.yaml": "f1a05e4949a4ca995f21e5a4c0f20d5a9095df0d9f64b1b49649005118af54da",
+    "third_party/AURORA-LM/data/prepare_bestfit_wrap.py": "34c3367f0c166a8d78d3cd1842b25083cc54a8d3441b6fd16769217ce3c806d4",
+    "third_party/AURORA-LM/data/prepare_xsum_conditional.py": "25d63d5315952cec340bb1d2611343d8f310d3d7fd32f7839324bb36e06e9023",
+    "third_party/AURORA-LM/generate.py": "edd36bd6816ad97cbc6c49e2ce9a89ecaebe7018a4d003fd61bfe2bd07c2395d",
+    "third_party/AURORA-LM/scripts/download_models.py": "d276cdeee6e7b15ee8b2e72d76d9e762d70fc56c7f0bc1282a25c61eec71c5b5",
+    "third_party/AURORA-LM/src/aurora/__init__.py": "a8b55782305376096e66b9023fc42ebe868ad1972ef4e3192fc31cc08e3ff018",
+    "third_party/AURORA-LM/src/aurora/diffusion/__init__.py": "33462d4c82da39f404cff876991d914c848c164d41db92d9cf6a447dbbe7aa30",
+    "third_party/AURORA-LM/src/aurora/diffusion/scheduler.py": "bd858a6c05f11ddbbecac076b208f00ebe79e41360111f409295301fc9ec20f0",
+    "third_party/AURORA-LM/src/aurora/eval/__init__.py": "2c300e9c52229fd72658c3db7af0a6090f09d494f2e6c4155095005e97567d4d",
+    "third_party/AURORA-LM/src/aurora/eval/core/__init__.py": "655a7d2019e1f1da3085480775cd28072348541fdb0b81bea92bc91d904c20c5",
+    "third_party/AURORA-LM/src/aurora/eval/core/config.py": "5c766e1bb4de4320f859418b84613de989422e2f96c6e21b1e5e4a46b9f9d838",
+    "third_party/AURORA-LM/src/aurora/eval/core/ddp.py": "d9a0063012955ecbf6202ff371c825899a1f5248a5118d6e5d9a5ec20ce184c0",
+    "third_party/AURORA-LM/src/aurora/eval/core/pipeline.py": "3de146e679360b6bd0f58575d827b58e2d32345ff5e038ca447a911e604f4537",
+    "third_party/AURORA-LM/src/aurora/eval/core/registry.py": "ca4b5aac8e84246a7278944d6b823208c9f781765e18f6eeee0d24dac0493ad7",
+    "third_party/AURORA-LM/src/aurora/eval/core/save.py": "439c23cc7f8f1cc671ba5c8644e34cde13b6279757a9c03d87519a67a22ab99b",
+    "third_party/AURORA-LM/src/aurora/eval/generators/__init__.py": "2985a9e71e91b9127b16a7b24781548b4a88cfc0816eed43d643b7d0f74e0bd6",
+    "third_party/AURORA-LM/src/aurora/eval/generators/base.py": "98f0bf56214e23ccbb70c845f9ec970464b34035ff83b3bf65c8c25b657f2cca",
+    "third_party/AURORA-LM/src/aurora/eval/generators/diffusion.py": "d3f20683c0eec5fa1e689a0aca808048bc2e3f24bd7efa59b112d6778e3feb4e",
+    "third_party/AURORA-LM/src/aurora/eval/metrics/__init__.py": "272668f9bfe893bf1d926ed69a4b53a23152afc01838f63cc093404c5caf7c39",
+    "third_party/AURORA-LM/src/aurora/eval/metrics/base.py": "92b714e52618bf2c5c1ae52877b7844986ecb6ad6dfaa65389a4b73ba03dd95f",
+    "third_party/AURORA-LM/src/aurora/eval/metrics/entropy.py": "af0692c0f10b6218c60403f72a5fd959c2e7882866079ac5ba906156d9dfafa0",
+    "third_party/AURORA-LM/src/aurora/eval/metrics/mauve.py": "d35c4c8014ef13513fee76d86f4e91d3aa9f98abcdcf5e6a4fe566448f3bf539",
+    "third_party/AURORA-LM/src/aurora/eval/metrics/ppl.py": "dee46d38500dcb24a44e6b41556c22ee864923053bab3ce6faa58ca5bb865664",
+    "third_party/AURORA-LM/src/aurora/eval/metrics/rouge.py": "9f7c991747d3cebd58db1acceeeb5b8aabc939674e88fb4e33963661614ef92d",
+    "third_party/AURORA-LM/src/aurora/eval/metrics_impl.py": "a385543a1b7b8d9c0588e9babc6d29475dea9ba5e3689da3b2da163798b7c27a",
+    "third_party/AURORA-LM/src/aurora/eval/run_eval.py": "98f38462835393360a2d5538b7a31847bae02031157e54fe9b2b91952ed58423",
+    "third_party/AURORA-LM/src/aurora/eval/utils/__init__.py": "becc066e7c3a18c191641e05ad3fafefe2c77d0888f1872a50780f423b456eb3",
+    "third_party/AURORA-LM/src/aurora/eval/utils/eos_mode.py": "b66ebddf13bd6b41771c2f7390dc8c2da0fcb4eae68ee30009869519978cf10b",
+    "third_party/AURORA-LM/src/aurora/eval/utils/prefix_dataset.py": "d0a1ded3f8c0e443031f957fef274c2f7def2a892850eaf812b4296b3be26de0",
+    "third_party/AURORA-LM/src/aurora/eval/utils/prefix_encode.py": "1048133d5246a312e793146042d35ffa36450263aefc007c399de4720892a55b",
+    "third_party/AURORA-LM/src/aurora/eval/utils/reference.py": "f2d8538df05c36aaa8b2ff4ba653005a75a920ab2f454a5f71613199295f762f",
+    "third_party/AURORA-LM/src/aurora/models/__init__.py": "bd8ff9522f026c81c598ca8684cd007ec5675f2ccacd56278e4ce9e233ed7d5d",
+    "third_party/AURORA-LM/src/aurora/models/ae_masks.py": "1adda931bb05b1130e1a60098eb99133f9db95a7b6c2c867b2a5ecf930aa1e4a",
+    "third_party/AURORA-LM/src/aurora/models/attention.py": "39766af45f371772884fd998c5d3b6ec83dc9aa1480e718765035451623906ce",
+    "third_party/AURORA-LM/src/aurora/models/autoencoder.py": "6199c1ec60b7ee2d9b7d130c96c22046bb94cbce76a96f11d36d24331c9009ee",
+    "third_party/AURORA-LM/src/aurora/models/block_causal_masks.py": "8f7d5738a4c3af33323de981503e1e4d50911641c9a1bf1fe372f8c00b78afdf",
+    "third_party/AURORA-LM/src/aurora/models/blocks.py": "39d0a0c05d6754d11b6fe4eb292bd54bc086fb8e3cbca2dc00e354473fcc449b",
+    "third_party/AURORA-LM/src/aurora/models/decoder.py": "f58a54e809f84894e3c15f603ad56ce57bb2e48865002c4122429a953fe7aff3",
+    "third_party/AURORA-LM/src/aurora/models/denoiser.py": "6048e7d56d983289e18ff3999e7e6610720e733b3a502c4fa40aa9bd58046b4b",
+    "third_party/AURORA-LM/src/aurora/models/encoder.py": "862af0aa778aa244fdf56e2342fdb76b5b1e65fe818fda2ab28c93e5b1eaada2",
+    "third_party/AURORA-LM/src/aurora/models/latent_stats.py": "3a5c3649f2649a53a65b1761ed7be253034515b40cc153d3807805d54ed9563a",
+    "third_party/AURORA-LM/src/aurora/models/model.py": "08802a0af87c099f2fe973e1d04caf1062ff2a77941102ea572a45350a8e66a3",
+    "third_party/AURORA-LM/src/aurora/models/transformer.py": "aa59428bcd704234cd608f86d7b9c05f01d972582bf7df6a6e4b9c908372e379",
+    "third_party/AURORA-LM/src/aurora/sampling/__init__.py": "668ff98f12608518b7cf19fff60f6d623bb1cdee786dbf4b76c06a9189c5e98e",
+    "third_party/AURORA-LM/src/aurora/sampling/block_sampler.py": "7163f1f5a8c122c16c5712698db541da46656eff963b1902edff6964c362b1bb",
+    "third_party/AURORA-LM/src/aurora/sampling/prefix_layout.py": "5027a3336f7b3d1ffa349241e539db79b7b53c132c799a22e47a6149ef8f76ed",
+    "third_party/AURORA-LM/src/aurora/sampling/primitives.py": "7da85d3470366f71240439709df1c5038fbfbe3177a54a0872ee0359f9d890dc",
+    "third_party/AURORA-LM/src/aurora/sampling/solvers.py": "720afd919cf6b8e1a027c9cdbe70580a4fd319814b05e57191a9e0d863122703",
+    "third_party/AURORA-LM/src/aurora/train/__init__.py": "655a7d2019e1f1da3085480775cd28072348541fdb0b81bea92bc91d904c20c5",
+    "third_party/AURORA-LM/src/aurora/train/ae_trainer.py": "c5ffd5887ff972357e7fa3df228acd53e5e78d93b9b5230e598f9e4420c7b01b",
+    "third_party/AURORA-LM/src/aurora/train/base.py": "31cb7c3d4bc0f213d0740e1fcae23f21b74c1dd340d9e4939d025e1312fae818",
+    "third_party/AURORA-LM/src/aurora/train/diffusion_trainer.py": "d5f7aa8bf3ecf6ebe56e7f5a4660b138fa1d9f624286d6bf00157196d8911d42",
+    "third_party/AURORA-LM/src/aurora/train/features/__init__.py": "31f5821d509096475a65c557fd88aa77c88f5ad8796c0ef187c3b992dc266ec7",
+    "third_party/AURORA-LM/src/aurora/train/features/block_ar.py": "a8fa86fb8418f36e936832d5930bbb99df4fae3d34a75e37de7102f5824e1f5b",
+    "third_party/AURORA-LM/src/aurora/train/features/self_cond.py": "6357580e3f25b71d2d9713f255015fbaffa58c6e865e9000c4339ef2cbf7ab9e",
+    "third_party/AURORA-LM/src/aurora/utils/__init__.py": "a5e62c542ad8c7bde16727a584c0f2c475a835366504895d2b9eba477e0a40e1",
+    "third_party/AURORA-LM/src/aurora/utils/checkpoint_config_utils.py": "7f58bde8f475a72d361ffadf16827bc002fe3eb37de6f8f0468c8c5c6aad0b71",
+    "third_party/AURORA-LM/src/aurora/utils/checkpoint_io.py": "8b09a058cfd355d435f39d0c371d52062140cecc74c59029a4b813063345af67",
+    "third_party/AURORA-LM/src/aurora/utils/conditional_utils.py": "56f7ba0d08a0c0d5c86e14ee2ccd0d16291c419d1659b0639ae3e287fdaff293",
+    "third_party/AURORA-LM/src/aurora/utils/dataset_utils.py": "c47e619bfac472a45f1ef762ae9de38f107675733b1019c980a5329204d71c0d",
+    "third_party/AURORA-LM/src/aurora/utils/ddp_utils.py": "cc640281d88408d3baaa2bd551ee7c3947306de50ced4cbe7b099a3dfc35ca63",
+    "third_party/AURORA-LM/src/aurora/utils/device_utils.py": "8ebe43c81aadb70f109493cd203c302c72ee1b804862c2df4a0529d0e8dc7317",
+    "third_party/AURORA-LM/src/aurora/utils/diffusion_utils.py": "9904e5a0a49f517f3981da34ea0bb9f2787caa49292a76c732b07579fa4dec4d",
+    "third_party/AURORA-LM/src/aurora/utils/hf_hub.py": "96ead3d4b906eff63f5ec4ec19ffc5816025300ae8498b457dc5c7be62c3c795",
+    "third_party/AURORA-LM/src/aurora/utils/logging_utils.py": "d012e14b429debea34fa59be4cf19dd7767a2f7a304266ad734bacbd3c661fc2",
+    "third_party/AURORA-LM/src/aurora/utils/operator_optimization.py": "7e384d0663c9d46779e7ba5fa431a59c4cafd0fe6378d9fffff9ff9f1ce64d59",
+    "third_party/AURORA-LM/src/aurora/utils/precision.py": "781c976510c59e28f935fe36fe225eb76e5d8053c71566a92fcdb320696cad4d",
+    "third_party/AURORA-LM/src/aurora/utils/pylogger.py": "1e85c42681b153b9673e9a2c51dc83574978e005d121ad4b659fa821f8b0a561",
+    "third_party/AURORA-LM/src/aurora/utils/sharded_dataset.py": "c2f38ce52b6687876a11984bdb8b6f8fda51338f646362c7ea0b515410db98c4",
+    "third_party/AURORA-LM/src/aurora/utils/tokenizer_utils.py": "b6e5e61ce6f3eb01709ad72ea39118d3acb33ba6223736aa289d1ea646cabc68",
+    "third_party/AURORA-LM/src/aurora/utils/training_monitor.py": "a87f8eff5a4b3d176439552aa9df7395613e2869b5ec50ccbcb58ada0f137ecc",
+    "third_party/AURORA-LM/train_ae.py": "a02c835a75b1ea65003f1fe2260e9389eb632945b01b23dbc5e4d744545387ea",
+    "third_party/AURORA-LM/train_diffusion.py": "4bb484a9de355d43e6e0ade28a912823266284ee849b9c95a09611d86b39d3af"
+  },
+  "local_patch": "CPU device plumbing only; source/device_utils.upstream.py and source/cpu_device_support.patch preserve the exact change; CUDA sampler/decoder math unchanged."
+}

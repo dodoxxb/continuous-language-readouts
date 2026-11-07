@@ -1,0 +1,6 @@
+{
+  "strict_load_passed": true,
+  "shared_generator_aliases": 54,
+  "generator_is_same_module": true,
+  "source": "Official upstream generative_head is an alias of mlp_generator; checkpoint stores only mlp_generator keys"
+}

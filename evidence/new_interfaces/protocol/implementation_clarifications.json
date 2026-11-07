@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-02",
+  "before_outcome_measurement": true,
+  "llaco_euclidean_comparison": "Along each spherical trajectory, multiply the unit state by the original source embedding norm before raw-Euclidean lookup. Thus the clean state equals its own raw embedding. Cosine and normalized-adapter results are invariant to this positive scaling. Radial controls separately scale raw clean embeddings.",
+  "calm_tokenizer": "Preserve the exact released tokenizer.json; do not apply generic new-version Mistral-regex modifications to CALM's Llama3 tokenizer. Verify AutoTokenizer output against the released backend tokenizer.",
+  "calm_data_preparation": "Run cohort creation to completion before GPU preparation; a duplicate preparer was terminated before creating any cohort or model result.",
+  "download_integrity": "CALM full files use upstream LFS SHA256. LLaCO DCP components use exact metadata-indexed HTTP ranges and record sizes, local SHA256, and torch record validation. Component hashes do not verify the untouched full checkpoint."
+}

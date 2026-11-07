@@ -1,0 +1,5043 @@
+{
+  "data/elf/ready.json": {
+    "family": "elf",
+    "train_sequences": 16384,
+    "train_tokens": 16754550,
+    "budget_token_counts": {
+      "1024": 1047155,
+      "4096": 4188683,
+      "16384": 16754550
+    },
+    "dim": 512,
+    "vocab": 32100,
+    "pad_id": 0,
+    "eos_id": 1,
+    "mask": "native non-padding positions; EOS already excluded by saved native decode",
+    "train_feature_sha256": "f14b0c1fb633997d8753a297e919f9f6fca31f06444060fd50bd50ad55ae294e",
+    "split_sha256": "192b03a52fe99ac0803cc84ccdc8da37335848a15d73353dd11ecd5b4b7f67b4",
+    "source_shards": [
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard0.pt",
+        "bytes": 6456473554
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard1.pt",
+        "bytes": 6456446994
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard2.pt",
+        "bytes": 6456471570
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard3.pt",
+        "bytes": 6456484306
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard4.pt",
+        "bytes": 6456486226
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard5.pt",
+        "bytes": 6456459602
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard6.pt",
+        "bytes": 6456478930
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard7.pt",
+        "bytes": 6456435282
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard8.pt",
+        "bytes": 6456464274
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard9.pt",
+        "bytes": 6456471506
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard10.pt",
+        "bytes": 6456463453
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard11.pt",
+        "bytes": 6456445725
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard12.pt",
+        "bytes": 6456441949
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard13.pt",
+        "bytes": 6456454493
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard14.pt",
+        "bytes": 6456443997
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard15.pt",
+        "bytes": 6456450909
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard16.pt",
+        "bytes": 6456455325
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard17.pt",
+        "bytes": 6456473565
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard18.pt",
+        "bytes": 6456457821
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard19.pt",
+        "bytes": 6456486941
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard20.pt",
+        "bytes": 6456441885
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard21.pt",
+        "bytes": 6456479069
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard22.pt",
+        "bytes": 6456462045
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard23.pt",
+        "bytes": 6456446109
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard24.pt",
+        "bytes": 6456462045
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard25.pt",
+        "bytes": 6456453405
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard26.pt",
+        "bytes": 6456456029
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard27.pt",
+        "bytes": 6456456285
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard28.pt",
+        "bytes": 6456470813
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard29.pt",
+        "bytes": 6456466909
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard30.pt",
+        "bytes": 6456469149
+      },
+      {
+        "path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard31.pt",
+        "bytes": 6456466973
+      }
+    ]
+  },
+  "data/elf/fresh_test/generation.json": {
+    "seed": 61013001,
+    "steps": 32,
+    "samples": 512,
+    "batch_size": 4,
+    "protocol_sha256": "765e06c2701723826777df3f89277af197eec507461999b0ab42506f9bbdd522",
+    "checkpoint_sha256": "52c21bfb7f920e785e0e780645c411c94e4541af4cee8f85b6f555f826d4c283",
+    "sampler": "same update equations as historical phase28; final SDE step excluded",
+    "x_sha256": "64384edd1f328dc9bfc200a2dee790d5468644fdbbf59cbf76448f50613ac223",
+    "y_sha256": "e8fc76f4bc0776700adb92bc0debade3268fdb8215a84aa75dea231592dbb43a",
+    "elapsed_seconds": 97.25653862953186
+  },
+  "data/elf/persistent_cache_validation.json": {
+    "train": {
+      "sequence_ids.npy": "0ce0b9d943b18767ec9601fc63bb783c44c1847459bb5b538576b7169de88d6a",
+      "offsets.npy": "468fe8128fcd5d651158e3138eba3ed703c01d4b496306a79e1f80dd94a71b7b",
+      "y.npy": "e8a41789e18c25263d0feaad3a735a8d80073295ff878e77d424ac9e9cde3330",
+      "x.npy": "f14b0c1fb633997d8753a297e919f9f6fca31f06444060fd50bd50ad55ae294e"
+    },
+    "validation": {
+      "sequence_ids.npy": "16f6662b928d0e02088a299b8d99ba8e7597e8df8326eb6f4d0ad37b21185975",
+      "valid.npy": "03d84a8bcd74e5aa122363fd4bce44bd849481c9ef5cfe4067ddbcd7474f6737",
+      "y.npy": "29c02b4a1f7ff283969e5b50b794a715e940b3188b7145343037d18ebc4a94bc",
+      "x.npy": "13ebd2e0e26d80468a1be865da2935abebbee65d9c004047ce75b90fe2e578ae"
+    },
+    "test": {
+      "sequence_ids.npy": "33eaaf7d6496ca04b67c20a6d38060feedc1c7e493f3516bda7011792e671bdd",
+      "valid.npy": "61a8a18bb15b367741608b7d1c30b5f258a4f86bd0ea03f4a918d860aa1d820c",
+      "y.npy": "e97f4d099022324653afd5e42007e2f9a0318e179ff33b8a6ce93beee5199c98",
+      "x.npy": "8b562b0c9cc96c65b5e4ebf133f8ab5009d5ac2b8dbccc4da8e5d2c5d1a2e610"
+    }
+  },
+  "data/langflow/ready.json": {
+    "family": "langflow",
+    "dim": 768,
+    "vocab": 30522,
+    "train_sequences": 1024,
+    "validation_sequences": 256,
+    "test_sequences": 512,
+    "steps": 64,
+    "sequence_length": 128,
+    "mask": "all native positions; exact released generate_samples convention",
+    "checkpoint_sha256": "b111b5141379bde1bc8531278a2d144bc753cf3b100ed32c8a917f2ed0c025d2",
+    "split_sha256": "dce167da92ce53fe0d38b63b5df55569e9a2a4e61eab86181f397645b716236d",
+    "train_feature_sha256": "2057f1d89063471fd63b3de0692801d0ec292e660f62537df3a939b9a280ab72",
+    "generation_seed": 61013002,
+    "batch_size": 8,
+    "elapsed_seconds": 176.929034948349,
+    "protocol_sha256": "765e06c2701723826777df3f89277af197eec507461999b0ab42506f9bbdd522"
+  },
+  "data/langflow_extended/ready.json": {
+    "family": "langflow_extended",
+    "dim": 768,
+    "vocab": 30522,
+    "train_sequences": 8192,
+    "validation_sequences": 256,
+    "test_sequences": 512,
+    "steps": 64,
+    "sequence_length": 128,
+    "mask": "all native positions; exact released generate_samples convention",
+    "checkpoint_sha256": "b111b5141379bde1bc8531278a2d144bc753cf3b100ed32c8a917f2ed0c025d2",
+    "split_sha256": "9bf1e3856e863a0d05bf72c59ca8092d771d3ddf6ebef6118b251c039c597974",
+    "train_feature_sha256": "a258c36951ee8d32b2f6689584e2f7b178937c6bef50c65e58b97764f284d962",
+    "generation_seed": 61013002,
+    "batch_size": 8,
+    "elapsed_seconds": 576.8111119270325,
+    "protocol_sha256": "765e06c2701723826777df3f89277af197eec507461999b0ab42506f9bbdd522",
+    "train_tokens": 1048576,
+    "additional_generation_seed": 61013003,
+    "generation_batch_size": 16,
+    "followup_protocol_sha256": "4ce232902a61ad86ea014a612ddbd6e7efe1c44f7d1135453738954c2000dc58"
+  },
+  "data/langflow_extended/split.json": {
+    "first_1024": "original LangFlow training set",
+    "remaining_7168": "new independent generation seed 61013003",
+    "validation": "original 256, unchanged",
+    "test": "original 512, unchanged",
+    "exact_native_train_duplicates": 0,
+    "exact_native_train_validation_overlap": 0,
+    "exact_native_train_test_overlap": 0
+  },
+  "decomposition_records": [
+    {
+      "start": 0,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.880859375,
+      "residual_agreement": 0.5703125,
+      "residual_rms": 6.232267379760742,
+      "skip_rms": 8.308401107788086
+    },
+    {
+      "start": 8,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.5888671875,
+      "residual_rms": 6.466914176940918,
+      "skip_rms": 8.296838760375977
+    },
+    {
+      "start": 16,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.89453125,
+      "residual_agreement": 0.587890625,
+      "residual_rms": 6.33168888092041,
+      "skip_rms": 8.305679321289062
+    },
+    {
+      "start": 24,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8994140625,
+      "residual_agreement": 0.587890625,
+      "residual_rms": 6.557338714599609,
+      "skip_rms": 8.32319450378418
+    },
+    {
+      "start": 32,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.892578125,
+      "residual_agreement": 0.515625,
+      "residual_rms": 5.911512851715088,
+      "skip_rms": 8.393857955932617
+    },
+    {
+      "start": 40,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.876953125,
+      "residual_agreement": 0.5830078125,
+      "residual_rms": 6.396475791931152,
+      "skip_rms": 8.399051666259766
+    },
+    {
+      "start": 48,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8740234375,
+      "residual_agreement": 0.537109375,
+      "residual_rms": 6.279027462005615,
+      "skip_rms": 8.381942749023438
+    },
+    {
+      "start": 56,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8916015625,
+      "residual_agreement": 0.5595703125,
+      "residual_rms": 6.389894485473633,
+      "skip_rms": 8.502729415893555
+    },
+    {
+      "start": 64,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8837890625,
+      "residual_agreement": 0.5771484375,
+      "residual_rms": 6.258694648742676,
+      "skip_rms": 8.4187650680542
+    },
+    {
+      "start": 72,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.89453125,
+      "residual_agreement": 0.548828125,
+      "residual_rms": 6.144187927246094,
+      "skip_rms": 8.330434799194336
+    },
+    {
+      "start": 80,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8896484375,
+      "residual_agreement": 0.5595703125,
+      "residual_rms": 6.608373165130615,
+      "skip_rms": 8.274382591247559
+    },
+    {
+      "start": 88,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.91015625,
+      "residual_agreement": 0.5576171875,
+      "residual_rms": 6.3979997634887695,
+      "skip_rms": 8.371750831604004
+    },
+    {
+      "start": 96,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.89453125,
+      "residual_agreement": 0.5546875,
+      "residual_rms": 6.379238605499268,
+      "skip_rms": 8.33531379699707
+    },
+    {
+      "start": 104,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.908203125,
+      "residual_agreement": 0.5546875,
+      "residual_rms": 6.110998630523682,
+      "skip_rms": 8.369670867919922
+    },
+    {
+      "start": 112,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.88671875,
+      "residual_agreement": 0.5859375,
+      "residual_rms": 6.341526508331299,
+      "skip_rms": 8.43275260925293
+    },
+    {
+      "start": 120,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8955078125,
+      "residual_agreement": 0.552734375,
+      "residual_rms": 6.367873668670654,
+      "skip_rms": 8.32189655303955
+    },
+    {
+      "start": 128,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.880859375,
+      "residual_agreement": 0.5546875,
+      "residual_rms": 6.137597560882568,
+      "skip_rms": 8.315021514892578
+    },
+    {
+      "start": 136,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.892578125,
+      "residual_agreement": 0.533203125,
+      "residual_rms": 6.286549091339111,
+      "skip_rms": 8.41719913482666
+    },
+    {
+      "start": 144,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.541015625,
+      "residual_rms": 6.150785446166992,
+      "skip_rms": 8.366768836975098
+    },
+    {
+      "start": 152,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8916015625,
+      "residual_agreement": 0.5595703125,
+      "residual_rms": 6.4093451499938965,
+      "skip_rms": 8.419031143188477
+    },
+    {
+      "start": 160,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.900390625,
+      "residual_agreement": 0.541015625,
+      "residual_rms": 6.295600414276123,
+      "skip_rms": 8.298839569091797
+    },
+    {
+      "start": 168,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.896484375,
+      "residual_agreement": 0.57421875,
+      "residual_rms": 6.32214879989624,
+      "skip_rms": 8.366856575012207
+    },
+    {
+      "start": 176,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8818359375,
+      "residual_agreement": 0.59765625,
+      "residual_rms": 6.5649213790893555,
+      "skip_rms": 8.459017753601074
+    },
+    {
+      "start": 184,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.892578125,
+      "residual_agreement": 0.529296875,
+      "residual_rms": 6.157365798950195,
+      "skip_rms": 8.298888206481934
+    },
+    {
+      "start": 192,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.5732421875,
+      "residual_rms": 6.374806880950928,
+      "skip_rms": 8.32420825958252
+    },
+    {
+      "start": 200,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8935546875,
+      "residual_agreement": 0.5341796875,
+      "residual_rms": 6.1611127853393555,
+      "skip_rms": 8.305954933166504
+    },
+    {
+      "start": 208,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8994140625,
+      "residual_agreement": 0.5546875,
+      "residual_rms": 6.096354007720947,
+      "skip_rms": 8.344260215759277
+    },
+    {
+      "start": 216,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.89453125,
+      "residual_agreement": 0.583984375,
+      "residual_rms": 6.261648178100586,
+      "skip_rms": 8.411467552185059
+    },
+    {
+      "start": 224,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8837890625,
+      "residual_agreement": 0.556640625,
+      "residual_rms": 6.237112998962402,
+      "skip_rms": 8.414844512939453
+    },
+    {
+      "start": 232,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.888671875,
+      "residual_agreement": 0.583984375,
+      "residual_rms": 6.376550674438477,
+      "skip_rms": 8.396812438964844
+    },
+    {
+      "start": 240,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.91015625,
+      "residual_agreement": 0.5556640625,
+      "residual_rms": 6.522336483001709,
+      "skip_rms": 8.33513069152832
+    },
+    {
+      "start": 248,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9033203125,
+      "residual_agreement": 0.5576171875,
+      "residual_rms": 6.302000999450684,
+      "skip_rms": 8.330275535583496
+    },
+    {
+      "start": 256,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8935546875,
+      "residual_agreement": 0.5478515625,
+      "residual_rms": 6.291670322418213,
+      "skip_rms": 8.323837280273438
+    },
+    {
+      "start": 264,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8623046875,
+      "residual_agreement": 0.5283203125,
+      "residual_rms": 6.092848300933838,
+      "skip_rms": 8.594562530517578
+    },
+    {
+      "start": 272,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9072265625,
+      "residual_agreement": 0.578125,
+      "residual_rms": 6.2725830078125,
+      "skip_rms": 8.275212287902832
+    },
+    {
+      "start": 280,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9111328125,
+      "residual_agreement": 0.560546875,
+      "residual_rms": 6.136380195617676,
+      "skip_rms": 8.351141929626465
+    },
+    {
+      "start": 288,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8896484375,
+      "residual_agreement": 0.5595703125,
+      "residual_rms": 6.078662395477295,
+      "skip_rms": 8.33741283416748
+    },
+    {
+      "start": 296,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8935546875,
+      "residual_agreement": 0.564453125,
+      "residual_rms": 6.2361555099487305,
+      "skip_rms": 8.387185096740723
+    },
+    {
+      "start": 304,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8916015625,
+      "residual_agreement": 0.5458984375,
+      "residual_rms": 6.125950813293457,
+      "skip_rms": 8.312573432922363
+    },
+    {
+      "start": 312,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9013671875,
+      "residual_agreement": 0.5771484375,
+      "residual_rms": 6.369142055511475,
+      "skip_rms": 8.310857772827148
+    },
+    {
+      "start": 320,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9169921875,
+      "residual_agreement": 0.5517578125,
+      "residual_rms": 6.30214786529541,
+      "skip_rms": 8.245146751403809
+    },
+    {
+      "start": 328,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.908203125,
+      "residual_agreement": 0.5693359375,
+      "residual_rms": 6.266242980957031,
+      "skip_rms": 8.369845390319824
+    },
+    {
+      "start": 336,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8994140625,
+      "residual_agreement": 0.587890625,
+      "residual_rms": 6.355066776275635,
+      "skip_rms": 8.232508659362793
+    },
+    {
+      "start": 344,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8876953125,
+      "residual_agreement": 0.5673828125,
+      "residual_rms": 6.245609760284424,
+      "skip_rms": 8.438798904418945
+    },
+    {
+      "start": 352,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.904296875,
+      "residual_agreement": 0.5546875,
+      "residual_rms": 6.300353050231934,
+      "skip_rms": 8.314709663391113
+    },
+    {
+      "start": 360,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8896484375,
+      "residual_agreement": 0.5380859375,
+      "residual_rms": 6.126183986663818,
+      "skip_rms": 8.386367797851562
+    },
+    {
+      "start": 368,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9072265625,
+      "residual_agreement": 0.5302734375,
+      "residual_rms": 6.208281517028809,
+      "skip_rms": 8.315156936645508
+    },
+    {
+      "start": 376,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.888671875,
+      "residual_agreement": 0.5712890625,
+      "residual_rms": 6.329664707183838,
+      "skip_rms": 8.330012321472168
+    },
+    {
+      "start": 384,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.89453125,
+      "residual_agreement": 0.5498046875,
+      "residual_rms": 6.194124221801758,
+      "skip_rms": 8.336867332458496
+    },
+    {
+      "start": 392,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.875,
+      "residual_agreement": 0.578125,
+      "residual_rms": 6.453824520111084,
+      "skip_rms": 8.504644393920898
+    },
+    {
+      "start": 400,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.890625,
+      "residual_agreement": 0.5390625,
+      "residual_rms": 6.203941822052002,
+      "skip_rms": 8.366788864135742
+    },
+    {
+      "start": 408,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.884765625,
+      "residual_agreement": 0.5849609375,
+      "residual_rms": 6.441751956939697,
+      "skip_rms": 8.412497520446777
+    },
+    {
+      "start": 416,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8935546875,
+      "residual_agreement": 0.5927734375,
+      "residual_rms": 6.426859378814697,
+      "skip_rms": 8.374297142028809
+    },
+    {
+      "start": 424,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8857421875,
+      "residual_agreement": 0.5693359375,
+      "residual_rms": 6.378053188323975,
+      "skip_rms": 8.394250869750977
+    },
+    {
+      "start": 432,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.890625,
+      "residual_agreement": 0.541015625,
+      "residual_rms": 6.548450469970703,
+      "skip_rms": 8.397798538208008
+    },
+    {
+      "start": 440,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.896484375,
+      "residual_agreement": 0.58984375,
+      "residual_rms": 6.329418659210205,
+      "skip_rms": 8.397064208984375
+    },
+    {
+      "start": 448,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9033203125,
+      "residual_agreement": 0.57421875,
+      "residual_rms": 6.39034366607666,
+      "skip_rms": 8.457320213317871
+    },
+    {
+      "start": 456,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.5400390625,
+      "residual_rms": 6.2631516456604,
+      "skip_rms": 8.378658294677734
+    },
+    {
+      "start": 464,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8759765625,
+      "residual_agreement": 0.5546875,
+      "residual_rms": 6.130294322967529,
+      "skip_rms": 8.313992500305176
+    },
+    {
+      "start": 472,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.5869140625,
+      "residual_rms": 6.124237537384033,
+      "skip_rms": 8.392271995544434
+    },
+    {
+      "start": 480,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.880859375,
+      "residual_agreement": 0.5595703125,
+      "residual_rms": 6.171348571777344,
+      "skip_rms": 8.257254600524902
+    },
+    {
+      "start": 488,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8857421875,
+      "residual_agreement": 0.5927734375,
+      "residual_rms": 6.286932468414307,
+      "skip_rms": 8.410270690917969
+    },
+    {
+      "start": 496,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8876953125,
+      "residual_agreement": 0.5712890625,
+      "residual_rms": 6.406718730926514,
+      "skip_rms": 8.434977531433105
+    },
+    {
+      "start": 504,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8994140625,
+      "residual_agreement": 0.5830078125,
+      "residual_rms": 6.390976905822754,
+      "skip_rms": 8.399245262145996
+    },
+    {
+      "start": 512,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.5888671875,
+      "residual_rms": 6.375041484832764,
+      "skip_rms": 8.379534721374512
+    },
+    {
+      "start": 520,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90625,
+      "residual_agreement": 0.5703125,
+      "residual_rms": 6.250214576721191,
+      "skip_rms": 8.329617500305176
+    },
+    {
+      "start": 528,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.541015625,
+      "residual_rms": 6.276923179626465,
+      "skip_rms": 8.370304107666016
+    },
+    {
+      "start": 536,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9072265625,
+      "residual_agreement": 0.5478515625,
+      "residual_rms": 6.197356700897217,
+      "skip_rms": 8.385711669921875
+    },
+    {
+      "start": 544,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9033203125,
+      "residual_agreement": 0.5888671875,
+      "residual_rms": 6.402622699737549,
+      "skip_rms": 8.302958488464355
+    },
+    {
+      "start": 552,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8916015625,
+      "residual_agreement": 0.5771484375,
+      "residual_rms": 6.316217422485352,
+      "skip_rms": 8.413654327392578
+    },
+    {
+      "start": 560,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9150390625,
+      "residual_agreement": 0.556640625,
+      "residual_rms": 6.388660430908203,
+      "skip_rms": 8.289087295532227
+    },
+    {
+      "start": 568,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9169921875,
+      "residual_agreement": 0.6103515625,
+      "residual_rms": 6.415599346160889,
+      "skip_rms": 8.32089614868164
+    },
+    {
+      "start": 576,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8935546875,
+      "residual_agreement": 0.5458984375,
+      "residual_rms": 6.23988151550293,
+      "skip_rms": 8.458688735961914
+    },
+    {
+      "start": 584,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.896484375,
+      "residual_agreement": 0.5048828125,
+      "residual_rms": 6.182338714599609,
+      "skip_rms": 8.397068977355957
+    },
+    {
+      "start": 592,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.88671875,
+      "residual_agreement": 0.537109375,
+      "residual_rms": 6.2957000732421875,
+      "skip_rms": 8.28011417388916
+    },
+    {
+      "start": 600,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8896484375,
+      "residual_agreement": 0.578125,
+      "residual_rms": 6.493236541748047,
+      "skip_rms": 8.333752632141113
+    },
+    {
+      "start": 608,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8828125,
+      "residual_agreement": 0.5673828125,
+      "residual_rms": 6.429891586303711,
+      "skip_rms": 8.335527420043945
+    },
+    {
+      "start": 616,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9072265625,
+      "residual_agreement": 0.5576171875,
+      "residual_rms": 6.400181293487549,
+      "skip_rms": 8.311341285705566
+    },
+    {
+      "start": 624,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.896484375,
+      "residual_agreement": 0.5595703125,
+      "residual_rms": 6.138679504394531,
+      "skip_rms": 8.358271598815918
+    },
+    {
+      "start": 632,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90625,
+      "residual_agreement": 0.599609375,
+      "residual_rms": 6.339057922363281,
+      "skip_rms": 8.39657974243164
+    },
+    {
+      "start": 640,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.884765625,
+      "residual_agreement": 0.5556640625,
+      "residual_rms": 6.198090553283691,
+      "skip_rms": 8.427197456359863
+    },
+    {
+      "start": 648,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.892578125,
+      "residual_agreement": 0.5302734375,
+      "residual_rms": 6.1151933670043945,
+      "skip_rms": 8.366607666015625
+    },
+    {
+      "start": 656,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8935546875,
+      "residual_agreement": 0.537109375,
+      "residual_rms": 6.285484313964844,
+      "skip_rms": 8.38282299041748
+    },
+    {
+      "start": 664,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.876953125,
+      "residual_agreement": 0.591796875,
+      "residual_rms": 6.555912017822266,
+      "skip_rms": 8.493906021118164
+    },
+    {
+      "start": 672,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8818359375,
+      "residual_agreement": 0.568359375,
+      "residual_rms": 6.227266311645508,
+      "skip_rms": 8.4116792678833
+    },
+    {
+      "start": 680,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8857421875,
+      "residual_agreement": 0.5439453125,
+      "residual_rms": 6.255624294281006,
+      "skip_rms": 8.314316749572754
+    },
+    {
+      "start": 688,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9091796875,
+      "residual_agreement": 0.5322265625,
+      "residual_rms": 6.173014163970947,
+      "skip_rms": 8.367460250854492
+    },
+    {
+      "start": 696,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8984375,
+      "residual_agreement": 0.576171875,
+      "residual_rms": 6.361595630645752,
+      "skip_rms": 8.337698936462402
+    },
+    {
+      "start": 704,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8740234375,
+      "residual_agreement": 0.576171875,
+      "residual_rms": 6.297427654266357,
+      "skip_rms": 8.398895263671875
+    },
+    {
+      "start": 712,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.896484375,
+      "residual_agreement": 0.5712890625,
+      "residual_rms": 6.513420104980469,
+      "skip_rms": 8.425710678100586
+    },
+    {
+      "start": 720,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.912109375,
+      "residual_agreement": 0.5615234375,
+      "residual_rms": 6.268466949462891,
+      "skip_rms": 8.32645034790039
+    },
+    {
+      "start": 728,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8935546875,
+      "residual_agreement": 0.572265625,
+      "residual_rms": 6.075809478759766,
+      "skip_rms": 8.380760192871094
+    },
+    {
+      "start": 736,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9052734375,
+      "residual_agreement": 0.5322265625,
+      "residual_rms": 6.387403964996338,
+      "skip_rms": 8.353959083557129
+    },
+    {
+      "start": 744,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.900390625,
+      "residual_agreement": 0.580078125,
+      "residual_rms": 6.3640546798706055,
+      "skip_rms": 8.295377731323242
+    },
+    {
+      "start": 752,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.888671875,
+      "residual_agreement": 0.548828125,
+      "residual_rms": 6.352053642272949,
+      "skip_rms": 8.418753623962402
+    },
+    {
+      "start": 760,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9130859375,
+      "residual_agreement": 0.544921875,
+      "residual_rms": 6.295649528503418,
+      "skip_rms": 8.364241600036621
+    },
+    {
+      "start": 768,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8896484375,
+      "residual_agreement": 0.591796875,
+      "residual_rms": 6.380800724029541,
+      "skip_rms": 8.367807388305664
+    },
+    {
+      "start": 776,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9052734375,
+      "residual_agreement": 0.5361328125,
+      "residual_rms": 6.05397891998291,
+      "skip_rms": 8.307194709777832
+    },
+    {
+      "start": 784,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.908203125,
+      "residual_agreement": 0.5751953125,
+      "residual_rms": 5.95742654800415,
+      "skip_rms": 8.333501815795898
+    },
+    {
+      "start": 792,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.5458984375,
+      "residual_rms": 6.3512282371521,
+      "skip_rms": 8.401769638061523
+    },
+    {
+      "start": 800,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.89453125,
+      "residual_agreement": 0.5751953125,
+      "residual_rms": 6.335119724273682,
+      "skip_rms": 8.400888442993164
+    },
+    {
+      "start": 808,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8857421875,
+      "residual_agreement": 0.548828125,
+      "residual_rms": 6.186370372772217,
+      "skip_rms": 8.399214744567871
+    },
+    {
+      "start": 816,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.89453125,
+      "residual_agreement": 0.580078125,
+      "residual_rms": 6.352117538452148,
+      "skip_rms": 8.45425033569336
+    },
+    {
+      "start": 824,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.892578125,
+      "residual_agreement": 0.5458984375,
+      "residual_rms": 6.379568576812744,
+      "skip_rms": 8.299715042114258
+    },
+    {
+      "start": 832,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.880859375,
+      "residual_agreement": 0.5595703125,
+      "residual_rms": 6.239736080169678,
+      "skip_rms": 8.361100196838379
+    },
+    {
+      "start": 840,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.890625,
+      "residual_agreement": 0.521484375,
+      "residual_rms": 6.274910926818848,
+      "skip_rms": 8.360876083374023
+    },
+    {
+      "start": 848,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.888671875,
+      "residual_agreement": 0.578125,
+      "residual_rms": 6.5071001052856445,
+      "skip_rms": 8.454140663146973
+    },
+    {
+      "start": 856,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.580078125,
+      "residual_rms": 6.294067859649658,
+      "skip_rms": 8.331445693969727
+    },
+    {
+      "start": 864,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.890625,
+      "residual_agreement": 0.5361328125,
+      "residual_rms": 6.243117332458496,
+      "skip_rms": 8.320427894592285
+    },
+    {
+      "start": 872,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.888671875,
+      "residual_agreement": 0.5263671875,
+      "residual_rms": 6.27439546585083,
+      "skip_rms": 8.444916725158691
+    },
+    {
+      "start": 880,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.912109375,
+      "residual_agreement": 0.5908203125,
+      "residual_rms": 6.282353401184082,
+      "skip_rms": 8.290691375732422
+    },
+    {
+      "start": 888,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.880859375,
+      "residual_agreement": 0.5263671875,
+      "residual_rms": 6.36587381362915,
+      "skip_rms": 8.359112739562988
+    },
+    {
+      "start": 896,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8876953125,
+      "residual_agreement": 0.591796875,
+      "residual_rms": 6.5167317390441895,
+      "skip_rms": 8.343789100646973
+    },
+    {
+      "start": 904,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9111328125,
+      "residual_agreement": 0.537109375,
+      "residual_rms": 6.2317214012146,
+      "skip_rms": 8.392838478088379
+    },
+    {
+      "start": 912,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8798828125,
+      "residual_agreement": 0.533203125,
+      "residual_rms": 6.18989372253418,
+      "skip_rms": 8.387210845947266
+    },
+    {
+      "start": 920,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.904296875,
+      "residual_agreement": 0.6064453125,
+      "residual_rms": 6.447376728057861,
+      "skip_rms": 8.278083801269531
+    },
+    {
+      "start": 928,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9013671875,
+      "residual_agreement": 0.572265625,
+      "residual_rms": 6.3912177085876465,
+      "skip_rms": 8.373161315917969
+    },
+    {
+      "start": 936,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9052734375,
+      "residual_agreement": 0.55078125,
+      "residual_rms": 6.436960220336914,
+      "skip_rms": 8.367852210998535
+    },
+    {
+      "start": 944,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.884765625,
+      "residual_agreement": 0.5732421875,
+      "residual_rms": 6.182246685028076,
+      "skip_rms": 8.338966369628906
+    },
+    {
+      "start": 952,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.876953125,
+      "residual_agreement": 0.544921875,
+      "residual_rms": 6.245241165161133,
+      "skip_rms": 8.383740425109863
+    },
+    {
+      "start": 960,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.876953125,
+      "residual_agreement": 0.58984375,
+      "residual_rms": 6.350853443145752,
+      "skip_rms": 8.340985298156738
+    },
+    {
+      "start": 968,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.5595703125,
+      "residual_rms": 6.1838860511779785,
+      "skip_rms": 8.380309104919434
+    },
+    {
+      "start": 976,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.912109375,
+      "residual_agreement": 0.5654296875,
+      "residual_rms": 6.318441867828369,
+      "skip_rms": 8.345542907714844
+    },
+    {
+      "start": 984,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.5625,
+      "residual_rms": 6.415302753448486,
+      "skip_rms": 8.420635223388672
+    },
+    {
+      "start": 992,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9033203125,
+      "residual_agreement": 0.5869140625,
+      "residual_rms": 6.404396057128906,
+      "skip_rms": 8.339900016784668
+    },
+    {
+      "start": 1000,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8876953125,
+      "residual_agreement": 0.58203125,
+      "residual_rms": 6.383943557739258,
+      "skip_rms": 8.425968170166016
+    },
+    {
+      "start": 1008,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8955078125,
+      "residual_agreement": 0.53125,
+      "residual_rms": 6.097859859466553,
+      "skip_rms": 8.247452735900879
+    },
+    {
+      "start": 1016,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.908203125,
+      "residual_agreement": 0.5751953125,
+      "residual_rms": 6.607299327850342,
+      "skip_rms": 8.263195037841797
+    },
+    {
+      "start": 1024,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.587890625,
+      "residual_rms": 6.55591344833374,
+      "skip_rms": 8.398673057556152
+    },
+    {
+      "start": 1032,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.5595703125,
+      "residual_rms": 6.142109394073486,
+      "skip_rms": 8.37471866607666
+    },
+    {
+      "start": 1040,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90625,
+      "residual_agreement": 0.55859375,
+      "residual_rms": 6.451731204986572,
+      "skip_rms": 8.32084846496582
+    },
+    {
+      "start": 1048,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.888671875,
+      "residual_agreement": 0.5615234375,
+      "residual_rms": 6.2416839599609375,
+      "skip_rms": 8.340131759643555
+    },
+    {
+      "start": 1056,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.884765625,
+      "residual_agreement": 0.5625,
+      "residual_rms": 6.297684192657471,
+      "skip_rms": 8.314241409301758
+    },
+    {
+      "start": 1064,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.5732421875,
+      "residual_rms": 6.315918445587158,
+      "skip_rms": 8.41977310180664
+    },
+    {
+      "start": 1072,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8955078125,
+      "residual_agreement": 0.58203125,
+      "residual_rms": 6.411129474639893,
+      "skip_rms": 8.413817405700684
+    },
+    {
+      "start": 1080,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8857421875,
+      "residual_agreement": 0.49609375,
+      "residual_rms": 6.005128383636475,
+      "skip_rms": 8.366454124450684
+    },
+    {
+      "start": 1088,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9091796875,
+      "residual_agreement": 0.6181640625,
+      "residual_rms": 6.427487373352051,
+      "skip_rms": 8.380751609802246
+    },
+    {
+      "start": 1096,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.896484375,
+      "residual_agreement": 0.55859375,
+      "residual_rms": 6.327907562255859,
+      "skip_rms": 8.367085456848145
+    },
+    {
+      "start": 1104,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.890625,
+      "residual_agreement": 0.5673828125,
+      "residual_rms": 6.31088399887085,
+      "skip_rms": 8.352232933044434
+    },
+    {
+      "start": 1112,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.560546875,
+      "residual_rms": 6.358867168426514,
+      "skip_rms": 8.409284591674805
+    },
+    {
+      "start": 1120,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.875,
+      "residual_agreement": 0.5927734375,
+      "residual_rms": 6.444854259490967,
+      "skip_rms": 8.429732322692871
+    },
+    {
+      "start": 1128,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8857421875,
+      "residual_agreement": 0.5703125,
+      "residual_rms": 6.265242099761963,
+      "skip_rms": 8.414974212646484
+    },
+    {
+      "start": 1136,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9013671875,
+      "residual_agreement": 0.564453125,
+      "residual_rms": 6.357893466949463,
+      "skip_rms": 8.262785911560059
+    },
+    {
+      "start": 1144,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9150390625,
+      "residual_agreement": 0.5810546875,
+      "residual_rms": 6.550061225891113,
+      "skip_rms": 8.410592079162598
+    },
+    {
+      "start": 1152,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.888671875,
+      "residual_agreement": 0.5595703125,
+      "residual_rms": 6.34426212310791,
+      "skip_rms": 8.356551170349121
+    },
+    {
+      "start": 1160,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.900390625,
+      "residual_agreement": 0.5791015625,
+      "residual_rms": 6.35311222076416,
+      "skip_rms": 8.247991561889648
+    },
+    {
+      "start": 1168,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.900390625,
+      "residual_agreement": 0.556640625,
+      "residual_rms": 6.352519989013672,
+      "skip_rms": 8.27184009552002
+    },
+    {
+      "start": 1176,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.876953125,
+      "residual_agreement": 0.5185546875,
+      "residual_rms": 6.206622123718262,
+      "skip_rms": 8.475537300109863
+    },
+    {
+      "start": 1184,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8896484375,
+      "residual_agreement": 0.5419921875,
+      "residual_rms": 6.295146465301514,
+      "skip_rms": 8.462821960449219
+    },
+    {
+      "start": 1192,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8896484375,
+      "residual_agreement": 0.5625,
+      "residual_rms": 6.237447261810303,
+      "skip_rms": 8.283507347106934
+    },
+    {
+      "start": 1200,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9091796875,
+      "residual_agreement": 0.564453125,
+      "residual_rms": 6.316194534301758,
+      "skip_rms": 8.331621170043945
+    },
+    {
+      "start": 1208,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8876953125,
+      "residual_agreement": 0.5361328125,
+      "residual_rms": 6.347248554229736,
+      "skip_rms": 8.350271224975586
+    },
+    {
+      "start": 1216,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8955078125,
+      "residual_agreement": 0.57421875,
+      "residual_rms": 6.183831691741943,
+      "skip_rms": 8.304097175598145
+    },
+    {
+      "start": 1224,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9140625,
+      "residual_agreement": 0.54296875,
+      "residual_rms": 6.22983980178833,
+      "skip_rms": 8.359169006347656
+    },
+    {
+      "start": 1232,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.890625,
+      "residual_agreement": 0.58203125,
+      "residual_rms": 6.1578898429870605,
+      "skip_rms": 8.316883087158203
+    },
+    {
+      "start": 1240,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8955078125,
+      "residual_agreement": 0.5634765625,
+      "residual_rms": 6.152206897735596,
+      "skip_rms": 8.34267520904541
+    },
+    {
+      "start": 1248,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9013671875,
+      "residual_agreement": 0.5732421875,
+      "residual_rms": 6.146376132965088,
+      "skip_rms": 8.323121070861816
+    },
+    {
+      "start": 1256,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.896484375,
+      "residual_agreement": 0.546875,
+      "residual_rms": 6.173752307891846,
+      "skip_rms": 8.445685386657715
+    },
+    {
+      "start": 1264,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8935546875,
+      "residual_agreement": 0.5556640625,
+      "residual_rms": 6.1933746337890625,
+      "skip_rms": 8.432197570800781
+    },
+    {
+      "start": 1272,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9033203125,
+      "residual_agreement": 0.5712890625,
+      "residual_rms": 6.253640651702881,
+      "skip_rms": 8.278578758239746
+    },
+    {
+      "start": 1280,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.947265625,
+      "residual_rms": 4.411635875701904,
+      "skip_rms": 0.017598479986190796
+    },
+    {
+      "start": 1280,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.005859375,
+      "residual_agreement": 0.361328125,
+      "residual_rms": 4.71838903427124,
+      "skip_rms": 1.4717211723327637
+    },
+    {
+      "start": 1280,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0283203125,
+      "residual_agreement": 0.4296875,
+      "residual_rms": 5.325558185577393,
+      "skip_rms": 2.1725704669952393
+    },
+    {
+      "start": 1280,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.119140625,
+      "residual_agreement": 0.53125,
+      "residual_rms": 5.745976448059082,
+      "skip_rms": 2.9834401607513428
+    },
+    {
+      "start": 1280,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8916015625,
+      "residual_agreement": 0.5732421875,
+      "residual_rms": 6.1219329833984375,
+      "skip_rms": 8.343178749084473
+    },
+    {
+      "start": 1288,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.935546875,
+      "residual_rms": 4.412014961242676,
+      "skip_rms": 0.017598377540707588
+    },
+    {
+      "start": 1288,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0068359375,
+      "residual_agreement": 0.3916015625,
+      "residual_rms": 4.815613746643066,
+      "skip_rms": 1.4723498821258545
+    },
+    {
+      "start": 1288,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0361328125,
+      "residual_agreement": 0.4599609375,
+      "residual_rms": 5.421215534210205,
+      "skip_rms": 2.175224781036377
+    },
+    {
+      "start": 1288,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1259765625,
+      "residual_agreement": 0.548828125,
+      "residual_rms": 5.985611915588379,
+      "skip_rms": 2.990434408187866
+    },
+    {
+      "start": 1288,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9072265625,
+      "residual_agreement": 0.556640625,
+      "residual_rms": 6.3872270584106445,
+      "skip_rms": 8.404779434204102
+    },
+    {
+      "start": 1296,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.955078125,
+      "residual_rms": 4.410851001739502,
+      "skip_rms": 0.017594944685697556
+    },
+    {
+      "start": 1296,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.013671875,
+      "residual_agreement": 0.3486328125,
+      "residual_rms": 4.696024417877197,
+      "skip_rms": 1.4718296527862549
+    },
+    {
+      "start": 1296,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.046875,
+      "residual_agreement": 0.45703125,
+      "residual_rms": 5.328298091888428,
+      "skip_rms": 2.1742281913757324
+    },
+    {
+      "start": 1296,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.125,
+      "residual_agreement": 0.5302734375,
+      "residual_rms": 5.835825443267822,
+      "skip_rms": 2.989814519882202
+    },
+    {
+      "start": 1296,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8857421875,
+      "residual_agreement": 0.5771484375,
+      "residual_rms": 6.2161478996276855,
+      "skip_rms": 8.450692176818848
+    },
+    {
+      "start": 1304,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9404296875,
+      "residual_rms": 4.41203498840332,
+      "skip_rms": 0.017534170299768448
+    },
+    {
+      "start": 1304,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0048828125,
+      "residual_agreement": 0.3486328125,
+      "residual_rms": 4.802242755889893,
+      "skip_rms": 1.4669487476348877
+    },
+    {
+      "start": 1304,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.025390625,
+      "residual_agreement": 0.462890625,
+      "residual_rms": 5.438058853149414,
+      "skip_rms": 2.1672027111053467
+    },
+    {
+      "start": 1304,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1123046875,
+      "residual_agreement": 0.525390625,
+      "residual_rms": 5.8843793869018555,
+      "skip_rms": 2.9805691242218018
+    },
+    {
+      "start": 1304,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.5517578125,
+      "residual_rms": 6.372995853424072,
+      "skip_rms": 8.398719787597656
+    },
+    {
+      "start": 1312,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9443359375,
+      "residual_rms": 4.411873817443848,
+      "skip_rms": 0.01762090064585209
+    },
+    {
+      "start": 1312,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0048828125,
+      "residual_agreement": 0.3330078125,
+      "residual_rms": 4.7403950691223145,
+      "skip_rms": 1.473624587059021
+    },
+    {
+      "start": 1312,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0283203125,
+      "residual_agreement": 0.4150390625,
+      "residual_rms": 5.320878982543945,
+      "skip_rms": 2.175114154815674
+    },
+    {
+      "start": 1312,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.11328125,
+      "residual_agreement": 0.5205078125,
+      "residual_rms": 5.850496292114258,
+      "skip_rms": 2.9864840507507324
+    },
+    {
+      "start": 1312,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9072265625,
+      "residual_agreement": 0.5625,
+      "residual_rms": 6.302712917327881,
+      "skip_rms": 8.321125030517578
+    },
+    {
+      "start": 1320,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9443359375,
+      "residual_rms": 4.410638332366943,
+      "skip_rms": 0.01753700152039528
+    },
+    {
+      "start": 1320,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.01171875,
+      "residual_agreement": 0.3486328125,
+      "residual_rms": 4.729540824890137,
+      "skip_rms": 1.4666261672973633
+    },
+    {
+      "start": 1320,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.044921875,
+      "residual_agreement": 0.4228515625,
+      "residual_rms": 5.210104465484619,
+      "skip_rms": 2.1641454696655273
+    },
+    {
+      "start": 1320,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1240234375,
+      "residual_agreement": 0.4921875,
+      "residual_rms": 5.665449142456055,
+      "skip_rms": 2.970407724380493
+    },
+    {
+      "start": 1320,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8916015625,
+      "residual_agreement": 0.5302734375,
+      "residual_rms": 6.09738302230835,
+      "skip_rms": 8.261333465576172
+    },
+    {
+      "start": 1328,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9521484375,
+      "residual_rms": 4.411020755767822,
+      "skip_rms": 0.017530696466565132
+    },
+    {
+      "start": 1328,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.392578125,
+      "residual_rms": 4.78307580947876,
+      "skip_rms": 1.4661133289337158
+    },
+    {
+      "start": 1328,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.041015625,
+      "residual_agreement": 0.470703125,
+      "residual_rms": 5.337485313415527,
+      "skip_rms": 2.1644020080566406
+    },
+    {
+      "start": 1328,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1181640625,
+      "residual_agreement": 0.53125,
+      "residual_rms": 5.727603435516357,
+      "skip_rms": 2.972684621810913
+    },
+    {
+      "start": 1328,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8916015625,
+      "residual_agreement": 0.5654296875,
+      "residual_rms": 6.175022125244141,
+      "skip_rms": 8.303114891052246
+    },
+    {
+      "start": 1336,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.951171875,
+      "residual_rms": 4.411606788635254,
+      "skip_rms": 0.017442382872104645
+    },
+    {
+      "start": 1336,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0068359375,
+      "residual_agreement": 0.326171875,
+      "residual_rms": 4.862819671630859,
+      "skip_rms": 1.4588353633880615
+    },
+    {
+      "start": 1336,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.025390625,
+      "residual_agreement": 0.4990234375,
+      "residual_rms": 5.656260967254639,
+      "skip_rms": 2.1546783447265625
+    },
+    {
+      "start": 1336,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.099609375,
+      "residual_agreement": 0.5771484375,
+      "residual_rms": 6.120999813079834,
+      "skip_rms": 2.9614787101745605
+    },
+    {
+      "start": 1336,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.884765625,
+      "residual_agreement": 0.59765625,
+      "residual_rms": 6.554433345794678,
+      "skip_rms": 8.344048500061035
+    },
+    {
+      "start": 1344,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.939453125,
+      "residual_rms": 4.411616802215576,
+      "skip_rms": 0.01758936233818531
+    },
+    {
+      "start": 1344,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.353515625,
+      "residual_rms": 4.732828617095947,
+      "skip_rms": 1.4716421365737915
+    },
+    {
+      "start": 1344,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.041015625,
+      "residual_agreement": 0.4384765625,
+      "residual_rms": 5.306743621826172,
+      "skip_rms": 2.1741273403167725
+    },
+    {
+      "start": 1344,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.125,
+      "residual_agreement": 0.5,
+      "residual_rms": 5.716268539428711,
+      "skip_rms": 2.9893226623535156
+    },
+    {
+      "start": 1344,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8857421875,
+      "residual_agreement": 0.544921875,
+      "residual_rms": 6.1444292068481445,
+      "skip_rms": 8.417543411254883
+    },
+    {
+      "start": 1352,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9365234375,
+      "residual_rms": 4.4116034507751465,
+      "skip_rms": 0.01756628043949604
+    },
+    {
+      "start": 1352,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0078125,
+      "residual_agreement": 0.3388671875,
+      "residual_rms": 4.704734802246094,
+      "skip_rms": 1.469192624092102
+    },
+    {
+      "start": 1352,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0283203125,
+      "residual_agreement": 0.45703125,
+      "residual_rms": 5.536406517028809,
+      "skip_rms": 2.1698601245880127
+    },
+    {
+      "start": 1352,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1083984375,
+      "residual_agreement": 0.5625,
+      "residual_rms": 6.058943748474121,
+      "skip_rms": 2.9816434383392334
+    },
+    {
+      "start": 1352,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8896484375,
+      "residual_agreement": 0.599609375,
+      "residual_rms": 6.356568813323975,
+      "skip_rms": 8.367197036743164
+    },
+    {
+      "start": 1360,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9365234375,
+      "residual_rms": 4.411046504974365,
+      "skip_rms": 0.017595428973436356
+    },
+    {
+      "start": 1360,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.01171875,
+      "residual_agreement": 0.3466796875,
+      "residual_rms": 4.777448654174805,
+      "skip_rms": 1.471679925918579
+    },
+    {
+      "start": 1360,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.03125,
+      "residual_agreement": 0.4287109375,
+      "residual_rms": 5.380194664001465,
+      "skip_rms": 2.1729884147644043
+    },
+    {
+      "start": 1360,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.099609375,
+      "residual_agreement": 0.51953125,
+      "residual_rms": 5.8454203605651855,
+      "skip_rms": 2.9848082065582275
+    },
+    {
+      "start": 1360,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8916015625,
+      "residual_agreement": 0.5634765625,
+      "residual_rms": 6.314728260040283,
+      "skip_rms": 8.337809562683105
+    },
+    {
+      "start": 1368,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9404296875,
+      "residual_rms": 4.411524772644043,
+      "skip_rms": 0.01757974363863468
+    },
+    {
+      "start": 1368,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.349609375,
+      "residual_rms": 4.723954677581787,
+      "skip_rms": 1.4704328775405884
+    },
+    {
+      "start": 1368,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0361328125,
+      "residual_agreement": 0.419921875,
+      "residual_rms": 5.264771938323975,
+      "skip_rms": 2.172238826751709
+    },
+    {
+      "start": 1368,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1171875,
+      "residual_agreement": 0.5244140625,
+      "residual_rms": 5.773533344268799,
+      "skip_rms": 2.9868826866149902
+    },
+    {
+      "start": 1368,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.904296875,
+      "residual_agreement": 0.556640625,
+      "residual_rms": 6.156381130218506,
+      "skip_rms": 8.400012969970703
+    },
+    {
+      "start": 1376,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.953125,
+      "residual_rms": 4.41191291809082,
+      "skip_rms": 0.017531119287014008
+    },
+    {
+      "start": 1376,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0126953125,
+      "residual_agreement": 0.37109375,
+      "residual_rms": 4.87368106842041,
+      "skip_rms": 1.4659301042556763
+    },
+    {
+      "start": 1376,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0458984375,
+      "residual_agreement": 0.466796875,
+      "residual_rms": 5.519078731536865,
+      "skip_rms": 2.163823366165161
+    },
+    {
+      "start": 1376,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1357421875,
+      "residual_agreement": 0.541015625,
+      "residual_rms": 5.898165702819824,
+      "skip_rms": 2.971168041229248
+    },
+    {
+      "start": 1376,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.5634765625,
+      "residual_rms": 6.274092197418213,
+      "skip_rms": 8.30324935913086
+    },
+    {
+      "start": 1384,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9306640625,
+      "residual_rms": 4.411773204803467,
+      "skip_rms": 0.017611101269721985
+    },
+    {
+      "start": 1384,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.361328125,
+      "residual_rms": 4.739461421966553,
+      "skip_rms": 1.4732081890106201
+    },
+    {
+      "start": 1384,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.037109375,
+      "residual_agreement": 0.4794921875,
+      "residual_rms": 5.344388961791992,
+      "skip_rms": 2.1758084297180176
+    },
+    {
+      "start": 1384,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1103515625,
+      "residual_agreement": 0.5185546875,
+      "residual_rms": 5.845370292663574,
+      "skip_rms": 2.9903950691223145
+    },
+    {
+      "start": 1384,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.904296875,
+      "residual_agreement": 0.5537109375,
+      "residual_rms": 6.315186977386475,
+      "skip_rms": 8.397804260253906
+    },
+    {
+      "start": 1392,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9345703125,
+      "residual_rms": 4.41172981262207,
+      "skip_rms": 0.017601847648620605
+    },
+    {
+      "start": 1392,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0078125,
+      "residual_agreement": 0.3759765625,
+      "residual_rms": 4.734972953796387,
+      "skip_rms": 1.472008228302002
+    },
+    {
+      "start": 1392,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0244140625,
+      "residual_agreement": 0.462890625,
+      "residual_rms": 5.273309230804443,
+      "skip_rms": 2.1725597381591797
+    },
+    {
+      "start": 1392,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.11328125,
+      "residual_agreement": 0.5517578125,
+      "residual_rms": 5.746554851531982,
+      "skip_rms": 2.983677387237549
+    },
+    {
+      "start": 1392,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.5830078125,
+      "residual_rms": 6.196554660797119,
+      "skip_rms": 8.334149360656738
+    },
+    {
+      "start": 1400,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.939453125,
+      "residual_rms": 4.411581993103027,
+      "skip_rms": 0.017620645463466644
+    },
+    {
+      "start": 1400,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0078125,
+      "residual_agreement": 0.369140625,
+      "residual_rms": 4.728590488433838,
+      "skip_rms": 1.4737253189086914
+    },
+    {
+      "start": 1400,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0283203125,
+      "residual_agreement": 0.44140625,
+      "residual_rms": 5.383166790008545,
+      "skip_rms": 2.1762969493865967
+    },
+    {
+      "start": 1400,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.08984375,
+      "residual_agreement": 0.5478515625,
+      "residual_rms": 5.826827526092529,
+      "skip_rms": 2.9911539554595947
+    },
+    {
+      "start": 1400,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.88671875,
+      "residual_agreement": 0.5556640625,
+      "residual_rms": 6.250154495239258,
+      "skip_rms": 8.407013893127441
+    },
+    {
+      "start": 1408,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.947265625,
+      "residual_rms": 4.410925388336182,
+      "skip_rms": 0.01763024367392063
+    },
+    {
+      "start": 1408,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.357421875,
+      "residual_rms": 4.743144512176514,
+      "skip_rms": 1.4750736951828003
+    },
+    {
+      "start": 1408,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0234375,
+      "residual_agreement": 0.43359375,
+      "residual_rms": 5.2927350997924805,
+      "skip_rms": 2.1794557571411133
+    },
+    {
+      "start": 1408,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1083984375,
+      "residual_agreement": 0.5087890625,
+      "residual_rms": 5.894946575164795,
+      "skip_rms": 2.9974234104156494
+    },
+    {
+      "start": 1408,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8955078125,
+      "residual_agreement": 0.513671875,
+      "residual_rms": 6.273383617401123,
+      "skip_rms": 8.451606750488281
+    },
+    {
+      "start": 1416,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.947265625,
+      "residual_rms": 4.411501884460449,
+      "skip_rms": 0.017536459490656853
+    },
+    {
+      "start": 1416,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0078125,
+      "residual_agreement": 0.3310546875,
+      "residual_rms": 4.743371963500977,
+      "skip_rms": 1.466686725616455
+    },
+    {
+      "start": 1416,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0361328125,
+      "residual_agreement": 0.4169921875,
+      "residual_rms": 5.246535778045654,
+      "skip_rms": 2.1656203269958496
+    },
+    {
+      "start": 1416,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1162109375,
+      "residual_agreement": 0.5048828125,
+      "residual_rms": 5.748828887939453,
+      "skip_rms": 2.975334882736206
+    },
+    {
+      "start": 1416,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8837890625,
+      "residual_agreement": 0.529296875,
+      "residual_rms": 6.209179878234863,
+      "skip_rms": 8.33764934539795
+    },
+    {
+      "start": 1424,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9326171875,
+      "residual_rms": 4.4118499755859375,
+      "skip_rms": 0.017589863389730453
+    },
+    {
+      "start": 1424,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.005859375,
+      "residual_agreement": 0.3681640625,
+      "residual_rms": 4.873821258544922,
+      "skip_rms": 1.471228003501892
+    },
+    {
+      "start": 1424,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0224609375,
+      "residual_agreement": 0.4228515625,
+      "residual_rms": 5.4377593994140625,
+      "skip_rms": 2.1730854511260986
+    },
+    {
+      "start": 1424,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.111328125,
+      "residual_agreement": 0.5234375,
+      "residual_rms": 5.889983654022217,
+      "skip_rms": 2.986616849899292
+    },
+    {
+      "start": 1424,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9052734375,
+      "residual_agreement": 0.5478515625,
+      "residual_rms": 6.321943283081055,
+      "skip_rms": 8.377447128295898
+    },
+    {
+      "start": 1432,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.923828125,
+      "residual_rms": 4.411762714385986,
+      "skip_rms": 0.017590079456567764
+    },
+    {
+      "start": 1432,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0087890625,
+      "residual_agreement": 0.3642578125,
+      "residual_rms": 4.818268299102783,
+      "skip_rms": 1.471338152885437
+    },
+    {
+      "start": 1432,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.02734375,
+      "residual_agreement": 0.4619140625,
+      "residual_rms": 5.457884788513184,
+      "skip_rms": 2.1724884510040283
+    },
+    {
+      "start": 1432,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1142578125,
+      "residual_agreement": 0.5439453125,
+      "residual_rms": 5.994172096252441,
+      "skip_rms": 2.9844353199005127
+    },
+    {
+      "start": 1432,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.89453125,
+      "residual_agreement": 0.5732421875,
+      "residual_rms": 6.454876899719238,
+      "skip_rms": 8.354571342468262
+    },
+    {
+      "start": 1440,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9365234375,
+      "residual_rms": 4.41159200668335,
+      "skip_rms": 0.017505677416920662
+    },
+    {
+      "start": 1440,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.3603515625,
+      "residual_rms": 4.861875534057617,
+      "skip_rms": 1.4637737274169922
+    },
+    {
+      "start": 1440,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.033203125,
+      "residual_agreement": 0.455078125,
+      "residual_rms": 5.449079990386963,
+      "skip_rms": 2.1599533557891846
+    },
+    {
+      "start": 1440,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.111328125,
+      "residual_agreement": 0.5341796875,
+      "residual_rms": 5.91480827331543,
+      "skip_rms": 2.9635612964630127
+    },
+    {
+      "start": 1440,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9150390625,
+      "residual_agreement": 0.5537109375,
+      "residual_rms": 6.382751941680908,
+      "skip_rms": 8.212611198425293
+    },
+    {
+      "start": 1448,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9521484375,
+      "residual_rms": 4.410646438598633,
+      "skip_rms": 0.017588041722774506
+    },
+    {
+      "start": 1448,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0048828125,
+      "residual_agreement": 0.3466796875,
+      "residual_rms": 4.769668102264404,
+      "skip_rms": 1.4711226224899292
+    },
+    {
+      "start": 1448,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.033203125,
+      "residual_agreement": 0.4755859375,
+      "residual_rms": 5.44434928894043,
+      "skip_rms": 2.1719799041748047
+    },
+    {
+      "start": 1448,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.107421875,
+      "residual_agreement": 0.5498046875,
+      "residual_rms": 5.849802494049072,
+      "skip_rms": 2.983574867248535
+    },
+    {
+      "start": 1448,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.904296875,
+      "residual_agreement": 0.5732421875,
+      "residual_rms": 6.320643424987793,
+      "skip_rms": 8.365260124206543
+    },
+    {
+      "start": 1456,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.935546875,
+      "residual_rms": 4.412097930908203,
+      "skip_rms": 0.017615515738725662
+    },
+    {
+      "start": 1456,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0126953125,
+      "residual_agreement": 0.353515625,
+      "residual_rms": 4.802362442016602,
+      "skip_rms": 1.4731448888778687
+    },
+    {
+      "start": 1456,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.04296875,
+      "residual_agreement": 0.431640625,
+      "residual_rms": 5.360827922821045,
+      "skip_rms": 2.1745548248291016
+    },
+    {
+      "start": 1456,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.10546875,
+      "residual_agreement": 0.513671875,
+      "residual_rms": 5.809250831604004,
+      "skip_rms": 2.9862639904022217
+    },
+    {
+      "start": 1456,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.91015625,
+      "residual_agreement": 0.5712890625,
+      "residual_rms": 6.3209733963012695,
+      "skip_rms": 8.325345039367676
+    },
+    {
+      "start": 1464,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9462890625,
+      "residual_rms": 4.412542343139648,
+      "skip_rms": 0.017510751262307167
+    },
+    {
+      "start": 1464,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0126953125,
+      "residual_agreement": 0.3583984375,
+      "residual_rms": 4.861905574798584,
+      "skip_rms": 1.4649410247802734
+    },
+    {
+      "start": 1464,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0380859375,
+      "residual_agreement": 0.4716796875,
+      "residual_rms": 5.470303058624268,
+      "skip_rms": 2.1639564037323
+    },
+    {
+      "start": 1464,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1240234375,
+      "residual_agreement": 0.5419921875,
+      "residual_rms": 5.882632732391357,
+      "skip_rms": 2.974449872970581
+    },
+    {
+      "start": 1464,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9130859375,
+      "residual_agreement": 0.55078125,
+      "residual_rms": 6.307406425476074,
+      "skip_rms": 8.341646194458008
+    },
+    {
+      "start": 1472,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.951171875,
+      "residual_rms": 4.411159992218018,
+      "skip_rms": 0.01757081411778927
+    },
+    {
+      "start": 1472,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.00390625,
+      "residual_agreement": 0.3701171875,
+      "residual_rms": 4.759927272796631,
+      "skip_rms": 1.4693981409072876
+    },
+    {
+      "start": 1472,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0302734375,
+      "residual_agreement": 0.4375,
+      "residual_rms": 5.376791954040527,
+      "skip_rms": 2.16908597946167
+    },
+    {
+      "start": 1472,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1103515625,
+      "residual_agreement": 0.52734375,
+      "residual_rms": 5.871305465698242,
+      "skip_rms": 2.978545665740967
+    },
+    {
+      "start": 1472,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.908203125,
+      "residual_agreement": 0.53125,
+      "residual_rms": 6.239475250244141,
+      "skip_rms": 8.309428215026855
+    },
+    {
+      "start": 1480,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9423828125,
+      "residual_rms": 4.412086486816406,
+      "skip_rms": 0.01768593303859234
+    },
+    {
+      "start": 1480,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.3583984375,
+      "residual_rms": 4.753714084625244,
+      "skip_rms": 1.479364037513733
+    },
+    {
+      "start": 1480,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0400390625,
+      "residual_agreement": 0.404296875,
+      "residual_rms": 5.301103115081787,
+      "skip_rms": 2.18438458442688
+    },
+    {
+      "start": 1480,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.123046875,
+      "residual_agreement": 0.51953125,
+      "residual_rms": 5.844344139099121,
+      "skip_rms": 3.0012094974517822
+    },
+    {
+      "start": 1480,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8955078125,
+      "residual_agreement": 0.546875,
+      "residual_rms": 6.278177738189697,
+      "skip_rms": 8.381697654724121
+    },
+    {
+      "start": 1488,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.001953125,
+      "residual_agreement": 0.9453125,
+      "residual_rms": 4.410770893096924,
+      "skip_rms": 0.017579615116119385
+    },
+    {
+      "start": 1488,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.3486328125,
+      "residual_rms": 4.718358993530273,
+      "skip_rms": 1.4705308675765991
+    },
+    {
+      "start": 1488,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0341796875,
+      "residual_agreement": 0.4482421875,
+      "residual_rms": 5.232490062713623,
+      "skip_rms": 2.17169189453125
+    },
+    {
+      "start": 1488,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.109375,
+      "residual_agreement": 0.517578125,
+      "residual_rms": 5.6822662353515625,
+      "skip_rms": 2.98432993888855
+    },
+    {
+      "start": 1488,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8916015625,
+      "residual_agreement": 0.5419921875,
+      "residual_rms": 6.230700969696045,
+      "skip_rms": 8.381525993347168
+    },
+    {
+      "start": 1496,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.951171875,
+      "residual_rms": 4.411677360534668,
+      "skip_rms": 0.017469167709350586
+    },
+    {
+      "start": 1496,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0087890625,
+      "residual_agreement": 0.37109375,
+      "residual_rms": 4.758159637451172,
+      "skip_rms": 1.4612457752227783
+    },
+    {
+      "start": 1496,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0341796875,
+      "residual_agreement": 0.453125,
+      "residual_rms": 5.397526264190674,
+      "skip_rms": 2.158047914505005
+    },
+    {
+      "start": 1496,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1123046875,
+      "residual_agreement": 0.5234375,
+      "residual_rms": 5.813562393188477,
+      "skip_rms": 2.965219259262085
+    },
+    {
+      "start": 1496,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9208984375,
+      "residual_agreement": 0.5537109375,
+      "residual_rms": 6.26155948638916,
+      "skip_rms": 8.318742752075195
+    },
+    {
+      "start": 1504,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.935546875,
+      "residual_rms": 4.411625862121582,
+      "skip_rms": 0.01754659041762352
+    },
+    {
+      "start": 1504,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0078125,
+      "residual_agreement": 0.3837890625,
+      "residual_rms": 4.837682247161865,
+      "skip_rms": 1.4678707122802734
+    },
+    {
+      "start": 1504,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0400390625,
+      "residual_agreement": 0.4716796875,
+      "residual_rms": 5.511254787445068,
+      "skip_rms": 2.1681251525878906
+    },
+    {
+      "start": 1504,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.12109375,
+      "residual_agreement": 0.5341796875,
+      "residual_rms": 6.020267009735107,
+      "skip_rms": 2.9804203510284424
+    },
+    {
+      "start": 1504,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.55078125,
+      "residual_rms": 6.382078647613525,
+      "skip_rms": 8.396557807922363
+    },
+    {
+      "start": 1512,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9267578125,
+      "residual_rms": 4.412350177764893,
+      "skip_rms": 0.017581172287464142
+    },
+    {
+      "start": 1512,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0087890625,
+      "residual_agreement": 0.3232421875,
+      "residual_rms": 4.816755294799805,
+      "skip_rms": 1.4706227779388428
+    },
+    {
+      "start": 1512,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0322265625,
+      "residual_agreement": 0.4560546875,
+      "residual_rms": 5.499979496002197,
+      "skip_rms": 2.171649217605591
+    },
+    {
+      "start": 1512,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.12109375,
+      "residual_agreement": 0.5390625,
+      "residual_rms": 6.013319969177246,
+      "skip_rms": 2.983431100845337
+    },
+    {
+      "start": 1512,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90625,
+      "residual_agreement": 0.5625,
+      "residual_rms": 6.380398273468018,
+      "skip_rms": 8.345602989196777
+    },
+    {
+      "start": 1520,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9375,
+      "residual_rms": 4.411971569061279,
+      "skip_rms": 0.017599670216441154
+    },
+    {
+      "start": 1520,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0078125,
+      "residual_agreement": 0.341796875,
+      "residual_rms": 4.754666805267334,
+      "skip_rms": 1.4721511602401733
+    },
+    {
+      "start": 1520,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.029296875,
+      "residual_agreement": 0.4560546875,
+      "residual_rms": 5.542227268218994,
+      "skip_rms": 2.1746277809143066
+    },
+    {
+      "start": 1520,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.103515625,
+      "residual_agreement": 0.5400390625,
+      "residual_rms": 5.970694541931152,
+      "skip_rms": 2.9889891147613525
+    },
+    {
+      "start": 1520,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.896484375,
+      "residual_agreement": 0.5390625,
+      "residual_rms": 6.389111518859863,
+      "skip_rms": 8.390663146972656
+    },
+    {
+      "start": 1528,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.93359375,
+      "residual_rms": 4.412073612213135,
+      "skip_rms": 0.01756606251001358
+    },
+    {
+      "start": 1528,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.326171875,
+      "residual_rms": 4.755777835845947,
+      "skip_rms": 1.469434142112732
+    },
+    {
+      "start": 1528,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.03515625,
+      "residual_agreement": 0.421875,
+      "residual_rms": 5.289199352264404,
+      "skip_rms": 2.1701576709747314
+    },
+    {
+      "start": 1528,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1181640625,
+      "residual_agreement": 0.4931640625,
+      "residual_rms": 5.787051677703857,
+      "skip_rms": 2.982973098754883
+    },
+    {
+      "start": 1528,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8876953125,
+      "residual_agreement": 0.55078125,
+      "residual_rms": 6.220345497131348,
+      "skip_rms": 8.378646850585938
+    },
+    {
+      "start": 1536,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.935546875,
+      "residual_rms": 4.410547256469727,
+      "skip_rms": 0.01756887137889862
+    },
+    {
+      "start": 1536,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0068359375,
+      "residual_agreement": 0.34765625,
+      "residual_rms": 4.7937445640563965,
+      "skip_rms": 1.4692602157592773
+    },
+    {
+      "start": 1536,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.037109375,
+      "residual_agreement": 0.4287109375,
+      "residual_rms": 5.291136741638184,
+      "skip_rms": 2.1693403720855713
+    },
+    {
+      "start": 1536,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1240234375,
+      "residual_agreement": 0.5029296875,
+      "residual_rms": 5.752438068389893,
+      "skip_rms": 2.9798336029052734
+    },
+    {
+      "start": 1536,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.5244140625,
+      "residual_rms": 6.231666088104248,
+      "skip_rms": 8.33391284942627
+    },
+    {
+      "start": 1544,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0009765625,
+      "residual_agreement": 0.92578125,
+      "residual_rms": 4.411047458648682,
+      "skip_rms": 0.017619606107473373
+    },
+    {
+      "start": 1544,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.01171875,
+      "residual_agreement": 0.341796875,
+      "residual_rms": 4.674087047576904,
+      "skip_rms": 1.473800539970398
+    },
+    {
+      "start": 1544,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0380859375,
+      "residual_agreement": 0.3759765625,
+      "residual_rms": 5.228121280670166,
+      "skip_rms": 2.1771042346954346
+    },
+    {
+      "start": 1544,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.107421875,
+      "residual_agreement": 0.4697265625,
+      "residual_rms": 5.608813762664795,
+      "skip_rms": 2.993938446044922
+    },
+    {
+      "start": 1544,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8876953125,
+      "residual_agreement": 0.5126953125,
+      "residual_rms": 6.017513275146484,
+      "skip_rms": 8.456185340881348
+    },
+    {
+      "start": 1552,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9345703125,
+      "residual_rms": 4.411749362945557,
+      "skip_rms": 0.01761353574693203
+    },
+    {
+      "start": 1552,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0068359375,
+      "residual_agreement": 0.33984375,
+      "residual_rms": 4.7916789054870605,
+      "skip_rms": 1.4731245040893555
+    },
+    {
+      "start": 1552,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0302734375,
+      "residual_agreement": 0.45703125,
+      "residual_rms": 5.409334182739258,
+      "skip_rms": 2.174450397491455
+    },
+    {
+      "start": 1552,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.12109375,
+      "residual_agreement": 0.5380859375,
+      "residual_rms": 5.851734161376953,
+      "skip_rms": 2.9849233627319336
+    },
+    {
+      "start": 1552,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8857421875,
+      "residual_agreement": 0.552734375,
+      "residual_rms": 6.283913612365723,
+      "skip_rms": 8.30034351348877
+    },
+    {
+      "start": 1560,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0009765625,
+      "residual_agreement": 0.951171875,
+      "residual_rms": 4.4112091064453125,
+      "skip_rms": 0.0175425224006176
+    },
+    {
+      "start": 1560,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0087890625,
+      "residual_agreement": 0.3818359375,
+      "residual_rms": 4.798887729644775,
+      "skip_rms": 1.467226266860962
+    },
+    {
+      "start": 1560,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.033203125,
+      "residual_agreement": 0.474609375,
+      "residual_rms": 5.4687018394470215,
+      "skip_rms": 2.166722536087036
+    },
+    {
+      "start": 1560,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1201171875,
+      "residual_agreement": 0.5439453125,
+      "residual_rms": 5.904114246368408,
+      "skip_rms": 2.977992057800293
+    },
+    {
+      "start": 1560,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.880859375,
+      "residual_agreement": 0.564453125,
+      "residual_rms": 6.2579026222229,
+      "skip_rms": 8.380021095275879
+    },
+    {
+      "start": 1568,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.951171875,
+      "residual_rms": 4.411118984222412,
+      "skip_rms": 0.017633572220802307
+    },
+    {
+      "start": 1568,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0068359375,
+      "residual_agreement": 0.416015625,
+      "residual_rms": 4.9766411781311035,
+      "skip_rms": 1.475466012954712
+    },
+    {
+      "start": 1568,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0361328125,
+      "residual_agreement": 0.478515625,
+      "residual_rms": 5.579144477844238,
+      "skip_rms": 2.180893659591675
+    },
+    {
+      "start": 1568,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.11328125,
+      "residual_agreement": 0.5439453125,
+      "residual_rms": 6.0454559326171875,
+      "skip_rms": 3.0006988048553467
+    },
+    {
+      "start": 1568,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.888671875,
+      "residual_agreement": 0.5908203125,
+      "residual_rms": 6.46945858001709,
+      "skip_rms": 8.49967098236084
+    },
+    {
+      "start": 1576,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9404296875,
+      "residual_rms": 4.411803245544434,
+      "skip_rms": 0.01757626049220562
+    },
+    {
+      "start": 1576,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0087890625,
+      "residual_agreement": 0.3974609375,
+      "residual_rms": 4.904064178466797,
+      "skip_rms": 1.470445156097412
+    },
+    {
+      "start": 1576,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0302734375,
+      "residual_agreement": 0.4423828125,
+      "residual_rms": 5.382421016693115,
+      "skip_rms": 2.1718335151672363
+    },
+    {
+      "start": 1576,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1162109375,
+      "residual_agreement": 0.5107421875,
+      "residual_rms": 5.862478256225586,
+      "skip_rms": 2.985309600830078
+    },
+    {
+      "start": 1576,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.537109375,
+      "residual_rms": 6.342270374298096,
+      "skip_rms": 8.397258758544922
+    },
+    {
+      "start": 1584,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.947265625,
+      "residual_rms": 4.411352634429932,
+      "skip_rms": 0.017546560615301132
+    },
+    {
+      "start": 1584,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0048828125,
+      "residual_agreement": 0.359375,
+      "residual_rms": 4.840624809265137,
+      "skip_rms": 1.4680043458938599
+    },
+    {
+      "start": 1584,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.037109375,
+      "residual_agreement": 0.45703125,
+      "residual_rms": 5.558606147766113,
+      "skip_rms": 2.1702721118927
+    },
+    {
+      "start": 1584,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1142578125,
+      "residual_agreement": 0.560546875,
+      "residual_rms": 6.072576522827148,
+      "skip_rms": 2.9875292778015137
+    },
+    {
+      "start": 1584,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.869140625,
+      "residual_agreement": 0.5712890625,
+      "residual_rms": 6.531002521514893,
+      "skip_rms": 8.487361907958984
+    },
+    {
+      "start": 1592,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9326171875,
+      "residual_rms": 4.411945343017578,
+      "skip_rms": 0.01748071424663067
+    },
+    {
+      "start": 1592,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0068359375,
+      "residual_agreement": 0.3369140625,
+      "residual_rms": 4.798573017120361,
+      "skip_rms": 1.4621766805648804
+    },
+    {
+      "start": 1592,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0205078125,
+      "residual_agreement": 0.4140625,
+      "residual_rms": 5.395481586456299,
+      "skip_rms": 2.1592695713043213
+    },
+    {
+      "start": 1592,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.0927734375,
+      "residual_agreement": 0.51171875,
+      "residual_rms": 5.908291816711426,
+      "skip_rms": 2.9669294357299805
+    },
+    {
+      "start": 1592,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.904296875,
+      "residual_agreement": 0.5478515625,
+      "residual_rms": 6.37667989730835,
+      "skip_rms": 8.30910873413086
+    },
+    {
+      "start": 1600,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.94921875,
+      "residual_rms": 4.411543846130371,
+      "skip_rms": 0.017577845603227615
+    },
+    {
+      "start": 1600,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.013671875,
+      "residual_agreement": 0.380859375,
+      "residual_rms": 4.9118971824646,
+      "skip_rms": 1.4706404209136963
+    },
+    {
+      "start": 1600,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0283203125,
+      "residual_agreement": 0.4638671875,
+      "residual_rms": 5.527034759521484,
+      "skip_rms": 2.1730337142944336
+    },
+    {
+      "start": 1600,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1123046875,
+      "residual_agreement": 0.564453125,
+      "residual_rms": 5.994920253753662,
+      "skip_rms": 2.9901227951049805
+    },
+    {
+      "start": 1600,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8857421875,
+      "residual_agreement": 0.5830078125,
+      "residual_rms": 6.388511657714844,
+      "skip_rms": 8.490666389465332
+    },
+    {
+      "start": 1608,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0009765625,
+      "residual_agreement": 0.9326171875,
+      "residual_rms": 4.412047386169434,
+      "skip_rms": 0.017517611384391785
+    },
+    {
+      "start": 1608,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0146484375,
+      "residual_agreement": 0.3505859375,
+      "residual_rms": 4.87455940246582,
+      "skip_rms": 1.4649269580841064
+    },
+    {
+      "start": 1608,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.046875,
+      "residual_agreement": 0.4189453125,
+      "residual_rms": 5.435366153717041,
+      "skip_rms": 2.162674903869629
+    },
+    {
+      "start": 1608,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1171875,
+      "residual_agreement": 0.5107421875,
+      "residual_rms": 5.953302383422852,
+      "skip_rms": 2.9706783294677734
+    },
+    {
+      "start": 1608,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8896484375,
+      "residual_agreement": 0.560546875,
+      "residual_rms": 6.422584056854248,
+      "skip_rms": 8.308333396911621
+    },
+    {
+      "start": 1616,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0009765625,
+      "residual_agreement": 0.931640625,
+      "residual_rms": 4.411846160888672,
+      "skip_rms": 0.01756850630044937
+    },
+    {
+      "start": 1616,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.3818359375,
+      "residual_rms": 4.8682427406311035,
+      "skip_rms": 1.4692554473876953
+    },
+    {
+      "start": 1616,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.041015625,
+      "residual_agreement": 0.416015625,
+      "residual_rms": 5.374269485473633,
+      "skip_rms": 2.168548345565796
+    },
+    {
+      "start": 1616,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.12109375,
+      "residual_agreement": 0.53125,
+      "residual_rms": 5.91476583480835,
+      "skip_rms": 2.9781317710876465
+    },
+    {
+      "start": 1616,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8984375,
+      "residual_agreement": 0.5693359375,
+      "residual_rms": 6.2999982833862305,
+      "skip_rms": 8.308945655822754
+    },
+    {
+      "start": 1624,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9296875,
+      "residual_rms": 4.411412715911865,
+      "skip_rms": 0.01753315143287182
+    },
+    {
+      "start": 1624,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0107421875,
+      "residual_agreement": 0.3330078125,
+      "residual_rms": 4.754307270050049,
+      "skip_rms": 1.4666584730148315
+    },
+    {
+      "start": 1624,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.03125,
+      "residual_agreement": 0.4404296875,
+      "residual_rms": 5.401794910430908,
+      "skip_rms": 2.1662814617156982
+    },
+    {
+      "start": 1624,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1025390625,
+      "residual_agreement": 0.5439453125,
+      "residual_rms": 5.814828395843506,
+      "skip_rms": 2.9772286415100098
+    },
+    {
+      "start": 1624,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.896484375,
+      "residual_agreement": 0.580078125,
+      "residual_rms": 6.229293346405029,
+      "skip_rms": 8.344804763793945
+    },
+    {
+      "start": 1632,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.947265625,
+      "residual_rms": 4.411525249481201,
+      "skip_rms": 0.01754922606050968
+    },
+    {
+      "start": 1632,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.373046875,
+      "residual_rms": 4.855562686920166,
+      "skip_rms": 1.4683603048324585
+    },
+    {
+      "start": 1632,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0341796875,
+      "residual_agreement": 0.4970703125,
+      "residual_rms": 5.604379177093506,
+      "skip_rms": 2.169539213180542
+    },
+    {
+      "start": 1632,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.0966796875,
+      "residual_agreement": 0.5693359375,
+      "residual_rms": 6.077584266662598,
+      "skip_rms": 2.9830095767974854
+    },
+    {
+      "start": 1632,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.892578125,
+      "residual_agreement": 0.58984375,
+      "residual_rms": 6.5031023025512695,
+      "skip_rms": 8.396483421325684
+    },
+    {
+      "start": 1640,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0009765625,
+      "residual_agreement": 0.9306640625,
+      "residual_rms": 4.412086009979248,
+      "skip_rms": 0.01751840114593506
+    },
+    {
+      "start": 1640,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0205078125,
+      "residual_agreement": 0.3359375,
+      "residual_rms": 4.818810939788818,
+      "skip_rms": 1.4649786949157715
+    },
+    {
+      "start": 1640,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.041015625,
+      "residual_agreement": 0.4345703125,
+      "residual_rms": 5.342306613922119,
+      "skip_rms": 2.162564754486084
+    },
+    {
+      "start": 1640,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1044921875,
+      "residual_agreement": 0.5263671875,
+      "residual_rms": 5.815963268280029,
+      "skip_rms": 2.9706382751464844
+    },
+    {
+      "start": 1640,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9111328125,
+      "residual_agreement": 0.560546875,
+      "residual_rms": 6.237095832824707,
+      "skip_rms": 8.3099946975708
+    },
+    {
+      "start": 1648,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9443359375,
+      "residual_rms": 4.411251544952393,
+      "skip_rms": 0.01762283965945244
+    },
+    {
+      "start": 1648,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.009765625,
+      "residual_agreement": 0.3408203125,
+      "residual_rms": 4.802367210388184,
+      "skip_rms": 1.4745615720748901
+    },
+    {
+      "start": 1648,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0361328125,
+      "residual_agreement": 0.44140625,
+      "residual_rms": 5.334822177886963,
+      "skip_rms": 2.1784603595733643
+    },
+    {
+      "start": 1648,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1025390625,
+      "residual_agreement": 0.529296875,
+      "residual_rms": 5.82908296585083,
+      "skip_rms": 2.99491286277771
+    },
+    {
+      "start": 1648,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8876953125,
+      "residual_agreement": 0.5439453125,
+      "residual_rms": 6.283050060272217,
+      "skip_rms": 8.400128364562988
+    },
+    {
+      "start": 1656,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.94140625,
+      "residual_rms": 4.411076068878174,
+      "skip_rms": 0.017505241557955742
+    },
+    {
+      "start": 1656,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0078125,
+      "residual_agreement": 0.328125,
+      "residual_rms": 4.766812801361084,
+      "skip_rms": 1.4641660451889038
+    },
+    {
+      "start": 1656,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.029296875,
+      "residual_agreement": 0.447265625,
+      "residual_rms": 5.454900741577148,
+      "skip_rms": 2.162184715270996
+    },
+    {
+      "start": 1656,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.0966796875,
+      "residual_agreement": 0.53125,
+      "residual_rms": 5.979979515075684,
+      "skip_rms": 2.9704365730285645
+    },
+    {
+      "start": 1656,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.908203125,
+      "residual_agreement": 0.548828125,
+      "residual_rms": 6.4332075119018555,
+      "skip_rms": 8.317678451538086
+    },
+    {
+      "start": 1664,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0009765625,
+      "residual_agreement": 0.9365234375,
+      "residual_rms": 4.411687850952148,
+      "skip_rms": 0.01752450317144394
+    },
+    {
+      "start": 1664,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0078125,
+      "residual_agreement": 0.376953125,
+      "residual_rms": 4.892582893371582,
+      "skip_rms": 1.4659411907196045
+    },
+    {
+      "start": 1664,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0458984375,
+      "residual_agreement": 0.4833984375,
+      "residual_rms": 5.496349811553955,
+      "skip_rms": 2.165220260620117
+    },
+    {
+      "start": 1664,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1240234375,
+      "residual_agreement": 0.544921875,
+      "residual_rms": 5.884918212890625,
+      "skip_rms": 2.976588487625122
+    },
+    {
+      "start": 1664,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8876953125,
+      "residual_agreement": 0.59375,
+      "residual_rms": 6.405478477478027,
+      "skip_rms": 8.38404655456543
+    },
+    {
+      "start": 1672,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9404296875,
+      "residual_rms": 4.411427021026611,
+      "skip_rms": 0.01757020689547062
+    },
+    {
+      "start": 1672,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.01171875,
+      "residual_agreement": 0.3779296875,
+      "residual_rms": 4.721965789794922,
+      "skip_rms": 1.4693595170974731
+    },
+    {
+      "start": 1672,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.044921875,
+      "residual_agreement": 0.4443359375,
+      "residual_rms": 5.342920303344727,
+      "skip_rms": 2.169506549835205
+    },
+    {
+      "start": 1672,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1103515625,
+      "residual_agreement": 0.546875,
+      "residual_rms": 5.869243621826172,
+      "skip_rms": 2.9811031818389893
+    },
+    {
+      "start": 1672,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9013671875,
+      "residual_agreement": 0.580078125,
+      "residual_rms": 6.313549518585205,
+      "skip_rms": 8.382150650024414
+    },
+    {
+      "start": 1680,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9326171875,
+      "residual_rms": 4.41190242767334,
+      "skip_rms": 0.017547084018588066
+    },
+    {
+      "start": 1680,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0048828125,
+      "residual_agreement": 0.373046875,
+      "residual_rms": 4.760622978210449,
+      "skip_rms": 1.4673693180084229
+    },
+    {
+      "start": 1680,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.02734375,
+      "residual_agreement": 0.470703125,
+      "residual_rms": 5.274285793304443,
+      "skip_rms": 2.1657092571258545
+    },
+    {
+      "start": 1680,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.11328125,
+      "residual_agreement": 0.5361328125,
+      "residual_rms": 5.759410858154297,
+      "skip_rms": 2.972909688949585
+    },
+    {
+      "start": 1680,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9189453125,
+      "residual_agreement": 0.564453125,
+      "residual_rms": 6.217883110046387,
+      "skip_rms": 8.25586223602295
+    },
+    {
+      "start": 1688,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9404296875,
+      "residual_rms": 4.411811828613281,
+      "skip_rms": 0.017563825473189354
+    },
+    {
+      "start": 1688,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0068359375,
+      "residual_agreement": 0.3759765625,
+      "residual_rms": 4.805423259735107,
+      "skip_rms": 1.4692076444625854
+    },
+    {
+      "start": 1688,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.03515625,
+      "residual_agreement": 0.470703125,
+      "residual_rms": 5.316074371337891,
+      "skip_rms": 2.169924020767212
+    },
+    {
+      "start": 1688,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.103515625,
+      "residual_agreement": 0.5322265625,
+      "residual_rms": 5.740178108215332,
+      "skip_rms": 2.982574224472046
+    },
+    {
+      "start": 1688,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.89453125,
+      "residual_agreement": 0.5634765625,
+      "residual_rms": 6.14121150970459,
+      "skip_rms": 8.390185356140137
+    },
+    {
+      "start": 1696,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.94140625,
+      "residual_rms": 4.411565780639648,
+      "skip_rms": 0.0175259318202734
+    },
+    {
+      "start": 1696,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0087890625,
+      "residual_agreement": 0.3603515625,
+      "residual_rms": 4.790139198303223,
+      "skip_rms": 1.4658631086349487
+    },
+    {
+      "start": 1696,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0302734375,
+      "residual_agreement": 0.392578125,
+      "residual_rms": 5.303166389465332,
+      "skip_rms": 2.1640186309814453
+    },
+    {
+      "start": 1696,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.12109375,
+      "residual_agreement": 0.4951171875,
+      "residual_rms": 5.839836120605469,
+      "skip_rms": 2.971421718597412
+    },
+    {
+      "start": 1696,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8984375,
+      "residual_agreement": 0.5390625,
+      "residual_rms": 6.3472065925598145,
+      "skip_rms": 8.293526649475098
+    },
+    {
+      "start": 1704,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.943359375,
+      "residual_rms": 4.411967754364014,
+      "skip_rms": 0.01756177842617035
+    },
+    {
+      "start": 1704,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.00390625,
+      "residual_agreement": 0.3525390625,
+      "residual_rms": 4.906853675842285,
+      "skip_rms": 1.4686791896820068
+    },
+    {
+      "start": 1704,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0341796875,
+      "residual_agreement": 0.455078125,
+      "residual_rms": 5.562183856964111,
+      "skip_rms": 2.168752670288086
+    },
+    {
+      "start": 1704,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.111328125,
+      "residual_agreement": 0.55859375,
+      "residual_rms": 6.138346195220947,
+      "skip_rms": 2.980064630508423
+    },
+    {
+      "start": 1704,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8984375,
+      "residual_agreement": 0.603515625,
+      "residual_rms": 6.650498867034912,
+      "skip_rms": 8.364922523498535
+    },
+    {
+      "start": 1712,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.93359375,
+      "residual_rms": 4.4108195304870605,
+      "skip_rms": 0.0175850261002779
+    },
+    {
+      "start": 1712,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0048828125,
+      "residual_agreement": 0.3447265625,
+      "residual_rms": 4.945890426635742,
+      "skip_rms": 1.471107840538025
+    },
+    {
+      "start": 1712,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.021484375,
+      "residual_agreement": 0.41015625,
+      "residual_rms": 5.484470367431641,
+      "skip_rms": 2.173220157623291
+    },
+    {
+      "start": 1712,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1025390625,
+      "residual_agreement": 0.4609375,
+      "residual_rms": 5.931341171264648,
+      "skip_rms": 2.988358736038208
+    },
+    {
+      "start": 1712,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8828125,
+      "residual_agreement": 0.5048828125,
+      "residual_rms": 6.232304573059082,
+      "skip_rms": 8.431832313537598
+    },
+    {
+      "start": 1720,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.94140625,
+      "residual_rms": 4.411180019378662,
+      "skip_rms": 0.01753326691687107
+    },
+    {
+      "start": 1720,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0107421875,
+      "residual_agreement": 0.3681640625,
+      "residual_rms": 4.789514541625977,
+      "skip_rms": 1.466257095336914
+    },
+    {
+      "start": 1720,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.037109375,
+      "residual_agreement": 0.494140625,
+      "residual_rms": 5.525712490081787,
+      "skip_rms": 2.1653199195861816
+    },
+    {
+      "start": 1720,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.119140625,
+      "residual_agreement": 0.556640625,
+      "residual_rms": 5.943613529205322,
+      "skip_rms": 2.9757630825042725
+    },
+    {
+      "start": 1720,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.90234375,
+      "residual_agreement": 0.5615234375,
+      "residual_rms": 6.381266117095947,
+      "skip_rms": 8.352116584777832
+    },
+    {
+      "start": 1728,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9453125,
+      "residual_rms": 4.410613059997559,
+      "skip_rms": 0.017520315945148468
+    },
+    {
+      "start": 1728,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0126953125,
+      "residual_agreement": 0.337890625,
+      "residual_rms": 4.752143859863281,
+      "skip_rms": 1.4653315544128418
+    },
+    {
+      "start": 1728,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0419921875,
+      "residual_agreement": 0.46484375,
+      "residual_rms": 5.5489935874938965,
+      "skip_rms": 2.1633825302124023
+    },
+    {
+      "start": 1728,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1337890625,
+      "residual_agreement": 0.529296875,
+      "residual_rms": 6.001222610473633,
+      "skip_rms": 2.9712886810302734
+    },
+    {
+      "start": 1728,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9013671875,
+      "residual_agreement": 0.5654296875,
+      "residual_rms": 6.388127326965332,
+      "skip_rms": 8.305468559265137
+    },
+    {
+      "start": 1736,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0009765625,
+      "residual_agreement": 0.935546875,
+      "residual_rms": 4.41191291809082,
+      "skip_rms": 0.017545053735375404
+    },
+    {
+      "start": 1736,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0087890625,
+      "residual_agreement": 0.357421875,
+      "residual_rms": 4.798651218414307,
+      "skip_rms": 1.467339277267456
+    },
+    {
+      "start": 1736,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.037109375,
+      "residual_agreement": 0.4375,
+      "residual_rms": 5.322261333465576,
+      "skip_rms": 2.1661717891693115
+    },
+    {
+      "start": 1736,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1220703125,
+      "residual_agreement": 0.5341796875,
+      "residual_rms": 5.754880905151367,
+      "skip_rms": 2.975010395050049
+    },
+    {
+      "start": 1736,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9033203125,
+      "residual_agreement": 0.5478515625,
+      "residual_rms": 6.157110214233398,
+      "skip_rms": 8.304912567138672
+    },
+    {
+      "start": 1744,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.939453125,
+      "residual_rms": 4.411805152893066,
+      "skip_rms": 0.017600523307919502
+    },
+    {
+      "start": 1744,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0107421875,
+      "residual_agreement": 0.3564453125,
+      "residual_rms": 4.758494853973389,
+      "skip_rms": 1.4720782041549683
+    },
+    {
+      "start": 1744,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0390625,
+      "residual_agreement": 0.435546875,
+      "residual_rms": 5.257804870605469,
+      "skip_rms": 2.1734635829925537
+    },
+    {
+      "start": 1744,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.111328125,
+      "residual_agreement": 0.5146484375,
+      "residual_rms": 5.760720252990723,
+      "skip_rms": 2.9851698875427246
+    },
+    {
+      "start": 1744,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.9189453125,
+      "residual_agreement": 0.5390625,
+      "residual_rms": 6.217874526977539,
+      "skip_rms": 8.326995849609375
+    },
+    {
+      "start": 1752,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9541015625,
+      "residual_rms": 4.411321640014648,
+      "skip_rms": 0.017579425126314163
+    },
+    {
+      "start": 1752,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.001953125,
+      "residual_agreement": 0.388671875,
+      "residual_rms": 4.835542678833008,
+      "skip_rms": 1.4709267616271973
+    },
+    {
+      "start": 1752,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.029296875,
+      "residual_agreement": 0.44921875,
+      "residual_rms": 5.405029773712158,
+      "skip_rms": 2.173945665359497
+    },
+    {
+      "start": 1752,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.111328125,
+      "residual_agreement": 0.5224609375,
+      "residual_rms": 5.883267402648926,
+      "skip_rms": 2.9900062084198
+    },
+    {
+      "start": 1752,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.880859375,
+      "residual_agreement": 0.568359375,
+      "residual_rms": 6.295202732086182,
+      "skip_rms": 8.442776679992676
+    },
+    {
+      "start": 1760,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9443359375,
+      "residual_rms": 4.411353588104248,
+      "skip_rms": 0.0175576601177454
+    },
+    {
+      "start": 1760,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0078125,
+      "residual_agreement": 0.328125,
+      "residual_rms": 4.7058329582214355,
+      "skip_rms": 1.4681476354599
+    },
+    {
+      "start": 1760,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0234375,
+      "residual_agreement": 0.4404296875,
+      "residual_rms": 5.354897499084473,
+      "skip_rms": 2.1670868396759033
+    },
+    {
+      "start": 1760,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1123046875,
+      "residual_agreement": 0.521484375,
+      "residual_rms": 5.837745666503906,
+      "skip_rms": 2.97601318359375
+    },
+    {
+      "start": 1760,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.8974609375,
+      "residual_agreement": 0.576171875,
+      "residual_rms": 6.307974338531494,
+      "skip_rms": 8.297606468200684
+    },
+    {
+      "start": 1768,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.93359375,
+      "residual_rms": 4.411818504333496,
+      "skip_rms": 0.017606573179364204
+    },
+    {
+      "start": 1768,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0107421875,
+      "residual_agreement": 0.357421875,
+      "residual_rms": 4.754752159118652,
+      "skip_rms": 1.472667932510376
+    },
+    {
+      "start": 1768,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.04296875,
+      "residual_agreement": 0.4765625,
+      "residual_rms": 5.581038475036621,
+      "skip_rms": 2.1753220558166504
+    },
+    {
+      "start": 1768,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1083984375,
+      "residual_agreement": 0.533203125,
+      "residual_rms": 5.996434211730957,
+      "skip_rms": 2.991069793701172
+    },
+    {
+      "start": 1768,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.87890625,
+      "residual_agreement": 0.5498046875,
+      "residual_rms": 6.356056213378906,
+      "skip_rms": 8.428422927856445
+    },
+    {
+      "start": 1776,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.939453125,
+      "residual_rms": 4.4110918045043945,
+      "skip_rms": 0.0175287164747715
+    },
+    {
+      "start": 1776,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0068359375,
+      "residual_agreement": 0.36328125,
+      "residual_rms": 4.774510383605957,
+      "skip_rms": 1.4662643671035767
+    },
+    {
+      "start": 1776,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.0458984375,
+      "residual_agreement": 0.462890625,
+      "residual_rms": 5.291539669036865,
+      "skip_rms": 2.1656460762023926
+    },
+    {
+      "start": 1776,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.126953125,
+      "residual_agreement": 0.533203125,
+      "residual_rms": 5.752564430236816,
+      "skip_rms": 2.9771645069122314
+    },
+    {
+      "start": 1776,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.890625,
+      "residual_agreement": 0.5615234375,
+      "residual_rms": 6.201413631439209,
+      "skip_rms": 8.386392593383789
+    },
+    {
+      "start": 1784,
+      "step": 0,
+      "gamma": 14.727876663208008,
+      "skip_coefficient": 0.000633697840385139,
+      "lookup_agreement": 0.0,
+      "residual_agreement": 0.9443359375,
+      "residual_rms": 4.412115573883057,
+      "skip_rms": 0.0175935048609972
+    },
+    {
+      "start": 1784,
+      "step": 16,
+      "gamma": 5.889927864074707,
+      "skip_coefficient": 0.05267668887972832,
+      "lookup_agreement": 0.0087890625,
+      "residual_agreement": 0.3896484375,
+      "residual_rms": 4.922985553741455,
+      "skip_rms": 1.4710276126861572
+    },
+    {
+      "start": 1784,
+      "step": 32,
+      "gamma": 5.129426002502441,
+      "skip_coefficient": 0.07716865837574005,
+      "lookup_agreement": 0.029296875,
+      "residual_agreement": 0.4521484375,
+      "residual_rms": 5.5169854164123535,
+      "skip_rms": 2.171133518218994
+    },
+    {
+      "start": 1784,
+      "step": 48,
+      "gamma": 4.522942543029785,
+      "skip_coefficient": 0.10476116836071014,
+      "lookup_agreement": 0.1220703125,
+      "residual_agreement": 0.53125,
+      "residual_rms": 5.99136209487915,
+      "skip_rms": 2.9811816215515137
+    },
+    {
+      "start": 1784,
+      "step": 63,
+      "gamma": 2.731503963470459,
+      "skip_coefficient": 0.2633667588233948,
+      "lookup_agreement": 0.904296875,
+      "residual_agreement": 0.56640625,
+      "residual_rms": 6.442082405090332,
+      "skip_rms": 8.322603225708008
+    }
+  ],
+  "source_script_sha256": {
+    "confirmatory_analyze_20261013.py": "3020583944bc137b8ac285c80a42d1857e7f847f5ace068d031c5b89fe846f3a",
+    "confirmatory_native_check_20261013.py": "f2773f173c3eac3267045339694c685779bcba235529dc15f4f38773d6edfd72",
+    "confirmatory_readout_20261013.py": "e46a02e648e54ce2f8e4b0145e5326fea1258b61d681ba0a024f288854190915",
+    "confirmatory_generate_20261013.py": "ef127d0c0eb6d1ace2e1e7f8a5181d2ef00ca5ba2c020395a036ca7591e6649e",
+    "confirmatory_langflow_followup_analysis_20261013.py": "701b308d1d6c089f19bf872a1b341adb9031a5ef061a3c8cdfd1abd92ecd62eb",
+    "confirmatory_integrity_20261013.py": "1e1dbb99e3358d8cc73555542c7197520fc186369417b4e18a77db88a6aac48b",
+    "confirmatory_langflow_followup_20261013.py": "043d9e1b4f1bcedf4617d666f165b57bba6c3196f71dbd29d32e60dc5c700e73",
+    "confirmatory_render_20261013.py": "d30d5ef61c4a4ed9e619ea68d8989e67cd648bf538a17de912524411cc805bd4"
+  },
+  "scope": "Local source scripts require repository layout, checkpoints and latent tensors; scalar verifier is portable and needs only NumPy."
+}

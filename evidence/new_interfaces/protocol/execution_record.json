@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-02",
+  "status": "Implementation and post hoc accounting record; primary protocol unchanged",
+  "loader": "Original autoencoder safetensors stores the tied decoder.lm_head_weight only. Restore encoder.embed_tokens.weight from that exact tensor and require strict state_dict loading. A modern convenience loader warning was treated as a fatal integrity failure before producing any state.",
+  "native_preparation": "PyTorch2.7.1+cu128, transformers4.57.3, FP32, TF32 disabled, original upstream MLP/RMSNorm. An isolated upstream-pinned transformers4.43.0 installation is pending; compare exact stored states and native labels before publication.",
+  "independent_checkpoint_check": "Every released autoencoder tensor is bitwise identical to the corresponding AE tensor inside the fully SHA256-verified CALM-M checkpoint.",
+  "llaco_posthoc": "Winner identity and lexical-only competitor controls were added after observing all-equal winner patterns. Primary full-vocabulary measurements remain unchanged. Mask-biased top1 agreements at gamma0.8/0.9 are mask winners, not correct lexical reconstructions."
+}

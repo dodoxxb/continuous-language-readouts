@@ -1,0 +1,27 @@
+{
+  "time": "2026-10-22T04:15:39+0800",
+  "before_any_formal_evaluator_scoring": true,
+  "before_test_freeze": true,
+  "change": "One additional six-thread CPU secondary scorer; workers traverse output arms in opposite order using exclusive per-file locks and atomic CSV publication",
+  "unchanged": [
+    "sampling",
+    "readout fits",
+    "prediction features",
+    "repair policies",
+    "scorer dtype",
+    "per-sequence forwards",
+    "test population",
+    "statistical contrasts"
+  ],
+  "cpu_secondary_workers": 2,
+  "cpu_threads_per_worker": 6,
+  "host_cpu_count": 240,
+  "auxiliary_nice": 15,
+  "auxiliary_start_guard": "MemAvailable >=16 GiB and host load1 <=60% of logical CPU count",
+  "parallel_pilot": "source/parallel_scorer_check.json",
+  "scorer_sha256": "714bb3ba3baa0c1d1fcbe23c0cf4ed63f11ad94f569b2e5aab0e9cb3fb09a744",
+  "artifact_publication": "Repair arrays, final integrity and manuscript-ready markers use atomic rename, so parallel readers see completed files; no numerical changes",
+  "fit_validity_guard": "Abort on nonfinite fit loss or parameters before validation/checkpoint selection; no optimizer or validation rule changed; added before any affine fit",
+  "fit_overlap": "Prespecified seeds 17 and 43 run on GPU2 after validation collection ends, overlapping GPU0 calibration collection. Per-seed file locks prevent duplicate fits. Main pipeline still waits for all fits and calibration before predictor fitting/test freeze.",
+  "maximum_active_gpu_model_workers": 2
+}

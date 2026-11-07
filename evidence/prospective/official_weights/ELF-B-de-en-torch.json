@@ -1,0 +1,42 @@
+{
+  "_id": "6a0a22996181cee4f4560d33",
+  "id": "embedded-language-flows/ELF-B-de-en-torch",
+  "private": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "embedded-language-flows/ELF-B-de-en-torch",
+  "author": "embedded-language-flows",
+  "sha": "93ce98315a2dec985cdefb8d8e62ab618e896ec4",
+  "lastModified": "2026-05-17T20:18:41.000Z",
+  "gated": false,
+  "disabled": false,
+  "config": {},
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "08ee9be80fd7b37518aeccc711f7e6b8966a1d7f",
+      "size": 1573
+    },
+    {
+      "rfilename": "checkpoint_880600",
+      "blobId": "103683633b129dc72070b3f38face56935c2e159",
+      "size": 836743114,
+      "lfs": {
+        "sha256": "46d77302b9f28b293227a2d29fd0f20b50be289ce9aa63a32f515f3290bbe7cc",
+        "size": 836743114,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "config.yml",
+      "blobId": "e2771c318d4e73fb087e223b99006949a0f387e8",
+      "size": 1017
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-05-17T20:18:33.000Z",
+  "usedStorage": 836743114
+}

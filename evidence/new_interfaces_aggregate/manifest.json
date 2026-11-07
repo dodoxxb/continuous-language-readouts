@@ -1,0 +1,187 @@
+{
+  "description": "Per-document equality rates only; no token IDs or latent states.",
+  "files": {
+    "primary_mean": {
+      "source_name": "test/mean.npz",
+      "source_sha256": "d64b71292ab85692a6784ab34588834f3b2915adb7133201a7ab9eb412dafc37",
+      "aggregate_file": "primary_mean.npz",
+      "aggregate_sha256": "fd693a88a0dbc444d93e8b0acd2ab9a0b56d7b9b37923e6482b8e2f84c7c1db2",
+      "documents": 512,
+      "chunks": 32768,
+      "keys": [
+        "chunk_17",
+        "chunk_29",
+        "chunk_43",
+        "chunk_native_base",
+        "chunk_reference",
+        "chunk_ridge",
+        "token_17",
+        "token_29",
+        "token_43",
+        "token_native_base",
+        "token_reference",
+        "token_ridge"
+      ]
+    },
+    "primary_noise025": {
+      "source_name": "test/noise025.npz",
+      "source_sha256": "9e4635ed67712adebd65de759688a80157cacdaee0d8b79cd7df25fe29b49ee0",
+      "aggregate_file": "primary_noise025.npz",
+      "aggregate_sha256": "655be34a9dfbdd2885c44031e6dc7ae225b26489f118b0fb4d952a2e21b4bb4b",
+      "documents": 512,
+      "chunks": 32768,
+      "keys": [
+        "chunk_17",
+        "chunk_29",
+        "chunk_43",
+        "chunk_native_base",
+        "chunk_reference",
+        "chunk_ridge",
+        "token_17",
+        "token_29",
+        "token_43",
+        "token_native_base",
+        "token_reference",
+        "token_ridge"
+      ]
+    },
+    "primary_posterior": {
+      "source_name": "test/posterior.npz",
+      "source_sha256": "fe4229d302937b87d4e1f0eba32a279b768be12edc6f42cd416521f97d651148",
+      "aggregate_file": "primary_posterior.npz",
+      "aggregate_sha256": "8579434830dde522ba63fd01c3528ad73784c2ae303139e746079ff1f051b247",
+      "documents": 512,
+      "chunks": 32768,
+      "keys": [
+        "chunk_17",
+        "chunk_29",
+        "chunk_43",
+        "chunk_native_base",
+        "chunk_reference",
+        "chunk_ridge",
+        "token_17",
+        "token_29",
+        "token_43",
+        "token_native_base",
+        "token_reference",
+        "token_ridge"
+      ]
+    },
+    "primary_radial05": {
+      "source_name": "test/radial05.npz",
+      "source_sha256": "59ceaa9eaee466f38f7c492d444d047a674493806eb31d9a9a1c130de88d0ea1",
+      "aggregate_file": "primary_radial05.npz",
+      "aggregate_sha256": "1176c77f7d93844676ce85113f2fa804bd8eff326bd581e0103d3470a175b234",
+      "documents": 512,
+      "chunks": 32768,
+      "keys": [
+        "chunk_17",
+        "chunk_29",
+        "chunk_43",
+        "chunk_native_base",
+        "chunk_reference",
+        "chunk_ridge",
+        "token_17",
+        "token_29",
+        "token_43",
+        "token_native_base",
+        "token_reference",
+        "token_ridge"
+      ]
+    },
+    "primary_radial2": {
+      "source_name": "test/radial2.npz",
+      "source_sha256": "0e729c4507c625d0d68df6e1b42e454f54b3c5b950db1a8271e4e680f7c57fb6",
+      "aggregate_file": "primary_radial2.npz",
+      "aggregate_sha256": "76cdab1ac79841d9ac5e93ce05cc1927fe219d9afc54355a1d3a2ee1c4707375",
+      "documents": 512,
+      "chunks": 32768,
+      "keys": [
+        "chunk_17",
+        "chunk_29",
+        "chunk_43",
+        "chunk_native_base",
+        "chunk_reference",
+        "chunk_ridge",
+        "token_17",
+        "token_29",
+        "token_43",
+        "token_native_base",
+        "token_reference",
+        "token_ridge"
+      ]
+    },
+    "fresh": {
+      "source_name": "fit_control/fresh_predictions.npz",
+      "source_sha256": "806f127776bbaaa9fcd1bec2cd4400820fbda3882aada256a4e0490e55d369d8",
+      "aggregate_file": "fresh.npz",
+      "aggregate_sha256": "7ee1a5eade0ecffdce068da14d168a8eccd5b1ac02a3dc72dad220d2f964ae88",
+      "documents": 512,
+      "chunks": 32768,
+      "keys": [
+        "chunk_free_17",
+        "chunk_free_29",
+        "chunk_free_43",
+        "chunk_reference",
+        "chunk_ridge_17",
+        "chunk_tied_17",
+        "chunk_tied_29",
+        "chunk_tied_43",
+        "token_free_17",
+        "token_free_29",
+        "token_free_43",
+        "token_reference",
+        "token_ridge_17",
+        "token_tied_17",
+        "token_tied_29",
+        "token_tied_43"
+      ]
+    },
+    "generated": {
+      "source_name": "generated_predictions.npz",
+      "source_sha256": "b5075c25c742099bf552b4de10c49cdbf73ee9043caf7c83b4cc933e0fadccc0",
+      "aggregate_file": "generated.npz",
+      "aggregate_sha256": "6e4d76a1b19060ad4942fbaf0fbf4442617ba4d5a08e5f281d26121db72c72ae",
+      "documents": 512,
+      "chunks": 32256,
+      "keys": [
+        "chunk_17",
+        "chunk_29",
+        "chunk_43",
+        "chunk_ridge",
+        "chunk_tied17",
+        "chunk_tied29",
+        "chunk_tied43",
+        "token_17",
+        "token_29",
+        "token_43",
+        "token_ridge",
+        "token_tied17",
+        "token_tied29",
+        "token_tied43"
+      ]
+    },
+    "generated_fit": {
+      "source_name": "generated_fit/test_predictions.npz",
+      "source_sha256": "4b15c34202b20e380ee4e6d1f38bfd99396d42e9e3b2a75bbc14dbc2b2af38e6",
+      "aggregate_file": "generated_fit.npz",
+      "aggregate_sha256": "7cbba0e4c3ae73077ebab7d2f61d730ad2772647c274918e7eac5bf150218c82",
+      "documents": 512,
+      "chunks": 32256,
+      "keys": [
+        "chunk_posterior_17",
+        "chunk_posterior_29",
+        "chunk_posterior_43",
+        "chunk_prior_17",
+        "chunk_prior_29",
+        "chunk_prior_43",
+        "token_posterior_17",
+        "token_posterior_29",
+        "token_posterior_43",
+        "token_prior_17",
+        "token_prior_29",
+        "token_prior_43"
+      ]
+    }
+  }
+}

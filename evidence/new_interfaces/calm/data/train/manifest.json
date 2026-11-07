@@ -1,0 +1,8 @@
+{
+  "chunks": 262144,
+  "documents": 4096,
+  "reference_reconstruction": 0.9995613098144531,
+  "x_sha256": "29dc838d9767a4a881eeecbfece781d46445148e93edabcaa7a6fbd816881d67",
+  "native_sha256": "0ed6ee04d39b08ce404469a10f0cc7ea44a49b255f3c1d16d3bcdf651e57f8c8",
+  "source_ids_sha256": "6633210bf74f3c62b4a89d7739499c65168268db921926a251a5881322e3c759"
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-02",
+  "status": "Exploratory matched fitting-distribution control, after the original temperature1 transfer result; no new-test outputs observed",
+  "hypothesis": "How much decision fidelity changes when the identical tied affine learning procedure is fitted on actual prior-predicted states instead of supplied posterior states",
+  "training": "Same4096source documents;63matched target chunk positions per document. Posterior excludes each document's first chunk; prior states condition on preceding teacher tokens. Native labels are always computed on the same input state that the probe sees.",
+  "prior_sampling": "Official CALM-M base head,temperature1,FP32; generation seeds61102301train,61102302validation,61102303test; sample one latent for every teacher prefix",
+  "fit": "Identical posterior-ridge initialization, fixed released unembedding,lr1e-4,AdamW weight_decay0.01,2048updates,batch64, paired minibatch index streams seeds17/29/43. No hyperparameter search. Both fitting arms select0/512/1024/2048 on the SAME prior-state validation pool from the original256validation documents.",
+  "test": "Generate32,256prior states from the disjoint512follow-up documents only after freezing all six fits; no source document overlaps training/validation. These documents' posterior states were examined earlier; their new prior states/seeds were not.",
+  "primary": "Three-fit-mean native-agreement difference, prior-fitted minus posterior-fitted, on identical fresh prior states.4000paired document-bootstrap draws,seed61102309,95% interval.",
+  "limits": "Identifies the effect of this controlled fitting-data intervention under a fixed budget, not the full cause of generation behavior or a nonlinear expressivity lower bound. Temperature1 and teacher-prefix setting only. Retain both arms, all seeds and learning curves, whatever the sign."
+}

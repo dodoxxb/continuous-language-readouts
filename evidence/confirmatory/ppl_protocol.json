@@ -1,0 +1,11 @@
+{
+  "evaluator": "local GPT-2-Large",
+  "max_length": 1024,
+  "batch_size": 2,
+  "dtype": "float16 weights; float32 NLL",
+  "formula": "exp(sum token NLL / sum scored tokens)",
+  "boundary": "identical native validity mask applied before T5 text decode for every readout; no independent predicted EOS termination",
+  "scope": "conditional readout fidelity diagnostic, not autonomous generation quality",
+  "fit_selection": "all three largest-budget models selected by validation; no test-best selection",
+  "invalid_sequences_reported": true
+}

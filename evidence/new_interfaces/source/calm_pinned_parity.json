@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "transformers": "4.43.0",
+  "tokenizers": "0.19.1",
+  "torch": "2.7.1+cu128",
+  "checks": [
+    {
+      "split": "train",
+      "documents": 8,
+      "mean_max_abs_error": 0.0,
+      "std_max_abs_error": 0.0,
+      "native_mismatches": 0
+    },
+    {
+      "split": "validation",
+      "documents": 8,
+      "mean_max_abs_error": 0.0,
+      "std_max_abs_error": 0.0,
+      "native_mismatches": 0
+    },
+    {
+      "split": "test",
+      "documents": 8,
+      "mean_max_abs_error": 0.0,
+      "std_max_abs_error": 0.0,
+      "native_mismatches": 0
+    },
+    {
+      "split": "validation",
+      "scope": "entire stored validation or test; identical decoder batch shape",
+      "tokens": 65536,
+      "native_mismatches": 0
+    },
+    {
+      "split": "test",
+      "scope": "entire stored validation or test; identical decoder batch shape",
+      "tokens": 131072,
+      "native_mismatches": 0
+    }
+  ]
+}

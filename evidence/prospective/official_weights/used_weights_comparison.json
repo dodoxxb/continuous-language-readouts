@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "scope": "Three checkpoints used in the protocol-frozen prospective experiment",
+  "checks": [
+    {
+      "local_file": "models/ELF-B-owt-torch/checkpoint_95085",
+      "local_frozen_sha256": "52c21bfb7f920e785e0e780645c411c94e4541af4cee8f85b6f555f826d4c283",
+      "official_hf_lfs_sha256": "52c21bfb7f920e785e0e780645c411c94e4541af4cee8f85b6f555f826d4c283",
+      "match": true,
+      "model_commit": "146f84133c1389bfd4ef47f14ec7a955da22faa7",
+      "model_last_modified": "2026-05-17T18:40:19.000Z"
+    },
+    {
+      "local_file": "models/ELF-M-owt-torch/checkpoint_76070",
+      "local_frozen_sha256": "7cbe6385ceb5474151b820acb041ccbaf004e01d4cddc89f11a5aaa4dd2211bd",
+      "official_hf_lfs_sha256": "7cbe6385ceb5474151b820acb041ccbaf004e01d4cddc89f11a5aaa4dd2211bd",
+      "match": true,
+      "model_commit": "dbc7e5a20d71f03bc16e0e76fae672f465afa791",
+      "model_last_modified": "2026-05-17T18:53:42.000Z"
+    },
+    {
+      "local_file": "models/ELF-B-PD-owt-torch/checkpoint_19017",
+      "local_frozen_sha256": "c593da8527f0a207568b7e81c7f39011f5a6f262df909db61b4d9c7055e7f8c2",
+      "official_hf_lfs_sha256": "c593da8527f0a207568b7e81c7f39011f5a6f262df909db61b4d9c7055e7f8c2",
+      "match": true,
+      "model_commit": "ae2da3dcdd2cbf9e51071b210d81fd297e196b78",
+      "model_last_modified": "2026-06-26T02:33:46.000Z"
+    }
+  ]
+}

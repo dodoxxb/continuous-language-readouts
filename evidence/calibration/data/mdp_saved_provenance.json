@@ -1,0 +1,623 @@
+{
+  "purpose": "Recheck saved results, not rerun fitting or decoding",
+  "runs": [
+    {
+      "run": "phase28_mdp_linear_1024",
+      "summary_file": "data/mdp_saved_summaries/phase28_mdp_linear_1024.csv",
+      "original_relative_path": "outputs/phase0_phase1_20260520/phase28_mdp_linear_1024/mdp_summary_noise0.02.csv",
+      "summary_sha256": "544407203c16c07e074dff58216032590646215c69f9a5f58ff6f116615b0fb4",
+      "generation_shard_summaries": [
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase28_mdp_linear_1024/shard0_summary.json",
+          "sha256": "bb6ad63eae11530ba148734be4516d2576cadd27b5a0f4e934965cf8eac2dd73",
+          "raw_text": "{\n  \"elapsed_sec\": 55.280057430267334,\n  \"num_samples\": 256\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase28_mdp_linear_1024/shard1_summary.json",
+          "sha256": "a3c86b06c2976e70626ce67faf2c897376ae33847d457ab62e43e5c3b6568e60",
+          "raw_text": "{\n  \"elapsed_sec\": 55.003525733947754,\n  \"num_samples\": 256\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase28_mdp_linear_1024/shard2_summary.json",
+          "sha256": "fce59ce29d73a6e57d31e0abe88d54c99e4407ea47089a3a5b9b98f207157bd3",
+          "raw_text": "{\n  \"elapsed_sec\": 55.7167809009552,\n  \"num_samples\": 256\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase28_mdp_linear_1024/shard3_summary.json",
+          "sha256": "82bee15af0235526f775a1cf3ce9b1d6958cea3b6cce4de086755d0e5dba20c2",
+          "raw_text": "{\n  \"elapsed_sec\": 55.472739696502686,\n  \"num_samples\": 256\n}"
+        }
+      ],
+      "exported_prediction_count_observed": 256,
+      "train_fraction": [
+        3,
+        4
+      ],
+      "agreement_eval_rule": "remaining sequence indices after training prefix",
+      "ppl_eval_rule": "first 4096 evaluation sequences for 32768 pool, otherwise all evaluation sequences"
+    },
+    {
+      "run": "phase28_mdp_linear_4096",
+      "summary_file": "data/mdp_saved_summaries/phase28_mdp_linear_4096.csv",
+      "original_relative_path": "outputs/phase0_phase1_20260520/phase28_mdp_linear_4096/mdp_summary_noise0.02.csv",
+      "summary_sha256": "368616069c8f93d3cc3c8c5277e4cc7e9db0a6e79d44721ad0c7322f346804ad",
+      "generation_shard_summaries": [
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase28_mdp_linear_4096/shard0_summary.json",
+          "sha256": "bbdda68dc17b950fe84820ab11dc6fa3e7803f3e52ade70a8eff4f48417a1347",
+          "raw_text": "{\n  \"elapsed_sec\": 221.39334440231323,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase28_mdp_linear_4096/shard1_summary.json",
+          "sha256": "b9c53f1443080cc89c83afea9f1078723e2a456c257e473f69087d6f26e06f90",
+          "raw_text": "{\n  \"elapsed_sec\": 220.72609162330627,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase28_mdp_linear_4096/shard2_summary.json",
+          "sha256": "a545fadd305ae73f418e1e3d3a5cf3bc1f814ddab21a669235884d341f8c72fd",
+          "raw_text": "{\n  \"elapsed_sec\": 223.0068416595459,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase28_mdp_linear_4096/shard3_summary.json",
+          "sha256": "ced5970c513dd672b4e641b97b9c4f33d04fc261de3e56ee143d31699f5ee0b1",
+          "raw_text": "{\n  \"elapsed_sec\": 222.07692670822144,\n  \"num_samples\": 1024\n}"
+        }
+      ],
+      "exported_prediction_count_observed": 1024,
+      "train_fraction": [
+        3,
+        4
+      ],
+      "agreement_eval_rule": "remaining sequence indices after training prefix",
+      "ppl_eval_rule": "first 4096 evaluation sequences for 32768 pool, otherwise all evaluation sequences"
+    },
+    {
+      "run": "phase35_mdp_linear_8192",
+      "summary_file": "data/mdp_saved_summaries/phase35_mdp_linear_8192.csv",
+      "original_relative_path": "outputs/phase0_phase1_20260520/phase35_mdp_linear_8192/mdp_summary_noise0.02.csv",
+      "summary_sha256": "2a146ea0a9fe6261df04018bb5d1ce50ed18ac978265a29b745b5c5ae3aa4b4c",
+      "generation_shard_summaries": [
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase35_mdp_linear_8192/shard0_summary.json",
+          "sha256": "bbdda68dc17b950fe84820ab11dc6fa3e7803f3e52ade70a8eff4f48417a1347",
+          "raw_text": "{\n  \"elapsed_sec\": 221.39334440231323,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase35_mdp_linear_8192/shard1_summary.json",
+          "sha256": "b9c53f1443080cc89c83afea9f1078723e2a456c257e473f69087d6f26e06f90",
+          "raw_text": "{\n  \"elapsed_sec\": 220.72609162330627,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase35_mdp_linear_8192/shard2_summary.json",
+          "sha256": "a545fadd305ae73f418e1e3d3a5cf3bc1f814ddab21a669235884d341f8c72fd",
+          "raw_text": "{\n  \"elapsed_sec\": 223.0068416595459,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase35_mdp_linear_8192/shard3_summary.json",
+          "sha256": "ced5970c513dd672b4e641b97b9c4f33d04fc261de3e56ee143d31699f5ee0b1",
+          "raw_text": "{\n  \"elapsed_sec\": 222.07692670822144,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase35_mdp_linear_8192/shard4_summary.json",
+          "sha256": "b46ba258144474b158ea7974018ff1869faa04452a0bf19c003ccf9189aebcbe",
+          "raw_text": "{\n  \"elapsed_sec\": 233.50180625915527,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase35_mdp_linear_8192/shard5_summary.json",
+          "sha256": "67e26e4567f289f85cf558c65f64027f70b889bc92edeb9adf2a5c4ec76d8a3c",
+          "raw_text": "{\n  \"elapsed_sec\": 258.15682792663574,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase35_mdp_linear_8192/shard6_summary.json",
+          "sha256": "b68259d16302081893a46a38da11b8c4842b4e2b5352294d1c4e8a8f23a4c21c",
+          "raw_text": "{\n  \"elapsed_sec\": 235.67104315757751,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase35_mdp_linear_8192/shard7_summary.json",
+          "sha256": "02e7eb300f9e707932d23b1a6c0f0bf1859f92e1ecc43b26cc89d9c4149ca6de",
+          "raw_text": "{\n  \"elapsed_sec\": 257.65000915527344,\n  \"num_samples\": 1024\n}"
+        }
+      ],
+      "exported_prediction_count_observed": 2048,
+      "train_fraction": [
+        3,
+        4
+      ],
+      "agreement_eval_rule": "remaining sequence indices after training prefix",
+      "ppl_eval_rule": "first 4096 evaluation sequences for 32768 pool, otherwise all evaluation sequences"
+    },
+    {
+      "run": "phase36_mdp_linear_16384",
+      "summary_file": "data/mdp_saved_summaries/phase36_mdp_linear_16384.csv",
+      "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/mdp_summary_noise0.02.csv",
+      "summary_sha256": "e84bb16526b17f2ca16cf2d0df4dc51f0c66540a56963c3b303ba6c33d5d0b38",
+      "generation_shard_summaries": [
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard0_summary.json",
+          "sha256": "bbdda68dc17b950fe84820ab11dc6fa3e7803f3e52ade70a8eff4f48417a1347",
+          "raw_text": "{\n  \"elapsed_sec\": 221.39334440231323,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard1_summary.json",
+          "sha256": "b9c53f1443080cc89c83afea9f1078723e2a456c257e473f69087d6f26e06f90",
+          "raw_text": "{\n  \"elapsed_sec\": 220.72609162330627,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard2_summary.json",
+          "sha256": "a545fadd305ae73f418e1e3d3a5cf3bc1f814ddab21a669235884d341f8c72fd",
+          "raw_text": "{\n  \"elapsed_sec\": 223.0068416595459,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard3_summary.json",
+          "sha256": "ced5970c513dd672b4e641b97b9c4f33d04fc261de3e56ee143d31699f5ee0b1",
+          "raw_text": "{\n  \"elapsed_sec\": 222.07692670822144,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard4_summary.json",
+          "sha256": "b46ba258144474b158ea7974018ff1869faa04452a0bf19c003ccf9189aebcbe",
+          "raw_text": "{\n  \"elapsed_sec\": 233.50180625915527,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard5_summary.json",
+          "sha256": "67e26e4567f289f85cf558c65f64027f70b889bc92edeb9adf2a5c4ec76d8a3c",
+          "raw_text": "{\n  \"elapsed_sec\": 258.15682792663574,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard6_summary.json",
+          "sha256": "b68259d16302081893a46a38da11b8c4842b4e2b5352294d1c4e8a8f23a4c21c",
+          "raw_text": "{\n  \"elapsed_sec\": 235.67104315757751,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard7_summary.json",
+          "sha256": "02e7eb300f9e707932d23b1a6c0f0bf1859f92e1ecc43b26cc89d9c4149ca6de",
+          "raw_text": "{\n  \"elapsed_sec\": 257.65000915527344,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard8_summary.json",
+          "sha256": "c2405db6fc2bc195ea777661081ec459d7d53e088488ed6aba43b4bdc12d0c89",
+          "raw_text": "{\n  \"elapsed_sec\": 230.8822739124298,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard9_summary.json",
+          "sha256": "790fbbd8878a0cf2a15255fd6dc08ee703a3a83e07072a29357dc1ebf9f86766",
+          "raw_text": "{\n  \"elapsed_sec\": 232.93524813652039,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard10_summary.json",
+          "sha256": "5cf8b249c9912bfc40c6519dcf24b60f649dd5d35f2a3c22dc2fa54bb2471ab1",
+          "raw_text": "{\n  \"elapsed_sec\": 259.614310503006,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard11_summary.json",
+          "sha256": "d80efbff3b2505f5e8812fc72ee63967eecbc12935b5971477eefc2937d3d3ed",
+          "raw_text": "{\n  \"elapsed_sec\": 237.2016327381134,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard12_summary.json",
+          "sha256": "db889de4519751397efce29fddfd34f63ab565c98f8d7b8095229c1212b16344",
+          "raw_text": "{\n  \"elapsed_sec\": 232.2366852760315,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard13_summary.json",
+          "sha256": "d9b75bf2b3383ae0011177e849eecd6bfea53c8cbfce631e20868486da5f2171",
+          "raw_text": "{\n  \"elapsed_sec\": 232.86633682250977,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard14_summary.json",
+          "sha256": "9f8c3b97d48fd403e43843995dcc5caf0e1fee8cb9aa74671a9dc30e7fb3ea65",
+          "raw_text": "{\n  \"elapsed_sec\": 258.6424009799957,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase36_mdp_linear_16384/shard15_summary.json",
+          "sha256": "c8c0456a47c90f41db9fad4be07428671a96f8dced454542d6dffb89b52e71bf",
+          "raw_text": "{\n  \"elapsed_sec\": 240.4001121520996,\n  \"num_samples\": 1024\n}"
+        }
+      ],
+      "exported_prediction_count_observed": 4096,
+      "train_fraction": [
+        3,
+        4
+      ],
+      "agreement_eval_rule": "remaining sequence indices after training prefix",
+      "ppl_eval_rule": "first 4096 evaluation sequences for 32768 pool, otherwise all evaluation sequences"
+    },
+    {
+      "run": "phase37_mdp_linear_32768",
+      "summary_file": "data/mdp_saved_summaries/phase37_mdp_linear_32768.csv",
+      "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/mdp_summary_noise0.02.csv",
+      "summary_sha256": "cda2b0b30fd2dc59ea549c7da9aee314a8e53da77905dc5159d2d245fd3288c5",
+      "generation_shard_summaries": [
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard0_summary.json",
+          "sha256": "bbdda68dc17b950fe84820ab11dc6fa3e7803f3e52ade70a8eff4f48417a1347",
+          "raw_text": "{\n  \"elapsed_sec\": 221.39334440231323,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard1_summary.json",
+          "sha256": "b9c53f1443080cc89c83afea9f1078723e2a456c257e473f69087d6f26e06f90",
+          "raw_text": "{\n  \"elapsed_sec\": 220.72609162330627,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard2_summary.json",
+          "sha256": "a545fadd305ae73f418e1e3d3a5cf3bc1f814ddab21a669235884d341f8c72fd",
+          "raw_text": "{\n  \"elapsed_sec\": 223.0068416595459,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard3_summary.json",
+          "sha256": "ced5970c513dd672b4e641b97b9c4f33d04fc261de3e56ee143d31699f5ee0b1",
+          "raw_text": "{\n  \"elapsed_sec\": 222.07692670822144,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard4_summary.json",
+          "sha256": "b46ba258144474b158ea7974018ff1869faa04452a0bf19c003ccf9189aebcbe",
+          "raw_text": "{\n  \"elapsed_sec\": 233.50180625915527,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard5_summary.json",
+          "sha256": "67e26e4567f289f85cf558c65f64027f70b889bc92edeb9adf2a5c4ec76d8a3c",
+          "raw_text": "{\n  \"elapsed_sec\": 258.15682792663574,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard6_summary.json",
+          "sha256": "b68259d16302081893a46a38da11b8c4842b4e2b5352294d1c4e8a8f23a4c21c",
+          "raw_text": "{\n  \"elapsed_sec\": 235.67104315757751,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard7_summary.json",
+          "sha256": "02e7eb300f9e707932d23b1a6c0f0bf1859f92e1ecc43b26cc89d9c4149ca6de",
+          "raw_text": "{\n  \"elapsed_sec\": 257.65000915527344,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard8_summary.json",
+          "sha256": "c2405db6fc2bc195ea777661081ec459d7d53e088488ed6aba43b4bdc12d0c89",
+          "raw_text": "{\n  \"elapsed_sec\": 230.8822739124298,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard9_summary.json",
+          "sha256": "790fbbd8878a0cf2a15255fd6dc08ee703a3a83e07072a29357dc1ebf9f86766",
+          "raw_text": "{\n  \"elapsed_sec\": 232.93524813652039,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard10_summary.json",
+          "sha256": "5cf8b249c9912bfc40c6519dcf24b60f649dd5d35f2a3c22dc2fa54bb2471ab1",
+          "raw_text": "{\n  \"elapsed_sec\": 259.614310503006,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard11_summary.json",
+          "sha256": "d80efbff3b2505f5e8812fc72ee63967eecbc12935b5971477eefc2937d3d3ed",
+          "raw_text": "{\n  \"elapsed_sec\": 237.2016327381134,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard12_summary.json",
+          "sha256": "db889de4519751397efce29fddfd34f63ab565c98f8d7b8095229c1212b16344",
+          "raw_text": "{\n  \"elapsed_sec\": 232.2366852760315,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard13_summary.json",
+          "sha256": "d9b75bf2b3383ae0011177e849eecd6bfea53c8cbfce631e20868486da5f2171",
+          "raw_text": "{\n  \"elapsed_sec\": 232.86633682250977,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard14_summary.json",
+          "sha256": "9f8c3b97d48fd403e43843995dcc5caf0e1fee8cb9aa74671a9dc30e7fb3ea65",
+          "raw_text": "{\n  \"elapsed_sec\": 258.6424009799957,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard15_summary.json",
+          "sha256": "c8c0456a47c90f41db9fad4be07428671a96f8dced454542d6dffb89b52e71bf",
+          "raw_text": "{\n  \"elapsed_sec\": 240.4001121520996,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard16_summary.json",
+          "sha256": "a300ad78a06c1f648851fde0cb4116dac35fdc1d5c843a2bc537722aae9bc636",
+          "raw_text": "{\n  \"elapsed_sec\": 233.16798210144043,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard17_summary.json",
+          "sha256": "bfd41bfb3d33f6736f4fc6157bc96aacbd98e1a67b8fe3bf7a58fa740347a9b7",
+          "raw_text": "{\n  \"elapsed_sec\": 239.24073386192322,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard18_summary.json",
+          "sha256": "96a98d726ccf0a0783db8998ba94763002b602f619f47d72636e4275ddaedb38",
+          "raw_text": "{\n  \"elapsed_sec\": 236.06937980651855,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard19_summary.json",
+          "sha256": "ab49ad5797ceecfb41c457672f4091d8990f9dc5e1f0989e229edb161517942f",
+          "raw_text": "{\n  \"elapsed_sec\": 260.9884421825409,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard20_summary.json",
+          "sha256": "6e4cf92a99d2c6483d9ebe47cbe51ecc96c8a8515d05c9b1e3741c8fd2cc1941",
+          "raw_text": "{\n  \"elapsed_sec\": 233.7926070690155,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard21_summary.json",
+          "sha256": "dd9476cdb85ed9fe02a24c771750cd66f9be2777355141808c63d5762f1d8707",
+          "raw_text": "{\n  \"elapsed_sec\": 239.4874129295349,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard22_summary.json",
+          "sha256": "6b334b87a04efab9c2d3da54b4290829ff039b03fd113f1555bcfde1dde36af1",
+          "raw_text": "{\n  \"elapsed_sec\": 233.67486667633057,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard23_summary.json",
+          "sha256": "77f1ca3cbb55736bea4ef8ed2dbb6d79037efd7e7bbf6fd56bc2d829d50d3290",
+          "raw_text": "{\n  \"elapsed_sec\": 259.2573561668396,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard24_summary.json",
+          "sha256": "52cd05495013b19885d0dbf91f0705995f2ab6cbb8b0ce0f55e44026652fce45",
+          "raw_text": "{\n  \"elapsed_sec\": 241.4127073287964,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard25_summary.json",
+          "sha256": "ac0e796c6999d53789f941633791739187fd744dc2714d3e6b7a8ffdfd8f4a98",
+          "raw_text": "{\n  \"elapsed_sec\": 238.28431177139282,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard26_summary.json",
+          "sha256": "b7f813ab437141d97e2610c3017b8bd31cfbd694b53e7e8d4c7c1d7fea5bd34e",
+          "raw_text": "{\n  \"elapsed_sec\": 259.27626156806946,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard27_summary.json",
+          "sha256": "a199a7fa70e3c8fd69faeec5e04ab8b482abd2aa835661792835b6aa1ee97d36",
+          "raw_text": "{\n  \"elapsed_sec\": 230.57143902778625,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard28_summary.json",
+          "sha256": "6b0c2d024a4f4064b3a007d448a307d05186fe0c90f47c208aa76fd54ec25350",
+          "raw_text": "{\n  \"elapsed_sec\": 233.15108442306519,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard29_summary.json",
+          "sha256": "b3f3067b111a0be49c6e7b84745ece1247a5ff38d72a560721cf285ebdf0d158",
+          "raw_text": "{\n  \"elapsed_sec\": 236.94978952407837,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard30_summary.json",
+          "sha256": "16cb8a9e00c42660db59d706ae8906deec84cec39c26ccb51e06799a14426cd5",
+          "raw_text": "{\n  \"elapsed_sec\": 260.01838660240173,\n  \"num_samples\": 1024\n}"
+        },
+        {
+          "original_relative_path": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768/shard31_summary.json",
+          "sha256": "5459eb2d701937d9e61fa46d5a78e54168604fbdaf697b034b2e075048d29a4c",
+          "raw_text": "{\n  \"elapsed_sec\": 240.11358761787415,\n  \"num_samples\": 1024\n}"
+        }
+      ],
+      "exported_prediction_count_observed": 8192,
+      "train_fraction": [
+        3,
+        4
+      ],
+      "agreement_eval_rule": "remaining sequence indices after training prefix",
+      "ppl_eval_rule": "first 4096 evaluation sequences for 32768 pool, otherwise all evaluation sequences"
+    }
+  ],
+  "shared_prefix_shards": [
+    [
+      {
+        "run": "phase28_mdp_linear_4096",
+        "shard": "shard0.pt"
+      },
+      {
+        "run": "phase35_mdp_linear_8192",
+        "shard": "shard0.pt"
+      },
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard0.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard0.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase28_mdp_linear_4096",
+        "shard": "shard1.pt"
+      },
+      {
+        "run": "phase35_mdp_linear_8192",
+        "shard": "shard1.pt"
+      },
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard1.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard1.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase28_mdp_linear_4096",
+        "shard": "shard2.pt"
+      },
+      {
+        "run": "phase35_mdp_linear_8192",
+        "shard": "shard2.pt"
+      },
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard2.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard2.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase28_mdp_linear_4096",
+        "shard": "shard3.pt"
+      },
+      {
+        "run": "phase35_mdp_linear_8192",
+        "shard": "shard3.pt"
+      },
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard3.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard3.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase35_mdp_linear_8192",
+        "shard": "shard4.pt"
+      },
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard4.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard4.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase35_mdp_linear_8192",
+        "shard": "shard5.pt"
+      },
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard5.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard5.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase35_mdp_linear_8192",
+        "shard": "shard6.pt"
+      },
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard6.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard6.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase35_mdp_linear_8192",
+        "shard": "shard7.pt"
+      },
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard7.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard7.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard8.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard8.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard9.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard9.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard10.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard10.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard11.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard11.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard12.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard12.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard13.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard13.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard14.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard14.pt"
+      }
+    ],
+    [
+      {
+        "run": "phase36_mdp_linear_16384",
+        "shard": "shard15.pt"
+      },
+      {
+        "run": "phase37_mdp_linear_32768",
+        "shard": "shard15.pt"
+      }
+    ]
+  ],
+  "source_script_sha256": {
+    "outputs/phase0_phase1_20260520/scripts/phase28_mdp_linear_readout.py": "1ec0626573fe726bb568913237da99fb0a79529b9be739e2c940e9fdaeeb6f37",
+    "outputs/phase0_phase1_20260520/scripts/phase36_mdp_lean_train_eval.py": "b9a5100e2ede71e0b241f3e1ea0036a65dc77e4fb355ba64982003eeeaf521ed",
+    "outputs/phase0_phase1_20260520/scripts/phase28_make_mdp_scaling.py": "b6bcb6806e332d0c866dda1f97861c285bfa95ef8b9538c7ae821bebd5cb9091",
+    "outputs/phase0_phase1_20260520/scripts/phase49_polish_figures_23_38.py": "6acc8b8479646955e3ccb8f1faf87f7227ed970946e2132bbbf92987a069cfaf"
+  },
+  "fixed_table_sha256": "5432ca92dd9e4c0d31693ba37585e19bf0509956a9c7c7b180769bc237b7dea4",
+  "limitations": [
+    "Prediction JSONL files and model tensors are not bundled; original row counts are recorded audit observations.",
+    "Shard summary counts and split arithmetic can be recomputed from the included original summary text.",
+    "Within-run index disjointness is not content deduplication; smaller evaluation prefixes are reused in larger fitting splits.",
+    "Saved readout/noise variant is fixed retrospectively; optimizer configurations and evaluation sets are not held constant across all pools."
+  ]
+}

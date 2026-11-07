@@ -1,0 +1,14 @@
+{
+  "source": "datasets/openwebtext/plain_text/train-00079-of-00080.parquet",
+  "source_sha256": "80f15bb3dc64287827248d2a7a999ec986ecf15f07a79ed8c2e2b366e8046ae2",
+  "eligible": 89933,
+  "source_rows": 100172,
+  "seed": 61102001,
+  "counts": {
+    "train": 4096,
+    "validation": 256,
+    "test": 512
+  },
+  "unique_hashes": 4864,
+  "documents_sha256": "1a17abff20e53d0520e3bab32f75e6d3b02e1276fdb62285d097391959b593ab"
+}

@@ -1,0 +1,2 @@
+# CPU-only checks of retained measurements; no pretrained model is loaded.
+numpy>=1.23,<3

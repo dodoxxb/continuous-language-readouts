@@ -1,0 +1,9 @@
+{
+  "name": "tied_lr0.0001_seed43",
+  "family": "tied",
+  "lr": 0.0001,
+  "seed": 43,
+  "best_step": 2048,
+  "validation_agreement": 0.9388580322265625,
+  "weight_sha256": "8cd9cd33338210b68d487badc4b10ed8ebbf5ee47dbfe4e439dcbd394cf45804"
+}

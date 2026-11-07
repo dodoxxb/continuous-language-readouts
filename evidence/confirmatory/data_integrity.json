@@ -1,0 +1,20 @@
+{
+  "elf": {
+    "fresh_sequences": 512,
+    "unique_fresh_native_sequences": 512,
+    "fresh_exact_native_sequence_overlap_with_historical_pool": 0
+  },
+  "langflow": {
+    "unique_sequences": {
+      "train": 1024,
+      "validation": 256,
+      "test": 512
+    },
+    "exact_native_sequence_overlap": {
+      "train--validation": 0,
+      "train--test": 0,
+      "validation--test": 0
+    }
+  },
+  "scope": "Post-fit data-integrity and LangFlow token-coverage diagnostics; no model or protocol changes."
+}

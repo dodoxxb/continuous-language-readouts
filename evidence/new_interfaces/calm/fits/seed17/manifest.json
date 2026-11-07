@@ -1,0 +1,8 @@
+{
+  "seed": 17,
+  "best_step": 0,
+  "best_validation_agreement": 0.91241455078125,
+  "selected_sha256": "359b3d30b4dc7d255416095019dc5bc31899283e70f2ecdf53f8eff24519cabc",
+  "elapsed": 14.121052628848702,
+  "max_allocated_gib": 1.37166166305542
+}

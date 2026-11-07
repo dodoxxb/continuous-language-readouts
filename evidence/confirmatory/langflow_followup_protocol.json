@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-13",
+  "timing": "Post-initial-result follow-up; frozen before extra generation and fits",
+  "rationale": "Test token-coverage explanation at roughly matched available training token count: LangFlow 8192 x 128 = 1048576 versus ELF 1024 sequences = 1047155. Not an architecture ranking.",
+  "additional_training_sequences": 7168,
+  "total_training_sequences": 8192,
+  "nested_initial_sequences": 1024,
+  "generation_seed": 61013003,
+  "generation_batch_size": 16,
+  "steps": 64,
+  "fit_seeds": [
+    17,
+    29,
+    43
+  ],
+  "train_updates": 4096,
+  "selection": "Original validation set, original update checkpoints and tie rule. Preserve all fits. No test-based tuning.",
+  "original_protocol_sha256": "765e06c2701723826777df3f89277af197eec507461999b0ab42506f9bbdd522",
+  "fixed_data_hashes": {
+    "data/langflow/validation/valid.npy": "a4c3d7ff3eea1ecf2f71bb03bfe22db8dae0419a9511f39e185181b828b6f3a9",
+    "data/langflow/validation/sequence_ids.npy": "4a83413ccfac7751da67c81381a48d1b4772bb293cbd9f8d60acc99dadf65505",
+    "data/langflow/validation/lookup.npy": "80541cf57521b9f88ea35a1b6c18dbba4e0c758a1c0e28c8310881e857a21128",
+    "data/langflow/validation/y.npy": "81de730d0614fd38b6b08cd3a9715c12f8e6dfbd13b5ac7be0654b8085467d4c",
+    "data/langflow/validation/residual.npy": "40b37781263cacd5ba33dd6c6730992a2231f34228f020516ffa957493e4280e",
+    "data/langflow/validation/x.npy": "6b21246b8360d31b82e42c86e7076bc1fc5aa8431a89f411b8729624b8ec2506",
+    "data/langflow/test/valid.npy": "7558ef53af44de8f30b71b4fe800671c6b7d77dfa381dab09fe0cc4d4568fd0a",
+    "data/langflow/test/sequence_ids.npy": "b3d924bf88539888fd13d8861804d0833532933f9e199b24f92609e94994a61d",
+    "data/langflow/test/lookup.npy": "67bad5d596e017b170e8860d9d8cd447c7e79d88272adda3abfe36b30b8cb254",
+    "data/langflow/test/y.npy": "091008158b64ccd845efd6eaf6b2024dc200427f9fd0f54368e14df6377f7405",
+    "data/langflow/test/residual.npy": "e18223cc7f2dca674dc12c5c4dcfe96b87d8581a7d02d141806d89e598983fab",
+    "data/langflow/test/x.npy": "1d76d332ebeee1d0f7ea9d8352542ab4600d837b16bac212c9700bc81f6370dc"
+  },
+  "primary_comparison": "8192 minus 1024 sequence LangFlow readout agreement on the SAME 512 test sequences; paired sequence bootstrap conditional on six fitted models",
+  "scope": "Available training-token counts approximately matched to smallest ELF pool; tokenizer, distribution, feature dimension, and decoder differ."
+}

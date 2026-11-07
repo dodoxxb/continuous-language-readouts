@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-13T15:36:38+0800",
+  "timing": "After freezing calibration, before any test generation",
+  "change": "For bootstrap, reuse sequence indices across checkpoint conditions sharing the same generation seed; preserve common-random-number dependence. All other protocol choices unchanged.",
+  "reason": "The same seed produces coupled initial states and stochastic sampler draws across conditions.",
+  "analysis_sha256": "d153b9c881608af688058cc8125a62a67fef10e31d87653a76d511a58160bb63"
+}

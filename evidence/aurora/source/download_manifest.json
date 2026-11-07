@@ -1,0 +1,50 @@
+[
+  {
+    "repo": "fyv587/aurora-gpt2-owt",
+    "revision": "c3bcad3fc9da7801cd771f48e5491b8d802a3c84",
+    "path": "models/aurora-lm/owt/250000.safetensors",
+    "bytes": 1040022432,
+    "sha256": "076b133131b3942c44d71bd1fc4aa8228efd5e40b92a1bcb6740af70b4a2cb3f",
+    "upstream_lfs_sha256": "076b133131b3942c44d71bd1fc4aa8228efd5e40b92a1bcb6740af70b4a2cb3f"
+  },
+  {
+    "repo": "fyv587/aurora-gpt2-owt",
+    "revision": "c3bcad3fc9da7801cd771f48e5491b8d802a3c84",
+    "path": "models/aurora-lm/owt/README.md",
+    "bytes": 210,
+    "sha256": "c696827ac5ef641bea8e04994cd970ed43c7043d74855b00caaab1a2f0afe5b3",
+    "upstream_lfs_sha256": null
+  },
+  {
+    "repo": "fyv587/aurora-gpt2-owt",
+    "revision": "c3bcad3fc9da7801cd771f48e5491b8d802a3c84",
+    "path": "models/aurora-lm/owt/config.yaml",
+    "bytes": 14270,
+    "sha256": "0f3d9e087a9647a819c358f4f24da36134df5cae51752d59d0c7e87eaa75d937",
+    "upstream_lfs_sha256": null
+  },
+  {
+    "repo": "fyv587/aurora-text-autoencoder",
+    "revision": "c3def2093c99cf5cdcfafa0fd45c1c50c925b05a",
+    "path": "models/aurora-lm/autoencoder/100000.safetensors",
+    "bytes": 551132872,
+    "sha256": "4736db88b7596c866ef086d4cb1f84d951fdb697e734c188b46205ac5254b3f9",
+    "upstream_lfs_sha256": "4736db88b7596c866ef086d4cb1f84d951fdb697e734c188b46205ac5254b3f9"
+  },
+  {
+    "repo": "fyv587/aurora-text-autoencoder",
+    "revision": "c3def2093c99cf5cdcfafa0fd45c1c50c925b05a",
+    "path": "models/aurora-lm/autoencoder/README.md",
+    "bytes": 308,
+    "sha256": "865b681fdeb6aa4db1ce0f6fa1803552981559fdc4c3d61d40bd27e7f9a8be68",
+    "upstream_lfs_sha256": null
+  },
+  {
+    "repo": "fyv587/aurora-text-autoencoder",
+    "revision": "c3def2093c99cf5cdcfafa0fd45c1c50c925b05a",
+    "path": "models/aurora-lm/autoencoder/config.yaml",
+    "bytes": 4385,
+    "sha256": "d20fabe61c041adda042606047f75d0c8b9a4355afc6f6460e7764b7ec431a65",
+    "upstream_lfs_sha256": null
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "path": "models/CALM-Autoencoder/README.md",
+    "bytes": 2595,
+    "sha256": "3705ad79b4941e7bbf4795d9e06aae234e817f27032a70c9059bbbd65698d7b9",
+    "repo": "cccczshao/CALM-Autoencoder",
+    "revision": "615a8d00f37f3aebb34e43271d7b61f171bd0c56"
+  },
+  {
+    "path": "models/CALM-Autoencoder/config.json",
+    "bytes": 729,
+    "sha256": "2ec6ffe875b3eb706774daddb3c3142d71d7a347871dcfd359481cbe25b4f2bb",
+    "repo": "cccczshao/CALM-Autoencoder",
+    "revision": "615a8d00f37f3aebb34e43271d7b61f171bd0c56"
+  },
+  {
+    "path": "models/CALM-Autoencoder/model.safetensors",
+    "bytes": 303331264,
+    "sha256": "a773f5566fac6d65793f883fbb8326a14a565819267b88d633800973012e51ed",
+    "upstream_sha256": "a773f5566fac6d65793f883fbb8326a14a565819267b88d633800973012e51ed",
+    "range_offset": 0,
+    "repo": "cccczshao/CALM-Autoencoder",
+    "revision": "615a8d00f37f3aebb34e43271d7b61f171bd0c56"
+  },
+  {
+    "path": "models/CALM-Autoencoder/special_tokens_map.json",
+    "bytes": 439,
+    "sha256": "5b20fccc4d8e29ac5d7aa855ae6db4a38710437ad662b031f7730f9c21290c73",
+    "repo": "cccczshao/CALM-Autoencoder",
+    "revision": "615a8d00f37f3aebb34e43271d7b61f171bd0c56"
+  },
+  {
+    "path": "models/CALM-Autoencoder/tokenizer.json",
+    "bytes": 9084672,
+    "sha256": "067555a348e34a71e8cb5d0e0a14434ce9b997861e836378b4e8d3b5919f5864",
+    "reused": true,
+    "repo": "cccczshao/CALM-Autoencoder",
+    "revision": "615a8d00f37f3aebb34e43271d7b61f171bd0c56"
+  },
+  {
+    "path": "models/CALM-Autoencoder/tokenizer_config.json",
+    "bytes": 50762,
+    "sha256": "395114d5bfb737dca315f318f09796da93949e7844f55b2ea4f1290ee274098d",
+    "repo": "cccczshao/CALM-Autoencoder",
+    "revision": "615a8d00f37f3aebb34e43271d7b61f171bd0c56"
+  },
+  {
+    "path": "models/CALM-M/README.md",
+    "bytes": 2595,
+    "sha256": "3705ad79b4941e7bbf4795d9e06aae234e817f27032a70c9059bbbd65698d7b9",
+    "repo": "cccczshao/CALM-M",
+    "revision": "391dbc2b40aa292e8dd6dd8506fd8de46d5e1af6"
+  },
+  {
+    "path": "models/CALM-M/config.json",
+    "bytes": 948,
+    "sha256": "1c030076a2c1d6dbc8736caebea97b0caa9a23eb8dcdbd8cf517d3e0342b0f1a",
+    "repo": "cccczshao/CALM-M",
+    "revision": "391dbc2b40aa292e8dd6dd8506fd8de46d5e1af6"
+  },
+  {
+    "path": "models/CALM-M/generation_config.json",
+    "bytes": 147,
+    "sha256": "14e41687f11f114e5688bc8d3ebb7fa7e8e3be201ed3f79845ee961fade2b64e",
+    "repo": "cccczshao/CALM-M",
+    "revision": "391dbc2b40aa292e8dd6dd8506fd8de46d5e1af6"
+  },
+  {
+    "path": "models/CALM-M/pytorch_model.bin",
+    "bytes": 1790337905,
+    "sha256": "60fa4180d8d9ec90bc6c1165ad5d52700c3e22cf4347059388554d5a3b4da2da",
+    "upstream_sha256": "60fa4180d8d9ec90bc6c1165ad5d52700c3e22cf4347059388554d5a3b4da2da",
+    "range_offset": 0,
+    "repo": "cccczshao/CALM-M",
+    "revision": "391dbc2b40aa292e8dd6dd8506fd8de46d5e1af6"
+  },
+  {
+    "path": "models/CALM-M/special_tokens_map.json",
+    "bytes": 439,
+    "sha256": "5b20fccc4d8e29ac5d7aa855ae6db4a38710437ad662b031f7730f9c21290c73",
+    "repo": "cccczshao/CALM-M",
+    "revision": "391dbc2b40aa292e8dd6dd8506fd8de46d5e1af6"
+  },
+  {
+    "path": "models/CALM-M/tokenizer.json",
+    "bytes": 9084672,
+    "sha256": "067555a348e34a71e8cb5d0e0a14434ce9b997861e836378b4e8d3b5919f5864",
+    "upstream_sha256": null,
+    "range_offset": 0,
+    "repo": "cccczshao/CALM-M",
+    "revision": "391dbc2b40aa292e8dd6dd8506fd8de46d5e1af6"
+  },
+  {
+    "path": "models/CALM-M/tokenizer_config.json",
+    "bytes": 50762,
+    "sha256": "395114d5bfb737dca315f318f09796da93949e7844f55b2ea4f1290ee274098d",
+    "repo": "cccczshao/CALM-M",
+    "revision": "391dbc2b40aa292e8dd6dd8506fd8de46d5e1af6"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "official_from_pretrained_all_checkpoint_tensors_equal": 234,
+  "official_temperature1_tokens_equal": true,
+  "parity_tokens": 24,
+  "transformers": "4.43.0",
+  "diagnostic_status": "Post hoc observational comparison: four paired chunk positions per document,512documents; no causal identification or policy selection",
+  "diagnostics": {
+    "posterior": {
+      "norm": {
+        "mean": 10.64056751690805,
+        "median": 10.597272872924805
+      },
+      "mean_native_margin": {
+        "mean": 15.6764679744374,
+        "median": 15.739112854003906
+      },
+      "relative_cycle_distance": {
+        "mean": 0.39341780958056916,
+        "median": 0.39273206889629364
+      }
+    },
+    "generated": {
+      "norm": {
+        "mean": 10.558436008635908,
+        "median": 10.536451816558838
+      },
+      "mean_native_margin": {
+        "mean": 4.535744038847042,
+        "median": 3.5969396829605103
+      },
+      "relative_cycle_distance": {
+        "mean": 0.8158511405636091,
+        "median": 0.8173916041851044
+      }
+    }
+  },
+  "boundary": "Base sampling temperature1 only. Does not evaluate the authors recommended temperature<=0.5 or its candidate-collision selection, free-running generation, or published BrierLM protocol."
+}

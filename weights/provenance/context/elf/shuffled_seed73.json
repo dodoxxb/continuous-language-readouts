@@ -1,0 +1,11 @@
+{
+  "family": "elf",
+  "arm": "shuffled",
+  "seed": 73,
+  "step": 512,
+  "validation": 0.9693603515625,
+  "added_parameters": 292996,
+  "sha256": "6519b6f36ca1c2cac41e635a0053b7d443cede00172b781f655520b1e1c8893b",
+  "max_allocated_gib": 0.1772918701171875,
+  "elapsed": 4.15838544908911
+}

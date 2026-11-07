@@ -1,0 +1,9 @@
+{
+  "samples": 256,
+  "files": {
+    "x.npy": "4b7305fb5936a81a4daa02e40aa44d80c3b83d880d74e5141e99fa85dd6edd2e",
+    "y.npy": "c8df363fae1249d7c3f650e4b19c5d5efe171dafd2a4234af3ec62ae5a60c4f1",
+    "margin.npy": "88c0b1f8d1e08e7e820d1ff9d098763d711980ac570ba893940797574fe1f9ca"
+  },
+  "protocol_sha256": "809564e875f921d14280e3d1e94abc370ac83fd8339badf5b4c6b705cfc4c074"
+}

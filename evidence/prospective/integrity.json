@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "frozen_code_and_inputs_unchanged": true,
+  "actual_edit_invariants_checked": true,
+  "common_scorable_sequences": 1536,
+  "pools": [
+    {
+      "condition": "B32",
+      "generation_seed": 61013201,
+      "sequences": 256,
+      "valid_tokens": 261794,
+      "original_errors": 7064,
+      "corrected_per_arm": 3468,
+      "repair_arms": 6,
+      "primary_score_files": 10,
+      "secondary_score_files": 10
+    },
+    {
+      "condition": "B32",
+      "generation_seed": 61013202,
+      "sequences": 256,
+      "valid_tokens": 261804,
+      "original_errors": 7320,
+      "corrected_per_arm": 3600,
+      "repair_arms": 6,
+      "primary_score_files": 10,
+      "secondary_score_files": 10
+    },
+    {
+      "condition": "M32",
+      "generation_seed": 61013201,
+      "sequences": 256,
+      "valid_tokens": 261807,
+      "original_errors": 10361,
+      "corrected_per_arm": 5120,
+      "repair_arms": 6,
+      "primary_score_files": 10,
+      "secondary_score_files": 10
+    },
+    {
+      "condition": "M32",
+      "generation_seed": 61013202,
+      "sequences": 256,
+      "valid_tokens": 261809,
+      "original_errors": 10418,
+      "corrected_per_arm": 5148,
+      "repair_arms": 6,
+      "primary_score_files": 10,
+      "secondary_score_files": 10
+    },
+    {
+      "condition": "PD8",
+      "generation_seed": 61013201,
+      "sequences": 256,
+      "valid_tokens": 261813,
+      "original_errors": 19448,
+      "corrected_per_arm": 9663,
+      "repair_arms": 6,
+      "primary_score_files": 10,
+      "secondary_score_files": 10
+    },
+    {
+      "condition": "PD8",
+      "generation_seed": 61013202,
+      "sequences": 256,
+      "valid_tokens": 261814,
+      "original_errors": 19112,
+      "corrected_per_arm": 9492,
+      "repair_arms": 6,
+      "primary_score_files": 10,
+      "secondary_score_files": 10
+    }
+  ]
+}

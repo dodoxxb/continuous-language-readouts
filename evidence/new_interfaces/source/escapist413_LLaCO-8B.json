@@ -1,0 +1,136 @@
+{
+  "_id": "6ae1982184d4a271df2adaa3",
+  "id": "escapist413/LLaCO-8B",
+  "private": false,
+  "tags": [
+    "diffusion",
+    "llaco",
+    "arxiv:2610.32604",
+    "license:other",
+    "region:us"
+  ],
+  "downloads": 52,
+  "likes": 0,
+  "modelId": "escapist413/LLaCO-8B",
+  "author": "escapist413",
+  "sha": "60cf1dff9154bdde70fa099ed8430b8edc67081e",
+  "lastModified": "2026-10-28T16:10:40.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "other",
+    "license_name": "nvidia-nemotron-open-model-license",
+    "license_link": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/",
+    "tags": [
+      "diffusion",
+      "llaco"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "7a2d4a024b43e7fbf51ac485bdb3fb8fd7b2271c",
+      "size": 142
+    },
+    {
+      "rfilename": ".metadata",
+      "blobId": "183ee5dd3eef5278a46e5a7d15e64b3b9a9d1931",
+      "size": 142615,
+      "lfs": {
+        "sha256": "827510d6fa1a757c21231a124b6f8f1dee47ad7c9d9a75ac6b46c38e0d51dfc8",
+        "size": 142615,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "ff57eb6012f817658e25ef765fcc12fa0d059c70",
+      "size": 1866
+    },
+    {
+      "rfilename": "SHA256SUMS",
+      "blobId": "17bebab5d81da4dc16a898bae9e2a26aa27548aa",
+      "size": 488
+    },
+    {
+      "rfilename": "__0_0.distcp",
+      "blobId": "3e5298d5d3b7a816cf984264a323a47db56d3655",
+      "size": 19985763719,
+      "lfs": {
+        "sha256": "d1a133d2703dd65d18a3282590389790574380878691148acd08c2b17ca513e8",
+        "size": 19985763719,
+        "pointerSize": 136
+      }
+    },
+    {
+      "rfilename": "metadata.json",
+      "blobId": "98bcc29a6b01da35e4e3d5fadfb54738e0cd8b99",
+      "size": 63
+    },
+    {
+      "rfilename": "run_config.yaml",
+      "blobId": "aa218f3b230191a2e7c5cb5584b81767878ed1ee",
+      "size": 34385
+    },
+    {
+      "rfilename": "spherical_metadata.json",
+      "blobId": "ed6bd9c8694d670c56bb2603ae3f3fb39fcda59a",
+      "size": 943
+    },
+    {
+      "rfilename": "tokenizer/chat_template.jinja",
+      "blobId": "a79f5c1cff8be56fa416c5fb55940cfcc8c5fbfe",
+      "size": 10498
+    },
+    {
+      "rfilename": "tokenizer/config.json",
+      "blobId": "1e33a9a6f35c53763d737e693ba898dea9e4c9d8",
+      "size": 1320
+    },
+    {
+      "rfilename": "tokenizer/configuration_nemotron_labs_diffusion.py",
+      "blobId": "dd5ab276fe61d4204fe8ebf451afc5f4a0a393b9",
+      "size": 8268
+    },
+    {
+      "rfilename": "tokenizer/generation_config.json",
+      "blobId": "2885934baf2cab25798beeac09d2d7035da48fd8",
+      "size": 133
+    },
+    {
+      "rfilename": "tokenizer/modeling_ministral.py",
+      "blobId": "f9b2100df15e635dcc81e321682e5bb7e63af708",
+      "size": 20497
+    },
+    {
+      "rfilename": "tokenizer/modeling_nemotron_labs_diffusion.py",
+      "blobId": "0fbb3cfb1ef07273879eda5312afc5ad33ad363d",
+      "size": 36286
+    },
+    {
+      "rfilename": "tokenizer/special_tokens_map.json",
+      "blobId": "0d5c2c9dba131d5da20e58336dd09b022142ea50",
+      "size": 420
+    },
+    {
+      "rfilename": "tokenizer/tokenizer.json",
+      "blobId": "9c63dbb971da0f926b8181e7cd83b8a67892ad9b",
+      "size": 17077484,
+      "lfs": {
+        "sha256": "623c34567aebb18582765289fbe23d901c62704d6518d71866e0e58db892b5b7",
+        "size": 17077484,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "tokenizer/tokenizer_config.json",
+      "blobId": "9e03f6cd3a58fc6f1bac97a8640ba4105f5f0098",
+      "size": 177180
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-10-28T06:37:21.000Z",
+  "usedStorage": 20002983818
+}

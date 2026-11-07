@@ -1,0 +1,6 @@
+{
+  "protocol_sha256": "64c5afa642110db282cd8921096a631813cc923f7178738c2cf580dac93ffc6f",
+  "selected_fit_sha256": "02e806e3dbb23ae603ed3e6c3226726297c78a8f99996a044b260fa416168392",
+  "generation_followup": "Apply the validation-selected tied maps to the same not-yet-generated CALM-M one-step conditional states; report paired agreement gain vs ridge. Exploratory extension, not full-generation quality.",
+  "secondary_strata_before_fresh_test": "Native fitting count0,1--99,>=100. Retain all groups. These stratified summaries do not establish a causal effect of rarity."
+}

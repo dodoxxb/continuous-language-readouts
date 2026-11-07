@@ -1,0 +1,19 @@
+{
+  "family": "langflow",
+  "train_sequences": 1024,
+  "train_tokens": 131072,
+  "fit_seed": 17,
+  "selected_update": 4096,
+  "validation_agreement": 0.62969970703125,
+  "selection": "validation only",
+  "runtime_seconds": 25.860446214675903,
+  "checkpoint_sha256": "7410d6b79ad065508de7fc383364dd2d4608fb7631465b2e9a8586bc0263a834",
+  "test": {
+    "agreement": 0.62664794921875,
+    "macro_agreement": 0.62664794921875,
+    "autonomous_eos_agreement": 0.62664794921875,
+    "sequences": 512,
+    "valid_tokens": 65536,
+    "zero_valid_sequences": 0
+  }
+}

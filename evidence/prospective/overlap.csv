@@ -1,0 +1,7 @@
+condition,generation_seed,old_exact_overlaps,within_pool_duplicates,earlier_new_pool_overlaps
+B32,61013201,0,0,0
+B32,61013202,0,0,0
+M32,61013201,0,0,0
+M32,61013202,0,0,0
+PD8,61013201,0,0,0
+PD8,61013202,0,0,0

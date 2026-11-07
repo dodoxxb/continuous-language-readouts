@@ -1,0 +1,11 @@
+{
+  "family": "aurora",
+  "arm": "focal",
+  "seed": 71,
+  "step": 0,
+  "validation": 0.96307373046875,
+  "added_parameters": 458457,
+  "sha256": "e775e08fd6bd2d1fccb9379546af1cc5305902d65c5cb0e8690e944e7d9b3ea8",
+  "max_allocated_gib": 0.31661033630371094,
+  "elapsed": 10.764347413089126
+}

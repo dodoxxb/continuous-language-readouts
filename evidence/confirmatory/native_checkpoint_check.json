@@ -1,0 +1,255 @@
+{
+  "sample_source": "first 32 NEW training-split sequence IDs; no validation or test selection",
+  "rows": [
+    {
+      "historical_sequence_id": 5546,
+      "correct": 1023,
+      "valid": 1023,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 12515,
+      "correct": 1023,
+      "valid": 1023,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 16879,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 25277,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 25494,
+      "correct": 1023,
+      "valid": 1023,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 13614,
+      "correct": 1021,
+      "valid": 1023,
+      "all_positions_exact": false,
+      "current_top_two_gaps_at_mismatch": [
+        0.12242507934570312,
+        0.088653564453125
+      ]
+    },
+    {
+      "historical_sequence_id": 13641,
+      "correct": 1023,
+      "valid": 1023,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 15391,
+      "correct": 1022,
+      "valid": 1023,
+      "all_positions_exact": false,
+      "current_top_two_gaps_at_mismatch": [
+        0.06903266906738281
+      ]
+    },
+    {
+      "historical_sequence_id": 15634,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 3449,
+      "correct": 1023,
+      "valid": 1023,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 2215,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 31689,
+      "correct": 1021,
+      "valid": 1023,
+      "all_positions_exact": false,
+      "current_top_two_gaps_at_mismatch": [
+        0.005786895751953125,
+        0.019817352294921875
+      ]
+    },
+    {
+      "historical_sequence_id": 31445,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 18317,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 17842,
+      "correct": 1023,
+      "valid": 1023,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 23368,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 22879,
+      "correct": 1020,
+      "valid": 1022,
+      "all_positions_exact": false,
+      "current_top_two_gaps_at_mismatch": [
+        0.008525848388671875,
+        0.086669921875
+      ]
+    },
+    {
+      "historical_sequence_id": 1613,
+      "correct": 1022,
+      "valid": 1023,
+      "all_positions_exact": false,
+      "current_top_two_gaps_at_mismatch": [
+        0.03156280517578125
+      ]
+    },
+    {
+      "historical_sequence_id": 1307,
+      "correct": 1021,
+      "valid": 1022,
+      "all_positions_exact": false,
+      "current_top_two_gaps_at_mismatch": [
+        0.003021240234375
+      ]
+    },
+    {
+      "historical_sequence_id": 7263,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 7197,
+      "correct": 1023,
+      "valid": 1023,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 8176,
+      "correct": 1021,
+      "valid": 1022,
+      "all_positions_exact": false,
+      "current_top_two_gaps_at_mismatch": [
+        0.09313201904296875
+      ]
+    },
+    {
+      "historical_sequence_id": 30313,
+      "correct": 1023,
+      "valid": 1023,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 10496,
+      "correct": 1022,
+      "valid": 1023,
+      "all_positions_exact": false,
+      "current_top_two_gaps_at_mismatch": [
+        0.00699615478515625
+      ]
+    },
+    {
+      "historical_sequence_id": 8956,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 8783,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 992,
+      "correct": 1023,
+      "valid": 1023,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 10,
+      "correct": 1021,
+      "valid": 1023,
+      "all_positions_exact": false,
+      "current_top_two_gaps_at_mismatch": [
+        0.0272369384765625,
+        7.62939453125e-06
+      ]
+    },
+    {
+      "historical_sequence_id": 14643,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 22439,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 29322,
+      "correct": 1023,
+      "valid": 1023,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    },
+    {
+      "historical_sequence_id": 20599,
+      "correct": 1022,
+      "valid": 1022,
+      "all_positions_exact": true,
+      "current_top_two_gaps_at_mismatch": []
+    }
+  ],
+  "native_agreement": 0.9996026894865526,
+  "all_sequences_bitwise_equal": false,
+  "weights": "ema_params1",
+  "scope": "Decoder lineage/numerical consistency check; not generation-seed reproduction."
+}

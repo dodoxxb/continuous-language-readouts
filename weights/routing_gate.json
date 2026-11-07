@@ -1,0 +1,182 @@
+{
+  "status": "fitted_before_fresh_generation",
+  "models": {
+    "elf": {
+      "mean": [
+        1.0670296725584194,
+        0.3962859109369674,
+        3.0537420137843583,
+        11.616862693380233,
+        0.0061798095703125,
+        0.0,
+        1.0,
+        64.0
+      ],
+      "std": [
+        0.20106568870605013,
+        0.2510806524990378,
+        0.6394711498818346,
+        0.49968778179401857,
+        0.012485298437095763,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "beta": [
+        1.4521620963932993,
+        -1.0205336606143849,
+        -0.3861326454595399,
+        -0.44322834733013416,
+        -0.4278930359179136,
+        -0.06845318459204872,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 10.0,
+      "features": [
+        "mean_log1p_gap",
+        "q10_log1p_gap",
+        "mean_entropy",
+        "mean_log1p_predicted_count",
+        "predicted_numeric_fraction",
+        "own_eos_present",
+        "own_stop_fraction",
+        "canvas_length"
+      ],
+      "training_sequences": 2048,
+      "training_documents": 1024,
+      "training_target": "100*(native BERTScore F1 - autonomous17 BERTScore F1), each own stopping boundary",
+      "task_specific_development": true,
+      "no_hyperparameter_search": true,
+      "development_target_mean": 1.4521620963932946,
+      "development_grouped_oof_mae": 1.3480836926240296,
+      "development_grouped_oof_constant_mae": 1.421465402567363,
+      "feature_csv_sha256": "993df42cfc444910e28808c9d4b7d2240501f5af987a4debd4e8787e2d35f552",
+      "stopping_only": {
+        "mean": [
+          0.0,
+          1.0,
+          64.0
+        ],
+        "std": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "beta": [
+          1.4521620963932946,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": 10.0,
+        "features": [
+          "own_eos_present",
+          "own_stop_fraction",
+          "canvas_length"
+        ],
+        "training_sequences": 2048,
+        "training_documents": 1024,
+        "training_target": "100*(native BERTScore F1 - autonomous17 BERTScore F1), each own stopping boundary",
+        "task_specific_development": true,
+        "no_hyperparameter_search": true
+      }
+    },
+    "aurora": {
+      "mean": [
+        1.8677371804369614,
+        1.0419131967355497,
+        0.89372182342413,
+        7.015291608768827,
+        0.014021373845849236,
+        0.0,
+        1.0,
+        71.24609375
+      ],
+      "std": [
+        0.09065719530314972,
+        0.3636282381636569,
+        0.35621399664047854,
+        0.4531957037044553,
+        0.022943576347295155,
+        1.0,
+        1.0,
+        4.58385247267088
+      ],
+      "beta": [
+        3.206529640010557,
+        0.8253629549394629,
+        -0.052721627176249265,
+        0.8771301241581279,
+        -0.023688873156286733,
+        -0.08586066513091987,
+        0.0,
+        0.0,
+        0.07341028956077612
+      ],
+      "alpha": 10.0,
+      "features": [
+        "mean_log1p_gap",
+        "q10_log1p_gap",
+        "mean_entropy",
+        "mean_log1p_predicted_count",
+        "predicted_numeric_fraction",
+        "own_eos_present",
+        "own_stop_fraction",
+        "canvas_length"
+      ],
+      "training_sequences": 2048,
+      "training_documents": 1024,
+      "training_target": "100*(native BERTScore F1 - autonomous17 BERTScore F1), each own stopping boundary",
+      "task_specific_development": true,
+      "no_hyperparameter_search": true,
+      "development_target_mean": 3.206529640010558,
+      "development_grouped_oof_mae": 1.2393988387326729,
+      "development_grouped_oof_constant_mae": 1.2905217943610916,
+      "feature_csv_sha256": "338b7d4ba7f0c38197edc5ab2cc455c59afc687a58ca17d85c8295d8e35625ae",
+      "stopping_only": {
+        "mean": [
+          0.0,
+          1.0,
+          71.24609375
+        ],
+        "std": [
+          1.0,
+          1.0,
+          4.58385247267088
+        ],
+        "beta": [
+          3.206529640010558,
+          0.0,
+          0.0,
+          0.058743106330023706
+        ],
+        "alpha": 10.0,
+        "features": [
+          "own_eos_present",
+          "own_stop_fraction",
+          "canvas_length"
+        ],
+        "training_sequences": 2048,
+        "training_documents": 1024,
+        "training_target": "100*(native BERTScore F1 - autonomous17 BERTScore F1), each own stopping boundary",
+        "task_specific_development": true,
+        "no_hyperparameter_search": true
+      }
+    }
+  },
+  "feature_names": [
+    "mean_log1p_gap",
+    "q10_log1p_gap",
+    "mean_entropy",
+    "mean_log1p_predicted_count",
+    "predicted_numeric_fraction",
+    "own_eos_present",
+    "own_stop_fraction",
+    "canvas_length"
+  ],
+  "code_sha256": "018824eedb1a33f73d9460754da4c455097aa4d43c5d9e26267cb4947772098e",
+  "fit_data_sha256": "d0182fbd47180952dceb4a90a541008f22d10ea6937b985819b5847b1402a21c",
+  "target_provenance_sha256": "3a899f2e2e374e5585d0826f2dd0acf8bc99c35c351da1268805841b4f7ee590"
+}

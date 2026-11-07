@@ -1,0 +1,11 @@
+{
+  "scope": "Source-level architecture check at the pinned commit; not an empirical result",
+  "native_decoder": "Six contextual layers; shared learned token queries attend to native latents; tied frozen token-table projection",
+  "direct_affine_latent_to_logits_skip": false,
+  "pretrained_backbone_use": "Frozen token embedding table only; no pretrained contextual Transformer in the autoencoder chain",
+  "decoder_source": "third_party/AURORA-LM/src/aurora/models/decoder.py",
+  "decoder_sha256": "f58a54e809f84894e3c15f603ad56ce57bb2e48865002c4122429a953fe7aff3",
+  "sampling_step_unit": "Diffusion updates per 16-token block; 32 blocks per 512-token prefix; not whole-sequence NFE or compute-matched to ELF",
+  "step_unit_source": "third_party/AURORA-LM/src/aurora/sampling/block_sampler.py:144,218,266",
+  "native_decoder_causal": true
+}

@@ -1,0 +1,37 @@
+{
+  "status": "prepared",
+  "extract_into": "weights/",
+  "bundles": {
+    "elf_readouts": {
+      "file": "elf_readouts_20261104.tar",
+      "bytes": 197621760,
+      "sha256": "497d2d91e94bb9a4e5086b5243cf9d73f9be0a6b61cabac2be9a326eae7ea18b",
+      "weights": 3
+    },
+    "aurora_readouts": {
+      "file": "aurora_readouts_20261104.tar",
+      "bytes": 463790080,
+      "sha256": "990f0f39c918be507f3754b96dc93c7f016de8dd3139cfade17ff3f38365b9d3",
+      "weights": 3
+    },
+    "langflow_readouts": {
+      "file": "langflow_readouts_20261104.tar",
+      "bytes": 563333120,
+      "sha256": "6d5bc74a55206a950dd795e9b9c272e64590a6f5e05e8e74ce901eee22c4ab44",
+      "weights": 6
+    },
+    "context_controls": {
+      "file": "context_controls_20261104.tar",
+      "bytes": 36290560,
+      "sha256": "169078557e7e7fa8a6b9a6408372d31a4aaa2de09c493b5b2f601adc6abdff45",
+      "weights": 24
+    },
+    "calm_coefficients": {
+      "file": "calm_coefficients_20261104.tar",
+      "bytes": 6369280,
+      "sha256": "cf98b28af8e1c462b72abc0a9027ff1c1a6cf25e8797f2802190d4436ef32bbd",
+      "weights": 6
+    }
+  },
+  "intended_release_tag": "v0.1.0"
+}

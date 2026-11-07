@@ -1,0 +1,7 @@
+{
+  "documents": 512,
+  "disjoint_old_hashes": true,
+  "original_prefix_reproduced": true,
+  "frozen_sha256": "02e806e3dbb23ae603ed3e6c3226726297c78a8f99996a044b260fa416168392",
+  "cohort_sha256": "2993a98f4dcadc882dfb6d3b22a3012aaaac5804ca105dcbc11ecca35ce9aa34"
+}

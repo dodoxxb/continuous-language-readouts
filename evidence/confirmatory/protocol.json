@@ -1,0 +1,55 @@
+{
+  "protocol_version": 1,
+  "date": "2026-10-13",
+  "created_before_fitting": true,
+  "split_seed": 20261013,
+  "fit_seeds": [
+    17,
+    29,
+    43
+  ],
+  "elf_train_budgets": [
+    1024,
+    4096,
+    16384
+  ],
+  "elf_validation_sequences": 512,
+  "elf_fixed_test_sequences": 1024,
+  "elf_fresh_test_sequences": 512,
+  "elf_fresh_generation_seed": 61013001,
+  "elf_source": "outputs/phase0_phase1_20260520/phase37_mdp_linear_32768",
+  "elf_steps": 32,
+  "elf_sampler": "SDE gamma=1.5; SC CFG=3.0; logit-normal time grid; final ODE step",
+  "elf_weights": "ema_params1",
+  "langflow_model": "LangFlow-main/langflow-lm1b",
+  "langflow_train_sequences": 1024,
+  "langflow_validation_sequences": 256,
+  "langflow_test_sequences": 512,
+  "langflow_seed": 61013002,
+  "langflow_steps": 64,
+  "langflow_sequence_length": 128,
+  "train_updates": 4096,
+  "batch_tokens": 1024,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.01,
+  "noise_aug": 0.02,
+  "validation_checkpoints": [
+    1024,
+    2048,
+    4096
+  ],
+  "selection": "highest validation native-token agreement; tie selects earlier update; no test selection",
+  "representation": "final sampler state before full native decoder; no decoder hidden-state feature leakage",
+  "primary": "micro native-token agreement, macro sequence agreement and paired sequence-bootstrap confidence intervals",
+  "secondary": [
+    "fresh ELF holdout agreement",
+    "frequency/numeric token groups defined without test outcomes",
+    "native-embedding frozen lookup",
+    "LangFlow learned residual versus linear skip decomposition",
+    "ELF largest-budget readout PPL on native-length-matched fresh outputs"
+  ],
+  "evaluation_boundary": "ELF native valid positions; report raw token agreement and autonomous predicted EOS truncation separately. LangFlow all native positions. PPL uses identical native boundary for all compared texts and is explicitly diagnostic, not autonomous generation.",
+  "history_disclosure": "ELF historical pool was used in previous experiments; it is frozen for these NEW fits, not globally untouched. Fresh ELF test is generated after this protocol and never used for selection.",
+  "cross_interface_scope": "Different native representations, tokenizers, sequence lengths and decoder architectures: no cross-family score ranking or claim of independently replicated T5 geometry. LangFlow has an explicit linear skip, so audit that alternative explanation.",
+  "result_reporting": "All prespecified fits and failures retained regardless of sign; no outcome-based protocol changes."
+}

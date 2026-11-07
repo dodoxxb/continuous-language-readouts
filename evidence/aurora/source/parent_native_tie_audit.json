@@ -1,0 +1,44 @@
+[
+  {
+    "pool": "outputs/prospective_tail_20261013/test/B32/61013201",
+    "positions": 261794,
+    "exact_top_margin_ties": 0,
+    "negative_margin": 0
+  },
+  {
+    "pool": "outputs/prospective_tail_20261013/test/B32/61013202",
+    "positions": 261804,
+    "exact_top_margin_ties": 0,
+    "negative_margin": 0
+  },
+  {
+    "pool": "outputs/prospective_tail_20261013/test/M32/61013201",
+    "positions": 261807,
+    "exact_top_margin_ties": 0,
+    "negative_margin": 0
+  },
+  {
+    "pool": "outputs/prospective_tail_20261013/test/M32/61013202",
+    "positions": 261809,
+    "exact_top_margin_ties": 0,
+    "negative_margin": 0
+  },
+  {
+    "pool": "outputs/prospective_tail_20261013/test/PD8/61013201",
+    "positions": 261813,
+    "exact_top_margin_ties": 0,
+    "negative_margin": 0
+  },
+  {
+    "pool": "outputs/prospective_tail_20261013/test/PD8/61013202",
+    "positions": 261814,
+    "exact_top_margin_ties": 0,
+    "negative_margin": 0
+  },
+  {
+    "pool": "outputs/confirmatory_readout_20261013/data/elf/fresh_test",
+    "positions": 523560,
+    "exact_top_margin_ties": 0,
+    "negative_margin": 0
+  }
+]

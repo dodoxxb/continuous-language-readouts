@@ -1,0 +1,7 @@
+condition,generation_seed,development_exact_overlaps,within_pool_duplicates,earlier_test_pool_overlaps
+S16,61022401,0,0,0
+S16,61022402,0,0,0
+S32,61022401,0,0,0
+S32,61022402,0,0,0
+S64,61022401,0,0,0
+S64,61022402,0,0,0

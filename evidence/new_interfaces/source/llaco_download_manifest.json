@@ -1,0 +1,142 @@
+[
+  {
+    "path": "models/LLaCO-8B/.metadata",
+    "bytes": 142615,
+    "sha256": "827510d6fa1a757c21231a124b6f8f1dee47ad7c9d9a75ac6b46c38e0d51dfc8",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/README.md",
+    "bytes": 1866,
+    "sha256": "414fa2b37682bb44f67b5e278d3d9cb73a27cb4d7236444d8a839aeb33730208",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/SHA256SUMS",
+    "bytes": 488,
+    "sha256": "a1d472707bf01a9f013861fa31e2831bb4cbac2b847cef92caed494e92352b86",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/metadata.json",
+    "bytes": 63,
+    "sha256": "56b32e2dfbc0255db319bddf6880c9dfd3475135ca8d5ace23b8a6a384ed63c6",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/run_config.yaml",
+    "bytes": 34385,
+    "sha256": "86c8a64c0ca4c5c1bcbce36b5750ce6f83a6d383b52da5f34fe882e25c9b6c1d",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/spherical_metadata.json",
+    "bytes": 943,
+    "sha256": "515c8d4621e9450862cc33ec2d51aaa39633b3a102472eadfee82e96c6f78caf",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/tokenizer/chat_template.jinja",
+    "bytes": 10498,
+    "sha256": "24901e3846b530e3ed20436b26ea1cd7b3768ab2b2645e31c47df1413ab289dc",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/tokenizer/config.json",
+    "bytes": 1320,
+    "sha256": "87d98d513c1fc61e4ffed0b51d08862aaec9123833127b0a0ab63145a9a2316e",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/tokenizer/configuration_nemotron_labs_diffusion.py",
+    "bytes": 8268,
+    "sha256": "2b18216e1b4e0d89b728c1c871744088a28004564f99009809294b39ec677b57",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/tokenizer/generation_config.json",
+    "bytes": 133,
+    "sha256": "c400f11f0da87584559a2d375c997b79bddfcde336b4085c626c1921ae7dfb6e",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/tokenizer/modeling_ministral.py",
+    "bytes": 20497,
+    "sha256": "021afd8a72e23c5bf3a309f9dc5f0a7771db2424c148be5ce2a2737bf4cb7d65",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/tokenizer/modeling_nemotron_labs_diffusion.py",
+    "bytes": 36286,
+    "sha256": "29d73c5709e90e3be3c7e537edb61a84fbb3dc1c286b1eaed42d899a3a4e4760",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/tokenizer/special_tokens_map.json",
+    "bytes": 420,
+    "sha256": "e3a4f63da745f02317a45e00e6476c17fc66ac41faf14bb1b0be1f3211b0ca53",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/tokenizer/tokenizer.json",
+    "bytes": 17077484,
+    "sha256": "623c34567aebb18582765289fbe23d901c62704d6518d71866e0e58db892b5b7",
+    "upstream_sha256": "623c34567aebb18582765289fbe23d901c62704d6518d71866e0e58db892b5b7",
+    "range_offset": 0,
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/tokenizer/tokenizer_config.json",
+    "bytes": 177180,
+    "sha256": "50d5c40a1e06a86e8d0fc2d4c6a9bf73ed0ffca7bdad3c9b42cedca48baa25dc",
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e"
+  },
+  {
+    "path": "models/LLaCO-8B/components/spherical_adapter.log_beta.pt",
+    "bytes": 1577,
+    "sha256": "d48dc6a26f06428e4eafcd7afe52a083e2078033128a05609365a4c47529e826",
+    "upstream_sha256": null,
+    "range_offset": 18910960232,
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e",
+    "component": "spherical_adapter.log_beta",
+    "verification": "HTTP Content-Range, record length, local SHA256; no upstream per-record hash"
+  },
+  {
+    "path": "models/LLaCO-8B/components/spherical_adapter.bias.pt",
+    "bytes": 263721,
+    "sha256": "b16a3dbc1aa228fb65847ac353b2a246b8395dac76d1a01b25eaf08e2cb06e81",
+    "upstream_sha256": null,
+    "range_offset": 18910961809,
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e",
+    "component": "spherical_adapter.bias",
+    "verification": "HTTP Content-Range, record length, local SHA256; no upstream per-record hash"
+  },
+  {
+    "path": "models/LLaCO-8B/components/spherical_geometry.E_geometry.pt",
+    "bytes": 1073743401,
+    "sha256": "f46e37f5a7a191bf613ea18489a9e068f8c1be637b2e503e019456b61aac007d",
+    "upstream_sha256": null,
+    "range_offset": 17837216831,
+    "repo": "escapist413/LLaCO-8B",
+    "revision": "60cf1dff9154bdde70fa099ed8430b8edc67081e",
+    "component": "spherical_geometry.E_geometry",
+    "verification": "HTTP Content-Range, record length, local SHA256; no upstream per-record hash"
+  }
+]

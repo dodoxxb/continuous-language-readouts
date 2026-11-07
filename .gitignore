@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+weights/release_assets/
+weights/bundles/
+evidence/new_interfaces/calm/**/*.npz
+*.tmp

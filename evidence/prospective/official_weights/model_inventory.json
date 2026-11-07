@@ -1,0 +1,504 @@
+{
+  "retrieved_at_utc": "2026-10-13T08:21:52.094274+00:00",
+  "url": "https://huggingface.co/api/models?author=embedded-language-flows&full=true&sort=lastModified&direction=-1&limit=100",
+  "models": [
+    {
+      "_id": "6a3de4fe4f2dcb9010f317a3",
+      "id": "embedded-language-flows/ELF-B-PD-owt-torch",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-06-26T02:33:46.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "ae2da3dcdd2cbf9e51071b210d81fd297e196b78",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-06-26T02:33:34.000Z",
+      "modelId": "embedded-language-flows/ELF-B-PD-owt-torch",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "checkpoint_19017"
+        },
+        {
+          "rfilename": "config.yml"
+        }
+      ]
+    },
+    {
+      "_id": "6a38930118519c78e2fb3035",
+      "id": "embedded-language-flows/ELF-B-owt-teacher",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-06-22T01:42:37.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "55831b5c1e21ea210b3de62c1cf3c75c1217de3b",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-06-22T01:42:25.000Z",
+      "modelId": "embedded-language-flows/ELF-B-owt-teacher",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "checkpoint_95085"
+        },
+        {
+          "rfilename": "config.yml"
+        }
+      ]
+    },
+    {
+      "_id": "6a0a223b5b0719e68d451838",
+      "id": "embedded-language-flows/ELF-B-xsum-torch",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-17T20:18:56.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "aca4abd1c7ff5f841f0e2a3ec8a18b0a927927f1",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-17T20:16:59.000Z",
+      "modelId": "embedded-language-flows/ELF-B-xsum-torch",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "checkpoint_39800"
+        },
+        {
+          "rfilename": "config.yml"
+        }
+      ]
+    },
+    {
+      "_id": "6a0a22996181cee4f4560d33",
+      "id": "embedded-language-flows/ELF-B-de-en-torch",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-17T20:18:41.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "93ce98315a2dec985cdefb8d8e62ab618e896ec4",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-17T20:18:33.000Z",
+      "modelId": "embedded-language-flows/ELF-B-de-en-torch",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "checkpoint_880600"
+        },
+        {
+          "rfilename": "config.yml"
+        }
+      ]
+    },
+    {
+      "_id": "6a0a0ea26993a38a15f060c5",
+      "id": "embedded-language-flows/ELF-M-owt-torch",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-17T18:53:42.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "dbc7e5a20d71f03bc16e0e76fae672f465afa791",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-17T18:53:22.000Z",
+      "modelId": "embedded-language-flows/ELF-M-owt-torch",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "checkpoint_76070"
+        },
+        {
+          "rfilename": "config.yml"
+        }
+      ]
+    },
+    {
+      "_id": "6a0a0e7bef7b1751d8f6a067",
+      "id": "embedded-language-flows/ELF-L-owt-torch",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-17T18:53:13.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "6a8888cc5cf7d08f0f190956c1896b36325e5a9d",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-17T18:52:43.000Z",
+      "modelId": "embedded-language-flows/ELF-L-owt-torch",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "checkpoint_57051"
+        },
+        {
+          "rfilename": "config.yml"
+        }
+      ]
+    },
+    {
+      "_id": "6a0a0b8cef7b1751d8f64571",
+      "id": "embedded-language-flows/ELF-B-owt-torch",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-17T18:40:19.000Z",
+      "likes": 1,
+      "private": false,
+      "sha": "146f84133c1389bfd4ef47f14ec7a955da22faa7",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-17T18:40:12.000Z",
+      "modelId": "embedded-language-flows/ELF-B-owt-torch",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "checkpoint_95085"
+        },
+        {
+          "rfilename": "config.yml"
+        }
+      ]
+    },
+    {
+      "_id": "6a01f58b1c837a52621593e5",
+      "id": "embedded-language-flows/ELF-B-owt",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-17T18:22:38.000Z",
+      "likes": 3,
+      "private": false,
+      "sha": "506a81d3ed3b2475e9ae754bae308e10f765d327",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-11T15:28:11.000Z",
+      "modelId": "embedded-language-flows/ELF-B-owt",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "ELF-B-owt.yml"
+        },
+        {
+          "rfilename": "checkpoint_0/_CHECKPOINT_METADATA"
+        },
+        {
+          "rfilename": "checkpoint_0/_METADATA"
+        },
+        {
+          "rfilename": "checkpoint_0/d/6208032b3f03b52e547ecec7a454d7ca"
+        },
+        {
+          "rfilename": "checkpoint_0/d/b2956458b381bb217a79647c7089da38"
+        },
+        {
+          "rfilename": "checkpoint_0/manifest.ocdbt"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/08d814311c8bcea9e19ae58d8551efda"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/0e7ab4f3f368d144d7c4c258982b46ab"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/2633e0ceb216c7296fd0fbd3f73f684c"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/7bbad8dd18280b677505212b34d448d6"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/9229cf90e63f93ddd36abb838dde8b52"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/a81aa518a0f3a1c96445302e15102b43"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/c9317992e501144a8a6c0bdef4569b2c"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/cfc804c81b4c74de303f6af62fad5fb0"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/manifest.ocdbt"
+        }
+      ]
+    },
+    {
+      "_id": "6a0201176108100152421b13",
+      "id": "embedded-language-flows/ELF-B-xsum",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-11T16:17:31.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "8150551968f826c4421cf6bdeff9d6e7b766e23d",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-11T16:17:27.000Z",
+      "modelId": "embedded-language-flows/ELF-B-xsum",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "ELF-B-xsum.yml"
+        },
+        {
+          "rfilename": "checkpoint_0/_CHECKPOINT_METADATA"
+        },
+        {
+          "rfilename": "checkpoint_0/_METADATA"
+        },
+        {
+          "rfilename": "checkpoint_0/d/1f624d03700a01167997d9b0c2b76a87"
+        },
+        {
+          "rfilename": "checkpoint_0/manifest.ocdbt"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/0c2c8085e6c0b9f2e29729d6523d168a"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/135f7effae7bfbdeb793caa296d0f87c"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/5af494b50357fbd343fed3ac85e4e17e"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/f1e29b87662b85b0abe792c5d3b6e41e"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/manifest.ocdbt"
+        }
+      ]
+    },
+    {
+      "_id": "6a02010b6b8f167bcd9d2d18",
+      "id": "embedded-language-flows/ELF-B-de-en",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-11T16:17:18.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "c8120fb80e52d4056abb5378cb9acaef3da6e65a",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-11T16:17:15.000Z",
+      "modelId": "embedded-language-flows/ELF-B-de-en",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "ELF-B-de-en.yml"
+        },
+        {
+          "rfilename": "checkpoint_0/_CHECKPOINT_METADATA"
+        },
+        {
+          "rfilename": "checkpoint_0/_METADATA"
+        },
+        {
+          "rfilename": "checkpoint_0/d/c602cf9787ff97fc0f5bb3081af834b5"
+        },
+        {
+          "rfilename": "checkpoint_0/manifest.ocdbt"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/1b4dc63bea2d98dc392e69e33f2ebe7a"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/ad715c4692f9b6da91a21655a0bb3af0"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/b7360d60d79106040c95d6b7abb74ef6"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/dbc8b9f046ec6f3845cf6c9d8c255b93"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/manifest.ocdbt"
+        }
+      ]
+    },
+    {
+      "_id": "6a01f9c1e16ff30a226a090a",
+      "id": "embedded-language-flows/ELF-L-owt",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-11T15:46:32.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "9f691bac0ac28d027c4dc8c86a1b235e2761a21c",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-11T15:46:09.000Z",
+      "modelId": "embedded-language-flows/ELF-L-owt",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "ELF-L-owt.yml"
+        },
+        {
+          "rfilename": "checkpoint_0/_CHECKPOINT_METADATA"
+        },
+        {
+          "rfilename": "checkpoint_0/_METADATA"
+        },
+        {
+          "rfilename": "checkpoint_0/d/5b601345c0f2190ef9994309524f1d64"
+        },
+        {
+          "rfilename": "checkpoint_0/manifest.ocdbt"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/52d4a536c88553ac9485fbf2f35b6629"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/8b8457c8e843eba327e62fe5fcc124d3"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/d4193878ed613a5ac6fc17b2f13c3860"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/d461d1cc5c9dbb4a28805f23fa8c7dbb"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/d5a1620f2da3335e5a42a0da55006e67"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/ed61217887ce58ba9a3ccc748439ed6c"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/manifest.ocdbt"
+        }
+      ]
+    },
+    {
+      "_id": "6a01f94327ebcd416e79f77e",
+      "id": "embedded-language-flows/ELF-M-owt",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-11T15:44:18.000Z",
+      "likes": 0,
+      "private": false,
+      "sha": "2724e1c01dce5eb526b04c49e3cbb4bc5db262cc",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-11T15:44:03.000Z",
+      "modelId": "embedded-language-flows/ELF-M-owt",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "ELF-M-owt.yml"
+        },
+        {
+          "rfilename": "checkpoint_0/_CHECKPOINT_METADATA"
+        },
+        {
+          "rfilename": "checkpoint_0/_METADATA"
+        },
+        {
+          "rfilename": "checkpoint_0/d/9b67b2b1a3556c070ef179edfd9b3f83"
+        },
+        {
+          "rfilename": "checkpoint_0/manifest.ocdbt"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/28c37ec0597e779fcbb5c3ca25c1ebe1"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/961934ef67f08ca0e602c89e25310435"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/a42ffa565d5d5a8a129cb64352df601c"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/c1ffccc6374a2d6988433b8927c8b6f5"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/e6b21145a10013010c4aa83a68b552ad"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/d/eca55eb1012f96c9cf85c23fa87fef6a"
+        },
+        {
+          "rfilename": "checkpoint_0/ocdbt.process_0/manifest.ocdbt"
+        }
+      ]
+    },
+    {
+      "_id": "6a01494b39958d20f7377e74",
+      "id": "embedded-language-flows/t5_small_encoder_jax",
+      "author": "embedded-language-flows",
+      "gated": false,
+      "lastModified": "2026-05-11T03:30:46.000Z",
+      "likes": 1,
+      "private": false,
+      "sha": "c77f0a84a7549dd1ca4b3976840150d46e9da7dd",
+      "downloads": 0,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-05-11T03:13:15.000Z",
+      "modelId": "embedded-language-flows/t5_small_encoder_jax",
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "t5_small_encoder_jax.pkl"
+        }
+      ]
+    }
+  ]
+}

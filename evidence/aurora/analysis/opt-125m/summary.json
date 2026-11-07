@@ -1,0 +1,203 @@
+{
+  "evaluator": "opt-125m",
+  "protocol_sha256": "809564e875f921d14280e3d1e94abc370ac83fd8339badf5b4c6b705cfc4c074",
+  "prediction": [],
+  "repair": [
+    {
+      "condition": "all",
+      "policy": "rare",
+      "sequences": 1536,
+      "mean": 0.012570134878455185,
+      "ci_low": 0.010360963880008395,
+      "ci_high": 0.014874305862748705,
+      "level": 0.95
+    },
+    {
+      "condition": "all",
+      "policy": "numeric",
+      "sequences": 1536,
+      "mean": -0.0010077664644829163,
+      "ci_low": -0.002597782773147575,
+      "ci_high": 0.0005802365714114554,
+      "level": 0.95
+    },
+    {
+      "condition": "all",
+      "policy": "lowmargin",
+      "sequences": 1536,
+      "mean": -0.011024411670802701,
+      "ci_low": -0.012873779466527464,
+      "ci_high": -0.009075138646740219,
+      "level": 0.95
+    },
+    {
+      "condition": "S16",
+      "policy": "rare",
+      "sequences": 512,
+      "mean": 0.012758930891590125,
+      "ci_low": 0.008653037347676048,
+      "ci_high": 0.017035003185356227,
+      "level": 0.95
+    },
+    {
+      "condition": "S16",
+      "policy": "numeric",
+      "sequences": 512,
+      "mean": -0.00215658281490203,
+      "ci_low": -0.005016615026247629,
+      "ci_high": 0.0006156684272562851,
+      "level": 0.95
+    },
+    {
+      "condition": "S16",
+      "policy": "lowmargin",
+      "sequences": 512,
+      "mean": -0.011848782522109042,
+      "ci_low": -0.015490892839867805,
+      "ci_high": -0.007993993790469167,
+      "level": 0.95
+    },
+    {
+      "condition": "S32",
+      "policy": "rare",
+      "sequences": 512,
+      "mean": 0.011296765777757591,
+      "ci_low": 0.008088337352742822,
+      "ci_high": 0.014637284348802421,
+      "level": 0.95
+    },
+    {
+      "condition": "S32",
+      "policy": "numeric",
+      "sequences": 512,
+      "mean": -0.0020318773724249018,
+      "ci_low": -0.004676594409867303,
+      "ci_high": 0.0006189870395385232,
+      "level": 0.95
+    },
+    {
+      "condition": "S32",
+      "policy": "lowmargin",
+      "sequences": 512,
+      "mean": -0.011635345231545142,
+      "ci_low": -0.014458271757208539,
+      "ci_high": -0.008720670228039325,
+      "level": 0.95
+    },
+    {
+      "condition": "S64",
+      "policy": "rare",
+      "sequences": 512,
+      "mean": 0.013654707966017837,
+      "ci_low": 0.010165401412904767,
+      "ci_high": 0.01735559249566974,
+      "level": 0.95
+    },
+    {
+      "condition": "S64",
+      "policy": "numeric",
+      "sequences": 512,
+      "mean": 0.001165160793878183,
+      "ci_low": -0.001567697442278304,
+      "ci_high": 0.004009310270266898,
+      "level": 0.95
+    },
+    {
+      "condition": "S64",
+      "policy": "lowmargin",
+      "sequences": 512,
+      "mean": -0.009589107258753917,
+      "ci_low": -0.013152522393765293,
+      "ci_high": -0.005931136766830223,
+      "level": 0.95
+    }
+  ],
+  "validity": [
+    {
+      "condition": "S16",
+      "generation_seed": 61022401,
+      "total": 256,
+      "common_scorable": 256,
+      "excluded_indices": []
+    },
+    {
+      "condition": "S16",
+      "generation_seed": 61022402,
+      "total": 256,
+      "common_scorable": 256,
+      "excluded_indices": []
+    },
+    {
+      "condition": "S32",
+      "generation_seed": 61022401,
+      "total": 256,
+      "common_scorable": 256,
+      "excluded_indices": []
+    },
+    {
+      "condition": "S32",
+      "generation_seed": 61022402,
+      "total": 256,
+      "common_scorable": 256,
+      "excluded_indices": []
+    },
+    {
+      "condition": "S64",
+      "generation_seed": 61022401,
+      "total": 256,
+      "common_scorable": 256,
+      "excluded_indices": []
+    },
+    {
+      "condition": "S64",
+      "generation_seed": 61022402,
+      "total": 256,
+      "common_scorable": 256,
+      "excluded_indices": []
+    }
+  ],
+  "overlap": [
+    {
+      "condition": "S16",
+      "generation_seed": 61022401,
+      "development_exact_overlaps": 0,
+      "within_pool_duplicates": 0,
+      "earlier_test_pool_overlaps": 0
+    },
+    {
+      "condition": "S16",
+      "generation_seed": 61022402,
+      "development_exact_overlaps": 0,
+      "within_pool_duplicates": 0,
+      "earlier_test_pool_overlaps": 0
+    },
+    {
+      "condition": "S32",
+      "generation_seed": 61022401,
+      "development_exact_overlaps": 0,
+      "within_pool_duplicates": 0,
+      "earlier_test_pool_overlaps": 0
+    },
+    {
+      "condition": "S32",
+      "generation_seed": 61022402,
+      "development_exact_overlaps": 0,
+      "within_pool_duplicates": 0,
+      "earlier_test_pool_overlaps": 0
+    },
+    {
+      "condition": "S64",
+      "generation_seed": 61022401,
+      "development_exact_overlaps": 0,
+      "within_pool_duplicates": 0,
+      "earlier_test_pool_overlaps": 0
+    },
+    {
+      "condition": "S64",
+      "generation_seed": 61022402,
+      "development_exact_overlaps": 0,
+      "within_pool_duplicates": 0,
+      "earlier_test_pool_overlaps": 0
+    }
+  ]
+}

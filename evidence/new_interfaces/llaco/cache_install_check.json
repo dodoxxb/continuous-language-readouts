@@ -1,0 +1,4 @@
+{
+  "status": "passed",
+  "scope": "Wrapper cache installation, numerical output/entropy parity and restoration on synthetic CPU fixture; not full-model inference"
+}

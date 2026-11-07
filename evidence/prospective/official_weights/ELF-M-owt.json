@@ -1,0 +1,107 @@
+{
+  "_id": "6a01f94327ebcd416e79f77e",
+  "id": "embedded-language-flows/ELF-M-owt",
+  "private": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "embedded-language-flows/ELF-M-owt",
+  "author": "embedded-language-flows",
+  "sha": "2724e1c01dce5eb526b04c49e3cbb4bc5db262cc",
+  "lastModified": "2026-05-11T15:44:18.000Z",
+  "gated": false,
+  "disabled": false,
+  "config": {},
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "70791dae8b0fe62482b03e9eed1b0dff5e826c18",
+      "size": 1919
+    },
+    {
+      "rfilename": "ELF-M-owt.yml",
+      "blobId": "095145addad30eafdfc3ab628364ceb4c13b7291",
+      "size": 1248
+    },
+    {
+      "rfilename": "checkpoint_0/_CHECKPOINT_METADATA",
+      "blobId": "877525f2ada1671e16f5f120b8ed41db1546ea9a",
+      "size": 92
+    },
+    {
+      "rfilename": "checkpoint_0/_METADATA",
+      "blobId": "8576243e43cf630421886717dd4b904afbe066d0",
+      "size": 192331
+    },
+    {
+      "rfilename": "checkpoint_0/d/9b67b2b1a3556c070ef179edfd9b3f83",
+      "blobId": "2a3c3af805acf4b7d854d1d37c335d20ecd6cf91",
+      "size": 28346
+    },
+    {
+      "rfilename": "checkpoint_0/manifest.ocdbt",
+      "blobId": "db27456eec4ca687e3814f6ad20270d54a125e46",
+      "size": 120
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/28c37ec0597e779fcbb5c3ca25c1ebe1",
+      "blobId": "e6c422bef2708eb4aeb010eb83b1e127897aad59",
+      "size": 28328
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/961934ef67f08ca0e602c89e25310435",
+      "blobId": "01e103bd206febc272be0a627485ff0721f5f7e5",
+      "size": 2162982912,
+      "lfs": {
+        "sha256": "c6a5dc2b3989acc8e21a70346bcdd644180ccf010273e612af98c4f88d98de98",
+        "size": 2162982912,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/a42ffa565d5d5a8a129cb64352df601c",
+      "blobId": "5a240a403fd6ebf1443c88dbd3d580c2e5517ce9",
+      "size": 122421248,
+      "lfs": {
+        "sha256": "8a27ed82c50f8be44e8b58c4ac438ba24de7592fd96e643201c1cbf128ce65ec",
+        "size": 122421248,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/c1ffccc6374a2d6988433b8927c8b6f5",
+      "blobId": "77f48a22eb69194d6133fda520f62ab4cdf47a88",
+      "size": 8445952,
+      "lfs": {
+        "sha256": "88e7ad8dc94c7baa8fba1fdf7896bd72dc6fdeb7624642b71ca74c193647ef83",
+        "size": 8445952,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/e6b21145a10013010c4aa83a68b552ad",
+      "blobId": "37bfb4086003558f4f48c8e44139a48823af611a",
+      "size": 245628928,
+      "lfs": {
+        "sha256": "aef9f7e9ab4bb8bf30a8f678b3ed65dfa92c595110f3ef1c9032770f2931923b",
+        "size": 245628928,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/d/eca55eb1012f96c9cf85c23fa87fef6a",
+      "blobId": "0678742fcda443756468bcc51780d478caf7a53d",
+      "size": 205
+    },
+    {
+      "rfilename": "checkpoint_0/ocdbt.process_0/manifest.ocdbt",
+      "blobId": "b8e25e328e16d299caf30ed41e72db348b1f6030",
+      "size": 322
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-05-11T15:44:03.000Z",
+  "usedStorage": 2539479040
+}

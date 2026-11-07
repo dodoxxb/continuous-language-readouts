@@ -1,0 +1,522 @@
+[
+  {
+    "condition": "mean",
+    "fit": "ridge",
+    "token_agreement": 0.9437179565429688,
+    "token_ci": [
+      0.9389263153076172,
+      0.9473726272583007
+    ],
+    "chunk_agreement": 0.811370849609375,
+    "chunk_ci": [
+      0.80255126953125,
+      0.8193367004394532
+    ],
+    "native_reference": 0.9987640380859375,
+    "native_radial_preservation": 0.9997787475585938,
+    "unseen_tokens": 2003,
+    "unseen_agreement": 0.48077883175237146,
+    "rare_tokens": 45455,
+    "rare_agreement": 0.8700472995270048,
+    "common_tokens": 85617,
+    "common_agreement": 0.9828305126318372
+  },
+  {
+    "condition": "mean",
+    "fit": "17",
+    "token_agreement": 0.9437179565429688,
+    "token_ci": [
+      0.9389263153076172,
+      0.9473726272583007
+    ],
+    "chunk_agreement": 0.811370849609375,
+    "chunk_ci": [
+      0.80255126953125,
+      0.8193367004394532
+    ],
+    "native_reference": 0.9987640380859375,
+    "native_radial_preservation": 0.9997787475585938,
+    "unseen_tokens": 2003,
+    "unseen_agreement": 0.48077883175237146,
+    "rare_tokens": 45455,
+    "rare_agreement": 0.8700472995270048,
+    "common_tokens": 85617,
+    "common_agreement": 0.9828305126318372
+  },
+  {
+    "condition": "mean",
+    "fit": "29",
+    "token_agreement": 0.9437179565429688,
+    "token_ci": [
+      0.9389263153076172,
+      0.9473726272583007
+    ],
+    "chunk_agreement": 0.811370849609375,
+    "chunk_ci": [
+      0.80255126953125,
+      0.8193367004394532
+    ],
+    "native_reference": 0.9987640380859375,
+    "native_radial_preservation": 0.9997787475585938,
+    "unseen_tokens": 2003,
+    "unseen_agreement": 0.48077883175237146,
+    "rare_tokens": 45455,
+    "rare_agreement": 0.8700472995270048,
+    "common_tokens": 85617,
+    "common_agreement": 0.9828305126318372
+  },
+  {
+    "condition": "mean",
+    "fit": "43",
+    "token_agreement": 0.9437179565429688,
+    "token_ci": [
+      0.9389263153076172,
+      0.9473726272583007
+    ],
+    "chunk_agreement": 0.811370849609375,
+    "chunk_ci": [
+      0.80255126953125,
+      0.8193367004394532
+    ],
+    "native_reference": 0.9987640380859375,
+    "native_radial_preservation": 0.9997787475585938,
+    "unseen_tokens": 2003,
+    "unseen_agreement": 0.48077883175237146,
+    "rare_tokens": 45455,
+    "rare_agreement": 0.8700472995270048,
+    "common_tokens": 85617,
+    "common_agreement": 0.9828305126318372
+  },
+  {
+    "condition": "mean",
+    "fit": "three_fit_mean",
+    "token_agreement": 0.9437179565429688,
+    "token_ci": [
+      0.9389263153076172,
+      0.9473726272583007
+    ],
+    "chunk_agreement": 0.811370849609375,
+    "chunk_ci": [
+      0.80255126953125,
+      0.8193367004394532
+    ],
+    "native_reference": 0.9987640380859375,
+    "native_radial_preservation": 0.9997787475585938
+  },
+  {
+    "condition": "noise025",
+    "fit": "ridge",
+    "token_agreement": 0.92694091796875,
+    "token_ci": [
+      0.9220123291015625,
+      0.9309465408325195
+    ],
+    "chunk_agreement": 0.761993408203125,
+    "chunk_ci": [
+      0.752838134765625,
+      0.7704475402832032
+    ],
+    "native_reference": 0.998748779296875,
+    "native_radial_preservation": 0.9993667602539062,
+    "unseen_tokens": 2010,
+    "unseen_agreement": 0.4343283582089552,
+    "rare_tokens": 45455,
+    "rare_agreement": 0.8379276207237928,
+    "common_tokens": 85617,
+    "common_agreement": 0.9741990492542368
+  },
+  {
+    "condition": "noise025",
+    "fit": "17",
+    "token_agreement": 0.92694091796875,
+    "token_ci": [
+      0.9220123291015625,
+      0.9309465408325195
+    ],
+    "chunk_agreement": 0.761993408203125,
+    "chunk_ci": [
+      0.752838134765625,
+      0.7704475402832032
+    ],
+    "native_reference": 0.998748779296875,
+    "native_radial_preservation": 0.9993667602539062,
+    "unseen_tokens": 2010,
+    "unseen_agreement": 0.4343283582089552,
+    "rare_tokens": 45455,
+    "rare_agreement": 0.8379276207237928,
+    "common_tokens": 85617,
+    "common_agreement": 0.9741990492542368
+  },
+  {
+    "condition": "noise025",
+    "fit": "29",
+    "token_agreement": 0.92694091796875,
+    "token_ci": [
+      0.9220123291015625,
+      0.9309465408325195
+    ],
+    "chunk_agreement": 0.761993408203125,
+    "chunk_ci": [
+      0.752838134765625,
+      0.7704475402832032
+    ],
+    "native_reference": 0.998748779296875,
+    "native_radial_preservation": 0.9993667602539062,
+    "unseen_tokens": 2010,
+    "unseen_agreement": 0.4343283582089552,
+    "rare_tokens": 45455,
+    "rare_agreement": 0.8379276207237928,
+    "common_tokens": 85617,
+    "common_agreement": 0.9741990492542368
+  },
+  {
+    "condition": "noise025",
+    "fit": "43",
+    "token_agreement": 0.92694091796875,
+    "token_ci": [
+      0.9220123291015625,
+      0.9309465408325195
+    ],
+    "chunk_agreement": 0.761993408203125,
+    "chunk_ci": [
+      0.752838134765625,
+      0.7704475402832032
+    ],
+    "native_reference": 0.998748779296875,
+    "native_radial_preservation": 0.9993667602539062,
+    "unseen_tokens": 2010,
+    "unseen_agreement": 0.4343283582089552,
+    "rare_tokens": 45455,
+    "rare_agreement": 0.8379276207237928,
+    "common_tokens": 85617,
+    "common_agreement": 0.9741990492542368
+  },
+  {
+    "condition": "noise025",
+    "fit": "three_fit_mean",
+    "token_agreement": 0.92694091796875,
+    "token_ci": [
+      0.9220123291015625,
+      0.9309465408325195
+    ],
+    "chunk_agreement": 0.761993408203125,
+    "chunk_ci": [
+      0.752838134765625,
+      0.7704475402832032
+    ],
+    "native_reference": 0.998748779296875,
+    "native_radial_preservation": 0.9993667602539062
+  },
+  {
+    "condition": "posterior",
+    "fit": "ridge",
+    "token_agreement": 0.908355712890625,
+    "token_ci": [
+      0.9031600952148438,
+      0.9125595092773438
+    ],
+    "chunk_agreement": 0.703125,
+    "chunk_ci": [
+      0.693450927734375,
+      0.7120674133300782
+    ],
+    "native_reference": 0.9987640380859375,
+    "native_radial_preservation": 1.0,
+    "unseen_tokens": 2003,
+    "unseen_agreement": 0.3934098851722416,
+    "rare_tokens": 45457,
+    "rare_agreement": 0.8089843148469983,
+    "common_tokens": 85615,
+    "common_agreement": 0.9611166267593295
+  },
+  {
+    "condition": "posterior",
+    "fit": "17",
+    "token_agreement": 0.908355712890625,
+    "token_ci": [
+      0.9031600952148438,
+      0.9125595092773438
+    ],
+    "chunk_agreement": 0.703125,
+    "chunk_ci": [
+      0.693450927734375,
+      0.7120674133300782
+    ],
+    "native_reference": 0.9987640380859375,
+    "native_radial_preservation": 1.0,
+    "unseen_tokens": 2003,
+    "unseen_agreement": 0.3934098851722416,
+    "rare_tokens": 45457,
+    "rare_agreement": 0.8089843148469983,
+    "common_tokens": 85615,
+    "common_agreement": 0.9611166267593295
+  },
+  {
+    "condition": "posterior",
+    "fit": "29",
+    "token_agreement": 0.908355712890625,
+    "token_ci": [
+      0.9031600952148438,
+      0.9125595092773438
+    ],
+    "chunk_agreement": 0.703125,
+    "chunk_ci": [
+      0.693450927734375,
+      0.7120674133300782
+    ],
+    "native_reference": 0.9987640380859375,
+    "native_radial_preservation": 1.0,
+    "unseen_tokens": 2003,
+    "unseen_agreement": 0.3934098851722416,
+    "rare_tokens": 45457,
+    "rare_agreement": 0.8089843148469983,
+    "common_tokens": 85615,
+    "common_agreement": 0.9611166267593295
+  },
+  {
+    "condition": "posterior",
+    "fit": "43",
+    "token_agreement": 0.908355712890625,
+    "token_ci": [
+      0.9031600952148438,
+      0.9125595092773438
+    ],
+    "chunk_agreement": 0.703125,
+    "chunk_ci": [
+      0.693450927734375,
+      0.7120674133300782
+    ],
+    "native_reference": 0.9987640380859375,
+    "native_radial_preservation": 1.0,
+    "unseen_tokens": 2003,
+    "unseen_agreement": 0.3934098851722416,
+    "rare_tokens": 45457,
+    "rare_agreement": 0.8089843148469983,
+    "common_tokens": 85615,
+    "common_agreement": 0.9611166267593295
+  },
+  {
+    "condition": "posterior",
+    "fit": "three_fit_mean",
+    "token_agreement": 0.908355712890625,
+    "token_ci": [
+      0.9031600952148438,
+      0.9125595092773438
+    ],
+    "chunk_agreement": 0.703125,
+    "chunk_ci": [
+      0.693450927734375,
+      0.7120674133300782
+    ],
+    "native_reference": 0.9987640380859375,
+    "native_radial_preservation": 1.0
+  },
+  {
+    "condition": "radial05",
+    "fit": "ridge",
+    "token_agreement": 0.6927566528320312,
+    "token_ci": [
+      0.6879037857055664,
+      0.6973037719726562
+    ],
+    "chunk_agreement": 0.240234375,
+    "chunk_ci": [
+      0.233856201171875,
+      0.24624710083007811
+    ],
+    "native_reference": 0.7171630859375,
+    "native_radial_preservation": 0.7174606323242188,
+    "unseen_tokens": 441,
+    "unseen_agreement": 0.2585034013605442,
+    "rare_tokens": 18360,
+    "rare_agreement": 0.6830610021786493,
+    "common_tokens": 112712,
+    "common_agreement": 0.6943360068138263
+  },
+  {
+    "condition": "radial05",
+    "fit": "17",
+    "token_agreement": 0.6927566528320312,
+    "token_ci": [
+      0.6879037857055664,
+      0.6973037719726562
+    ],
+    "chunk_agreement": 0.240234375,
+    "chunk_ci": [
+      0.233856201171875,
+      0.24624710083007811
+    ],
+    "native_reference": 0.7171630859375,
+    "native_radial_preservation": 0.7174606323242188,
+    "unseen_tokens": 441,
+    "unseen_agreement": 0.2585034013605442,
+    "rare_tokens": 18360,
+    "rare_agreement": 0.6830610021786493,
+    "common_tokens": 112712,
+    "common_agreement": 0.6943360068138263
+  },
+  {
+    "condition": "radial05",
+    "fit": "29",
+    "token_agreement": 0.6927566528320312,
+    "token_ci": [
+      0.6879037857055664,
+      0.6973037719726562
+    ],
+    "chunk_agreement": 0.240234375,
+    "chunk_ci": [
+      0.233856201171875,
+      0.24624710083007811
+    ],
+    "native_reference": 0.7171630859375,
+    "native_radial_preservation": 0.7174606323242188,
+    "unseen_tokens": 441,
+    "unseen_agreement": 0.2585034013605442,
+    "rare_tokens": 18360,
+    "rare_agreement": 0.6830610021786493,
+    "common_tokens": 112712,
+    "common_agreement": 0.6943360068138263
+  },
+  {
+    "condition": "radial05",
+    "fit": "43",
+    "token_agreement": 0.6927566528320312,
+    "token_ci": [
+      0.6879037857055664,
+      0.6973037719726562
+    ],
+    "chunk_agreement": 0.240234375,
+    "chunk_ci": [
+      0.233856201171875,
+      0.24624710083007811
+    ],
+    "native_reference": 0.7171630859375,
+    "native_radial_preservation": 0.7174606323242188,
+    "unseen_tokens": 441,
+    "unseen_agreement": 0.2585034013605442,
+    "rare_tokens": 18360,
+    "rare_agreement": 0.6830610021786493,
+    "common_tokens": 112712,
+    "common_agreement": 0.6943360068138263
+  },
+  {
+    "condition": "radial05",
+    "fit": "three_fit_mean",
+    "token_agreement": 0.6927566528320312,
+    "token_ci": [
+      0.6879037857055664,
+      0.6973037719726562
+    ],
+    "chunk_agreement": 0.240234375,
+    "chunk_ci": [
+      0.233856201171875,
+      0.24624710083007811
+    ],
+    "native_reference": 0.7171630859375,
+    "native_radial_preservation": 0.7174606323242188
+  },
+  {
+    "condition": "radial2",
+    "fit": "ridge",
+    "token_agreement": 0.9263076782226562,
+    "token_ci": [
+      0.9214096069335938,
+      0.9302141189575195
+    ],
+    "chunk_agreement": 0.7552490234375,
+    "chunk_ci": [
+      0.7458488464355468,
+      0.7641311645507812
+    ],
+    "native_reference": 0.9985275268554688,
+    "native_radial_preservation": 0.9986953735351562,
+    "unseen_tokens": 1965,
+    "unseen_agreement": 0.44173027989821884,
+    "rare_tokens": 45497,
+    "rare_agreement": 0.8410884234125326,
+    "common_tokens": 85575,
+    "common_agreement": 0.9716155419222904
+  },
+  {
+    "condition": "radial2",
+    "fit": "17",
+    "token_agreement": 0.9263076782226562,
+    "token_ci": [
+      0.9214096069335938,
+      0.9302141189575195
+    ],
+    "chunk_agreement": 0.7552490234375,
+    "chunk_ci": [
+      0.7458488464355468,
+      0.7641311645507812
+    ],
+    "native_reference": 0.9985275268554688,
+    "native_radial_preservation": 0.9986953735351562,
+    "unseen_tokens": 1965,
+    "unseen_agreement": 0.44173027989821884,
+    "rare_tokens": 45497,
+    "rare_agreement": 0.8410884234125326,
+    "common_tokens": 85575,
+    "common_agreement": 0.9716155419222904
+  },
+  {
+    "condition": "radial2",
+    "fit": "29",
+    "token_agreement": 0.9263076782226562,
+    "token_ci": [
+      0.9214096069335938,
+      0.9302141189575195
+    ],
+    "chunk_agreement": 0.7552490234375,
+    "chunk_ci": [
+      0.7458488464355468,
+      0.7641311645507812
+    ],
+    "native_reference": 0.9985275268554688,
+    "native_radial_preservation": 0.9986953735351562,
+    "unseen_tokens": 1965,
+    "unseen_agreement": 0.44173027989821884,
+    "rare_tokens": 45497,
+    "rare_agreement": 0.8410884234125326,
+    "common_tokens": 85575,
+    "common_agreement": 0.9716155419222904
+  },
+  {
+    "condition": "radial2",
+    "fit": "43",
+    "token_agreement": 0.9263076782226562,
+    "token_ci": [
+      0.9214096069335938,
+      0.9302141189575195
+    ],
+    "chunk_agreement": 0.7552490234375,
+    "chunk_ci": [
+      0.7458488464355468,
+      0.7641311645507812
+    ],
+    "native_reference": 0.9985275268554688,
+    "native_radial_preservation": 0.9986953735351562,
+    "unseen_tokens": 1965,
+    "unseen_agreement": 0.44173027989821884,
+    "rare_tokens": 45497,
+    "rare_agreement": 0.8410884234125326,
+    "common_tokens": 85575,
+    "common_agreement": 0.9716155419222904
+  },
+  {
+    "condition": "radial2",
+    "fit": "three_fit_mean",
+    "token_agreement": 0.9263076782226562,
+    "token_ci": [
+      0.9214096069335938,
+      0.9302141189575195
+    ],
+    "chunk_agreement": 0.7552490234375,
+    "chunk_ci": [
+      0.7458488464355468,
+      0.7641311645507812
+    ],
+    "native_reference": 0.9985275268554688,
+    "native_radial_preservation": 0.9986953735351562
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "de_texted_rows": 4992,
+  "independent_pairwise_auc_checks": 792,
+  "all_strata_retained": 264,
+  "signed_margin_confirmed_violations": 27,
+  "input_sha256_matches_manifest": true,
+  "bootstrap_intervals_not_independently_regenerated_by_this_verifier": true
+}

@@ -1,0 +1,42 @@
+{
+  "timing": "Post-initial-result token-budget follow-up; protocol frozen before additional generation and fits",
+  "summary": [
+    {
+      "train_sequences": 1024,
+      "train_tokens": 131072,
+      "fit_seeds": 3,
+      "agreement_mean": 0.6262359619140625,
+      "fit_seed_sd": 0.00037032046812474355,
+      "sequence_ci_low": 0.6226245880126953,
+      "sequence_ci_high": 0.6298730214436848,
+      "nonspecial_agreement_mean": 0.6072253223013276,
+      "nonspecial_sequence_ci_low": 0.6034149919469894,
+      "nonspecial_sequence_ci_high": 0.611059433248004,
+      "native_special_positions": 3172,
+      "native_positions": 65536
+    },
+    {
+      "train_sequences": 8192,
+      "train_tokens": 1048576,
+      "fit_seeds": 3,
+      "agreement_mean": 0.74151611328125,
+      "fit_seed_sd": 0.0005958747616505931,
+      "sequence_ci_low": 0.7379403432210287,
+      "sequence_ci_high": 0.7449901580810547,
+      "nonspecial_agreement_mean": 0.7283689307934065,
+      "nonspecial_sequence_ci_low": 0.7245614074352474,
+      "nonspecial_sequence_ci_high": 0.7319760692395564,
+      "native_special_positions": 3172,
+      "native_positions": 65536
+    }
+  ],
+  "paired": [
+    {
+      "comparison": "8192 minus 1024 LangFlow training sequences",
+      "delta": 0.1152801513671875,
+      "ci_low": 0.11294021606445312,
+      "ci_high": 0.11754887898763021
+    }
+  ],
+  "scope": "Same fixed LangFlow test, approximately matched available training-token count to smallest ELF pool. No architecture ranking."
+}

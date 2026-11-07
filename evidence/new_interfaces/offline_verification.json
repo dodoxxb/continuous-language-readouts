@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "CALM primary: every condition, fit, document interval and native-reference result",
+    "CALM follow-up: fresh hash exclusions, all policies, paired gains and intervals",
+    "CALM conditional one-step prior: all native/readout outcomes and transfer intervals",
+    "CALM matched fitting populations: all six fits, validation-only selections, paired fresh-prior gains and intervals",
+    "LLaCO: paired vocabulary outcomes, mass-budget bounds, all fallback rates and runtime medians"
+  ],
+  "scope": "Offline arithmetic and retained-prediction audit. Does not rerun pretrained inference or verify unbundled weights."
+}

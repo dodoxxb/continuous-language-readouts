@@ -1,0 +1,46 @@
+--- outputs/aurora_replication_20261022/source/device_utils.upstream.py	2026-10-22 03:14:40.521201692 +0800
++++ third_party/AURORA-LM/src/aurora/utils/device_utils.py	2026-10-22 03:14:40.585200674 +0800
+@@ -12,7 +12,7 @@
+     os.environ.get("DEVICE_TYPE")
+     or ("npu" if shutil.which("npu-smi") else "cuda")
+ ).lower()
+-assert _DEVICE_TYPE in ("cuda", "npu"), f"Unsupported DEVICE_TYPE: {_DEVICE_TYPE}"
++assert _DEVICE_TYPE in ("cuda", "npu", "cpu"), f"Unsupported DEVICE_TYPE: {_DEVICE_TYPE}"
+ 
+ if _DEVICE_TYPE == "npu":
+     import torch_npu  # noqa: F401  # must be imported before any NPU op
+@@ -21,23 +21,32 @@
+     return _DEVICE_TYPE
+ 
+ def get_device(index: int = None) -> torch.device:
++    if _DEVICE_TYPE == 'cpu':
++        return torch.device('cpu')
+     if index is None:
+         index = int(os.environ.get("DEVICE_INDEX", "0"))
+     return torch.device(f"{_DEVICE_TYPE}:{index}")
+ 
+ def set_device(index: int) -> None:
+     os.environ["DEVICE_INDEX"] = str(index)
+-    getattr(torch, _DEVICE_TYPE).set_device(index)
++    if _DEVICE_TYPE != 'cpu':
++        getattr(torch, _DEVICE_TYPE).set_device(index)
+ 
+ def manual_seed(seed: int) -> None:
++    if _DEVICE_TYPE == 'cpu':
++        torch.manual_seed(seed)
++        return
+     mod = getattr(torch, _DEVICE_TYPE)
+     mod.manual_seed(seed)
+     mod.manual_seed_all(seed)
+ 
+ def empty_cache() -> None:
+-    getattr(torch, _DEVICE_TYPE).empty_cache()
++    if _DEVICE_TYPE != 'cpu':
++        getattr(torch, _DEVICE_TYPE).empty_cache()
+ 
+ def get_dist_backend() -> str:
++    if _DEVICE_TYPE == 'cpu':
++        return 'gloo'
+     return "nccl" if _DEVICE_TYPE == "cuda" else "hccl"
+ 
+ def configure_backends() -> None:

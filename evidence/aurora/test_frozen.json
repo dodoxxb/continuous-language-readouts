@@ -1,0 +1,33 @@
+{
+  "time": "2026-10-22T05:07:10+0800",
+  "files": {
+    "outputs/aurora_replication_20261022/protocol.json": "809564e875f921d14280e3d1e94abc370ac83fd8339badf5b4c6b705cfc4c074",
+    "outputs/aurora_replication_20261022/predictors.json": "e303ff599806e4a492345bd371d8ffbde4d496b732cedf50ab0f7d9fe385f9a9",
+    "outputs/aurora_replication_20261022/calibration.csv": "b88db35b07b275b8e05a40476c567cc5e3c6854f45147ae2dfd7d3a032645748",
+    "outputs/aurora_replication_20261022/counts.npy": "3e3f640008923bdd38f94842c89569972aadbfe148d33e20015641f1ccc05dde",
+    "outputs/aurora_replication_20261022/numeric.npy": "95b00d3141bf54a0015ccd269a0b79f926bf5119bcdcf20ab1cd223e8e527632",
+    "scripts/aurora_study_20261022.py": "709258052aadbece3fd5841c7c10259b652ab588ed40abcece41e4c040b8c610",
+    "scripts/aurora_runtime_20261022.py": "3a668b4684447e7214fe50c37e87c8513d58abec53ed158f64c35e4a3d4fb69f",
+    "scripts/aurora_score_20261022.py": "714bb3ba3baa0c1d1fcbe23c0cf4ed63f11ad94f569b2e5aab0e9cb3fb09a744",
+    "scripts/aurora_analyze_20261022.py": "e79396e8bda0c1bba381a16315361c75fcc232ec6780b768d509204f2c4bcfe3",
+    "scripts/aurora_verify_20261022.py": "645754013b4d8a734daea71ed929c0088aff1ce8c8c1b9c25db675f5702ddd40",
+    "outputs/aurora_replication_20261022/source/model_assets.json": "390c490571c0760e098e9301645af4ae9422c363e84f466503016d990a8737c9",
+    "outputs/aurora_replication_20261022/source/environment.json": "215d58371638d603728a52caf158d059622cf7ae27aed6c164785d52ac925ad1",
+    "outputs/aurora_replication_20261022/fits/seed17/selected.pt": "2ec1bc63dd0ae0ec682e4d8273072ed9c80533b232f3e0f2998d6642f5f2f4f5",
+    "outputs/aurora_replication_20261022/fits/seed29/selected.pt": "9c91d659868031d3ac29bc2ae72ea7def1296264a40d31fc6de4ed1fdab24cce",
+    "outputs/aurora_replication_20261022/fits/seed43/selected.pt": "cb55eca9f3cebc8125c901d69da233ccf2536db58f4390dbbbb1b41c894625f5",
+    "outputs/aurora_replication_20261022/calibration_eligibility.json": "00f35f492ec28d377fd61469e575f5597efdecd46c144be9d5dddc2238e604fe",
+    "outputs/aurora_replication_20261022/data/calibration/ready.json": "57e82a8e3b797eb058f35492961e4f338faa6b551f1f48858f1e7ac959377d78",
+    "outputs/aurora_replication_20261022/data/calibration/scores_gpt2-large_linear17.csv": "be760d7ac5ec5ed2ae28480e848a19be0640ecfdb427c9d202dc5c8930c7036f",
+    "outputs/aurora_replication_20261022/data/calibration/scores_gpt2-large_linear29.csv": "ab8b3d92ea35ededf4bb2f3def8b9a7df4233388a381643a5e6eea4e13a10506",
+    "outputs/aurora_replication_20261022/data/calibration/scores_gpt2-large_linear43.csv": "daa9f8d6ed0144327516ca5ca864923731c3229293c55c5790f4eca74d6f709b",
+    "outputs/aurora_replication_20261022/data/calibration/scores_gpt2-large_native.csv": "8ba587be096d4a2bb132939ec791b5f1c2f88cc177d314c23de04ca338263c65",
+    "outputs/aurora_replication_20261022/data/calibration/scores_gpt2-large_repair_lowmargin.csv": "e9ef1f85c3329fe2f78f97f7c67514c8a4d638a3acedcd607647b7fa2c9780b6",
+    "outputs/aurora_replication_20261022/data/calibration/scores_gpt2-large_repair_numeric.csv": "e0a4b9e3fb282bc0d378eca778af6e3eac2cc60e1259b1504cb5e8ef0413d32d",
+    "outputs/aurora_replication_20261022/data/calibration/scores_gpt2-large_repair_random11.csv": "b2ac9daeb230c7ab43aa73a28a3ddbe0c87a951b50470818c47f0e54d0a24dbc",
+    "outputs/aurora_replication_20261022/data/calibration/scores_gpt2-large_repair_random23.csv": "6c47c07e67559e9f96356ba4f2fc63e2736524ef3d130d88919703387172c969",
+    "outputs/aurora_replication_20261022/data/calibration/scores_gpt2-large_repair_random37.csv": "3cdd8fe128a70dce8d42650032cb955f69f7a2dbc0b4ad0b3a2361a16a6b7d04",
+    "outputs/aurora_replication_20261022/data/calibration/scores_gpt2-large_repair_rare.csv": "27eede51352d6e005630232dcc0301483bd9c172463cb7a0b510ddaf48960e57"
+  },
+  "test_generated": false
+}

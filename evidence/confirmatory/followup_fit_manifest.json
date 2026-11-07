@@ -1,0 +1,230 @@
+[
+  {
+    "run": "langflow_extended/n8192_seed17",
+    "configuration": {
+      "family": "langflow_extended",
+      "budget_sequences": 8192,
+      "train_tokens": 1048576,
+      "fit_seed": 17,
+      "protocol_sha256": "765e06c2701723826777df3f89277af197eec507461999b0ab42506f9bbdd522",
+      "split_sha256": "9bf1e3856e863a0d05bf72c59ca8092d771d3ddf6ebef6118b251c039c597974",
+      "code_sha256": "e46a02e648e54ce2f8e4b0145e5326fea1258b61d681ba0a024f288854190915",
+      "torch": "2.7.1+cu128",
+      "training_dtype": "float32 parameters, bfloat16 autocast matmul",
+      "evaluation_dtype": "float32",
+      "fixed_updates": 4096
+    },
+    "selected": {
+      "family": "langflow_extended",
+      "train_sequences": 8192,
+      "train_tokens": 1048576,
+      "fit_seed": 17,
+      "selected_update": 4096,
+      "validation_agreement": 0.746429443359375,
+      "selection": "validation only",
+      "runtime_seconds": 24.874685764312744,
+      "checkpoint_sha256": "25bf6113537aa9760fb68fd8b39b2f4f4743e06d333abe6ec558cd52b0173b7b",
+      "test": {
+        "agreement": 0.7412109375,
+        "macro_agreement": 0.7412109375,
+        "autonomous_eos_agreement": 0.7412109375,
+        "sequences": 512,
+        "valid_tokens": 65536,
+        "zero_valid_sequences": 0
+      }
+    },
+    "validation_history": [
+      {
+        "step": 1024,
+        "validation": {
+          "agreement": 0.66058349609375,
+          "macro_agreement": 0.66058349609375,
+          "autonomous_eos_agreement": 0.66058349609375,
+          "sequences": 256,
+          "valid_tokens": 32768,
+          "zero_valid_sequences": 0
+        }
+      },
+      {
+        "step": 2048,
+        "validation": {
+          "agreement": 0.720611572265625,
+          "macro_agreement": 0.720611572265625,
+          "autonomous_eos_agreement": 0.720611572265625,
+          "sequences": 256,
+          "valid_tokens": 32768,
+          "zero_valid_sequences": 0
+        }
+      },
+      {
+        "step": 4096,
+        "validation": {
+          "agreement": 0.746429443359375,
+          "macro_agreement": 0.746429443359375,
+          "autonomous_eos_agreement": 0.746429443359375,
+          "sequences": 256,
+          "valid_tokens": 32768,
+          "zero_valid_sequences": 0
+        }
+      }
+    ],
+    "followup_configuration": {
+      "followup_protocol_sha256": "4ce232902a61ad86ea014a612ddbd6e7efe1c44f7d1135453738954c2000dc58",
+      "source_sha256": "043d9e1b4f1bcedf4617d666f165b57bba6c3196f71dbd29d32e60dc5c700e73",
+      "timing": "post-initial-result token-budget check",
+      "test_reused": true
+    }
+  },
+  {
+    "run": "langflow_extended/n8192_seed29",
+    "configuration": {
+      "family": "langflow_extended",
+      "budget_sequences": 8192,
+      "train_tokens": 1048576,
+      "fit_seed": 29,
+      "protocol_sha256": "765e06c2701723826777df3f89277af197eec507461999b0ab42506f9bbdd522",
+      "split_sha256": "9bf1e3856e863a0d05bf72c59ca8092d771d3ddf6ebef6118b251c039c597974",
+      "code_sha256": "e46a02e648e54ce2f8e4b0145e5326fea1258b61d681ba0a024f288854190915",
+      "torch": "2.7.1+cu128",
+      "training_dtype": "float32 parameters, bfloat16 autocast matmul",
+      "evaluation_dtype": "float32",
+      "fixed_updates": 4096
+    },
+    "selected": {
+      "family": "langflow_extended",
+      "train_sequences": 8192,
+      "train_tokens": 1048576,
+      "fit_seed": 29,
+      "selected_update": 4096,
+      "validation_agreement": 0.744415283203125,
+      "selection": "validation only",
+      "runtime_seconds": 24.15329909324646,
+      "checkpoint_sha256": "38e1fc1abc9925cf043659d094011f1995e20e5f560a70522fa79d07e6d109ad",
+      "test": {
+        "agreement": 0.7422027587890625,
+        "macro_agreement": 0.7422027587890625,
+        "autonomous_eos_agreement": 0.7422027587890625,
+        "sequences": 512,
+        "valid_tokens": 65536,
+        "zero_valid_sequences": 0
+      }
+    },
+    "validation_history": [
+      {
+        "step": 1024,
+        "validation": {
+          "agreement": 0.6607666015625,
+          "macro_agreement": 0.6607666015625,
+          "autonomous_eos_agreement": 0.6607666015625,
+          "sequences": 256,
+          "valid_tokens": 32768,
+          "zero_valid_sequences": 0
+        }
+      },
+      {
+        "step": 2048,
+        "validation": {
+          "agreement": 0.720703125,
+          "macro_agreement": 0.720703125,
+          "autonomous_eos_agreement": 0.720703125,
+          "sequences": 256,
+          "valid_tokens": 32768,
+          "zero_valid_sequences": 0
+        }
+      },
+      {
+        "step": 4096,
+        "validation": {
+          "agreement": 0.744415283203125,
+          "macro_agreement": 0.744415283203125,
+          "autonomous_eos_agreement": 0.744415283203125,
+          "sequences": 256,
+          "valid_tokens": 32768,
+          "zero_valid_sequences": 0
+        }
+      }
+    ],
+    "followup_configuration": {
+      "followup_protocol_sha256": "4ce232902a61ad86ea014a612ddbd6e7efe1c44f7d1135453738954c2000dc58",
+      "source_sha256": "043d9e1b4f1bcedf4617d666f165b57bba6c3196f71dbd29d32e60dc5c700e73",
+      "timing": "post-initial-result token-budget check",
+      "test_reused": true
+    }
+  },
+  {
+    "run": "langflow_extended/n8192_seed43",
+    "configuration": {
+      "family": "langflow_extended",
+      "budget_sequences": 8192,
+      "train_tokens": 1048576,
+      "fit_seed": 43,
+      "protocol_sha256": "765e06c2701723826777df3f89277af197eec507461999b0ab42506f9bbdd522",
+      "split_sha256": "9bf1e3856e863a0d05bf72c59ca8092d771d3ddf6ebef6118b251c039c597974",
+      "code_sha256": "e46a02e648e54ce2f8e4b0145e5326fea1258b61d681ba0a024f288854190915",
+      "torch": "2.7.1+cu128",
+      "training_dtype": "float32 parameters, bfloat16 autocast matmul",
+      "evaluation_dtype": "float32",
+      "fixed_updates": 4096
+    },
+    "selected": {
+      "family": "langflow_extended",
+      "train_sequences": 8192,
+      "train_tokens": 1048576,
+      "fit_seed": 43,
+      "selected_update": 4096,
+      "validation_agreement": 0.74505615234375,
+      "selection": "validation only",
+      "runtime_seconds": 24.222826957702637,
+      "checkpoint_sha256": "715c2a09a6eeeff28c94902cdc6d258dff628b59df8c7c10c65ac4b676258427",
+      "test": {
+        "agreement": 0.7411346435546875,
+        "macro_agreement": 0.7411346435546875,
+        "autonomous_eos_agreement": 0.7411346435546875,
+        "sequences": 512,
+        "valid_tokens": 65536,
+        "zero_valid_sequences": 0
+      }
+    },
+    "validation_history": [
+      {
+        "step": 1024,
+        "validation": {
+          "agreement": 0.66119384765625,
+          "macro_agreement": 0.66119384765625,
+          "autonomous_eos_agreement": 0.66119384765625,
+          "sequences": 256,
+          "valid_tokens": 32768,
+          "zero_valid_sequences": 0
+        }
+      },
+      {
+        "step": 2048,
+        "validation": {
+          "agreement": 0.72161865234375,
+          "macro_agreement": 0.72161865234375,
+          "autonomous_eos_agreement": 0.72161865234375,
+          "sequences": 256,
+          "valid_tokens": 32768,
+          "zero_valid_sequences": 0
+        }
+      },
+      {
+        "step": 4096,
+        "validation": {
+          "agreement": 0.74505615234375,
+          "macro_agreement": 0.74505615234375,
+          "autonomous_eos_agreement": 0.74505615234375,
+          "sequences": 256,
+          "valid_tokens": 32768,
+          "zero_valid_sequences": 0
+        }
+      }
+    ],
+    "followup_configuration": {
+      "followup_protocol_sha256": "4ce232902a61ad86ea014a612ddbd6e7efe1c44f7d1135453738954c2000dc58",
+      "source_sha256": "043d9e1b4f1bcedf4617d666f165b57bba6c3196f71dbd29d32e60dc5c700e73",
+      "timing": "post-initial-result token-budget check",
+      "test_reused": true
+    }
+  }
+]

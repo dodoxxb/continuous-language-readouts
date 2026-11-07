@@ -1,0 +1,183 @@
+{
+  "status": "Post hoc competitor accounting after primary results; original full-vocabulary outcomes unchanged",
+  "angular": [
+    {
+      "endpoint": "uniform",
+      "gamma": 0.8,
+      "cosine_mask_fraction": 0.0,
+      "adapter_mask_fraction": 0.0,
+      "lexical_only_cosine_reconstruction": 1.0,
+      "cosine_winners": [
+        [
+          116196,
+          1
+        ],
+        [
+          93979,
+          1
+        ],
+        [
+          72910,
+          1
+        ],
+        [
+          113970,
+          1
+        ],
+        [
+          9560,
+          1
+        ]
+      ],
+      "adapter_winners": [
+        [
+          116196,
+          1
+        ],
+        [
+          93979,
+          1
+        ],
+        [
+          72910,
+          1
+        ],
+        [
+          113970,
+          1
+        ],
+        [
+          9560,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": "uniform",
+      "gamma": 0.9,
+      "cosine_mask_fraction": 0.0,
+      "adapter_mask_fraction": 0.0,
+      "lexical_only_cosine_reconstruction": 1.0,
+      "cosine_winners": [
+        [
+          116196,
+          1
+        ],
+        [
+          93979,
+          1
+        ],
+        [
+          72910,
+          1
+        ],
+        [
+          113970,
+          1
+        ],
+        [
+          9560,
+          1
+        ]
+      ],
+      "adapter_winners": [
+        [
+          1032,
+          176
+        ],
+        [
+          1278,
+          137
+        ],
+        [
+          1046,
+          112
+        ],
+        [
+          1376,
+          55
+        ],
+        [
+          1044,
+          47
+        ]
+      ]
+    },
+    {
+      "endpoint": "mask_biased",
+      "gamma": 0.8,
+      "cosine_mask_fraction": 1.0,
+      "adapter_mask_fraction": 1.0,
+      "lexical_only_cosine_reconstruction": 1.0,
+      "cosine_winners": [
+        [
+          100,
+          768
+        ]
+      ],
+      "adapter_winners": [
+        [
+          100,
+          768
+        ]
+      ]
+    },
+    {
+      "endpoint": "mask_biased",
+      "gamma": 0.9,
+      "cosine_mask_fraction": 1.0,
+      "adapter_mask_fraction": 1.0,
+      "lexical_only_cosine_reconstruction": 0.16015625,
+      "cosine_winners": [
+        [
+          100,
+          768
+        ]
+      ],
+      "adapter_winners": [
+        [
+          100,
+          768
+        ]
+      ]
+    }
+  ],
+  "radial_half": {
+    "unrestricted_winners": [
+      [
+        82858,
+        149
+      ],
+      [
+        84006,
+        134
+      ],
+      [
+        110087,
+        132
+      ],
+      [
+        82267,
+        89
+      ],
+      [
+        124574,
+        82
+      ],
+      [
+        91515,
+        52
+      ],
+      [
+        42009,
+        33
+      ],
+      [
+        114442,
+        27
+      ]
+    ],
+    "unrestricted_special_fraction": 0.01953125,
+    "lexical_only_reconstruction": 0.0
+  }
+}

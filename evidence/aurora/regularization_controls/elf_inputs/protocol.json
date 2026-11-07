@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-13",
+  "hypothesis": "Tail-specific native-disagreement burdens improve out-of-condition prediction of excess evaluator NLL beyond aggregate disagreement, length and native evaluator NLL.",
+  "calibration": "Previously inspected 512 ELF-B SDE32 samples, seed 61013001; exploratory calibration, not an untouched development set.",
+  "readouts": "All three already validation-selected 16384-sequence ELF-B affine maps; frozen transfer, no target-domain fitting.",
+  "fit_seeds": [
+    17,
+    29,
+    43
+  ],
+  "conditions": {
+    "B32": {
+      "model": "ELF-B-owt-torch",
+      "checkpoint": "checkpoint_95085",
+      "steps": 32,
+      "gamma": 1.5,
+      "cfg": 3.0
+    },
+    "M32": {
+      "model": "ELF-M-owt-torch",
+      "checkpoint": "checkpoint_76070",
+      "steps": 32,
+      "gamma": 1.5,
+      "cfg": 3.0
+    },
+    "PD8": {
+      "model": "ELF-B-PD-owt-torch",
+      "checkpoint": "checkpoint_19017",
+      "steps": 8,
+      "gamma": 1.5,
+      "cfg": 2.5
+    }
+  },
+  "generation_seeds": [
+    61013201,
+    61013202
+  ],
+  "sequences_per_seed": 256,
+  "batch_size": 4,
+  "regression": "Separate ridge per readout fit, training-only standardization; alpha=10, unpenalized intercept; no hyperparameter search.",
+  "baseline_features": [
+    "error_rate",
+    "log_length",
+    "native_nll"
+  ],
+  "tail_features": [
+    "error_rate",
+    "log_length",
+    "native_nll",
+    "rare_error_rate",
+    "numeric_error_rate",
+    "lowmargin_error_rate"
+  ],
+  "rare": "native target training count <100 including unseen, from the fixed 16384-sequence training pool",
+  "numeric": "native tokenizer token contains a Unicode digit",
+  "lowmargin": "native top1-top2 margin <2",
+  "primary": "Reduction in mean absolute error for per-sequence (linear NLL/token minus native NLL/token), averaged over three fixed readouts and equally weighted over conditions/seeds.",
+  "secondary": [
+    "Per-condition MAE, RMSE, R2 and Spearman",
+    "Native agreement and autonomous-EOS agreement",
+    "Exact per-sequence matched-error repair"
+  ],
+  "intervention": "For prespecified fit seed 17, correct floor(number_of_native_disagreements/2) errors in each sequence using native labels. Select errors by ascending training count, numeric-first, ascending native margin, or three uniform random permutations. The error count is identical across repair arms. Oracle diagnostic, no claim of usable routing or speedup.",
+  "repair_ties": "Random tie-breaks fixed per condition, generation seed, sequence and policy; no outcome-based choice.",
+  "repair_primary": "Equal-weight mean of paired per-sequence NLL/token difference: average random repair minus rare-first repair. Also report numeric and low-margin controls, corpus PPL and evaluator token counts.",
+  "inference": "4000 sequence-cluster paired bootstrap draws, stratified by condition and generation seed; average fitted-readout errors inside each sequence. Conditional on checkpoints/readouts, no denoiser-training-seed inference. Bonferroni 97.5% intervals for the two primary directional tests; 95% descriptive intervals otherwise.",
+  "evaluation": "GPT-2-Large, float16 weights, float32 losses, native valid mask shared before T5 detokenization, 1024 evaluator-token cap. Diagnostic conditional text score, not factuality or autonomous generation.",
+  "failure_policy": "Retain every condition, fit and sign. No retuning against these tests. Failed hypotheses remain reported.",
+  "generalization_scope": "B is a fresh-seed replication; M and released PD change checkpoint/training/scale jointly, not independent randomized training replicas or cross-architecture tests."
+}

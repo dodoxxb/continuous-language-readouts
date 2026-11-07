@@ -1,0 +1,54 @@
+{
+  "fits": [
+    {
+      "family": "posterior",
+      "seed": 17,
+      "selected_step": 2048,
+      "validation_agreement": 0.43333023313492064,
+      "selected_sha256": "e309c56f38ac7ffa8b45d2d2dcff4980434d2e6f0fb75b5fd75f0f93f4a499b2",
+      "coef_sha256": "d74b7e4448d5ec6e708dc143d32057f814e9faa18895c39d5683950ec0257bf4"
+    },
+    {
+      "family": "posterior",
+      "seed": 29,
+      "selected_step": 2048,
+      "validation_agreement": 0.43351624503968256,
+      "selected_sha256": "b0a7c9978bf73197abfbdd7b823fe677d8c67647f6293aa6674af30e767c0e2b",
+      "coef_sha256": "c1442de87c0aac044ef48463078b1a3416a07b903081a66ac10c759f76b1a876"
+    },
+    {
+      "family": "posterior",
+      "seed": 43,
+      "selected_step": 2048,
+      "validation_agreement": 0.4338107638888889,
+      "selected_sha256": "1b9c4074f989c97f39a055c949d70d705c568c8939b09dc84bd66740ff02d985",
+      "coef_sha256": "d14c09260b6eaf44143412c5e7c9c866b3d80cd284e88fcd994f09eb1028e322"
+    },
+    {
+      "family": "prior",
+      "seed": 17,
+      "selected_step": 2048,
+      "validation_agreement": 0.43959263392857145,
+      "selected_sha256": "687c380dc408ffbb184258103b125de59695e565ce2b2b1e469665a47142d00b",
+      "coef_sha256": "f3865dd43a35565a54f994802dbdf76e8bd786b26e672d2b256a7435c430f364"
+    },
+    {
+      "family": "prior",
+      "seed": 29,
+      "selected_step": 2048,
+      "validation_agreement": 0.43973214285714285,
+      "selected_sha256": "f83dda39a2a55ba3d29b731bcf80662c8a39a49eb89cd231c7f6ea312f2016d2",
+      "coef_sha256": "0323ef73804c6ec48464ea8168e354dd269ccd3897990db1bab803ea7b4ddfbe"
+    },
+    {
+      "family": "prior",
+      "seed": 43,
+      "selected_step": 2048,
+      "validation_agreement": 0.4396701388888889,
+      "selected_sha256": "4e797bc73daf895ba2ddf359e27821870a1b8f7a093cd86ba7b42236db3348ef",
+      "coef_sha256": "83507b7700bac01f866bc4f4431676a2e731711d69233728d4e33effedf8cb5d"
+    }
+  ],
+  "frozen_before_test_generation": true,
+  "time": "2026-11-02T18:35:58+0800"
+}
