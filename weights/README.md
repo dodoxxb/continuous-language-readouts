@@ -1,6 +1,6 @@
 # Checkpoints and model cards
 
-Checkpoints are distributed separately from the Git source through [GitHub Releases](https://github.com/dodoxxb/continuous-language-readouts/releases). `release_assets/` is excluded from Git because some checkpoints exceed GitHub's ordinary file limit. The table below lists the five `v0.1.0` Release assets with their direct download links, sizes and SHA-256 hashes.
+Checkpoints are distributed separately from the Git source through [GitHub Releases](https://github.com/dodoxxb/continuous-language-readouts/releases). The individual `.pt` files are excluded from Git because several exceed GitHub's 100 MB repository-file recommendation; Release assets allow up to 2 GiB each, so all five archives fit well within the limit. The table below lists the five `v0.1.0` Release assets with their direct download links, sizes and SHA-256 hashes.
 
 | Release bundle | Checkpoints | Size | SHA-256 |
 | :--- | ---: | ---: | :--- |

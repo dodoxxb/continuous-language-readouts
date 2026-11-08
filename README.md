@@ -1,7 +1,6 @@
 <div align="center">
 
-# What Simple Readouts Miss
-### In Continuous Language Diffusion
+# What Simple Readouts Miss in Continuous Language Diffusion
 
 **Zhicheng Du**<sup>1</sup> &nbsp; · &nbsp; **Lan Ma**<sup>1,†</sup>
 
@@ -30,6 +29,8 @@
 
 Code and checkpoints are distributed in separate steps: source from this repository, fitted checkpoints from the `v0.1.0` Release assets. These checkpoints are readouts or adapters, not standalone generators.
 
+The five archives total **1.18 GiB** (6.07, 34.61, 188.47, 442.30 and 537.24 MiB). The largest single asset is 537.24 MiB, well under GitHub's 2 GiB per-asset limit; GitHub places no cap on a release's total size or download bandwidth, so no external model host is required. Per-file sizes and SHA-256 hashes are in [`weights/README.md`](weights/README.md), and `python tools/check_weight_bundles.py` verifies downloaded bundles against [`weights/BUNDLES.json`](weights/BUNDLES.json).
+
 ## What this project investigates
 
 This is an independent analysis built on [ELF: Embedded Language Flows](https://github.com/lillian039/ELF) and other authors' released models; it is not the official ELF repository. The readouts are trained to imitate native decisions on generated states. The native target is a **fidelity label**, not semantic ground truth.
@@ -54,8 +55,6 @@ The manuscript retains the controls, intervals and negative results behind these
 | [`research/`](research/README.md) | Archival experimental scripts and protocols; full neural reruns need the original layout and external assets. |
 | [`weights/`](weights/README.md) | Model cards, hashes and provenance for staged readouts, CALM coefficients, contextual controls and routing coefficients. |
 | [`docs/REPRODUCTION.md`](docs/REPRODUCTION.md) | Dependencies, check scope, supported inputs and reproducibility limits. |
-| [`docs/PUBLISHING.md`](docs/PUBLISHING.md) | Steps for publishing the staged repository and checkpoint bundles. |
-| [`docs/LOCAL_VALIDATION_20261105.md`](docs/LOCAL_VALIDATION_20261105.md) | Scope and results of the local release checks. |
 
 ## Getting started
 
