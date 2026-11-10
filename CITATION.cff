@@ -5,6 +5,8 @@ type: software
 repository-code: "https://github.com/dodoxxb/continuous-language-readouts"
 url: "https://github.com/dodoxxb/continuous-language-readouts/releases/tag/v0.1.0"
 license: Apache-2.0
+version: 0.1.0
+date-released: 2026-11-07
 authors:
   - family-names: Du
     given-names: Zhicheng

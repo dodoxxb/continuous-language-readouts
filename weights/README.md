@@ -1,6 +1,6 @@
 # Checkpoints and model cards
 
-Checkpoints are distributed separately from the Git source through [GitHub Releases](https://github.com/dodoxxb/continuous-language-readouts/releases). The individual `.pt` files are excluded from Git because several exceed GitHub's 100 MB repository-file recommendation; Release assets allow up to 2 GiB each, so all five archives fit well within the limit. The table below lists the five `v0.1.0` Release assets with their direct download links, sizes and SHA-256 hashes.
+Checkpoints are distributed separately from the Git source through [GitHub Releases](https://github.com/dodoxxb/continuous-language-readouts/releases). The table below lists the five `v0.1.0` Release assets with their direct download links, sizes and SHA-256 hashes.
 
 | Release bundle | Checkpoints | Size | SHA-256 |
 | :--- | ---: | ---: | :--- |
@@ -25,4 +25,4 @@ All fit seeds are probe/adapter seeds, not independent generator-training seeds.
 
 The 42 author-fitted checkpoints and the five Release bundles are released by their rights holders, Zhicheng Du and Lan Ma, under [Apache-2.0](../LICENSE); see [`WEIGHTS_NOTICE.txt`](../WEIGHTS_NOTICE.txt). Use, modification and redistribution, including commercial use, are permitted under that license, with this notice and `LICENSE` retained on redistribution. The underlying pretrained models, their tokenizers, the frozen CALM vocabulary matrix and the original datasets are not included in the archives and remain with their respective publishers under their own terms.
 
-The five uncompressed release bundles group files without duplicate flat filenames; see [`BUNDLES.json`](BUNDLES.json). Each archive is below 2 GiB and can be extracted with `tar -xf bundle.tar -C weights/`. After downloading all five into `weights/bundles/`, `python tools/check_weight_bundles.py` verifies every bundle and checkpoint. To check only an extracted subset, use for example `python tools/check_weights.py --prefix elf/`. `python tools/build_weight_bundles.py` recreates the archives from locally staged assets.
+The five uncompressed release bundles group files without duplicate flat filenames; see [`BUNDLES.json`](BUNDLES.json). Extract an archive with `tar -xf bundle.tar -C weights/`. After downloading all five into `weights/bundles/`, `python tools/check_weight_bundles.py` verifies every bundle and checkpoint. To check only an extracted subset, use for example `python tools/check_weights.py --prefix elf/`. `python tools/build_weight_bundles.py` recreates the archives from locally staged assets.

@@ -16,8 +16,6 @@
 
 **TL;DR:** On the tested generated states, simple affine readouts reproduce most native lexical decisions in ELF and AURORA. The remaining disagreements have unequal consequences: with the same number of native repairs, repair policies can change external scores in opposite directions. Predicting those consequences on a new setting and turning them into a computational benefit are separate problems.
 
-> The arXiv link points to the public preprint. The title and results described here are from the prepared V3 manuscript.
-
 ## Code and weights
 
 | Material | Location |
@@ -28,8 +26,6 @@
 | Original ELF/AURORA/LangFlow/CALM/LLaCO generators, tokenizers and datasets | Their upstream publishers; model identifiers and limitations are listed below. |
 
 Code and checkpoints are distributed in separate steps: source from this repository, fitted checkpoints from the `v0.1.0` Release assets. These checkpoints are readouts or adapters, not standalone generators.
-
-The five archives total **1.18 GiB** (6.07, 34.61, 188.47, 442.30 and 537.24 MiB). The largest single asset is 537.24 MiB, well under GitHub's 2 GiB per-asset limit; GitHub places no cap on a release's total size or download bandwidth, so no external model host is required. Per-file sizes and SHA-256 hashes are in [`weights/README.md`](weights/README.md), and `python tools/check_weight_bundles.py` verifies downloaded bundles against [`weights/BUNDLES.json`](weights/BUNDLES.json).
 
 ## What this project investigates
 
@@ -110,7 +106,7 @@ The weight manifest records exact hashes and original selection records. Large w
 }
 ```
 
-The title above is the prepared V3 title; the linked public arXiv version may still have the earlier title. Please also cite the original ELF paper and the relevant upstream model or dataset when using their assets.
+Please also cite the original ELF paper and the relevant upstream model or dataset when using their assets.
 
 ## Acknowledgements and license
 
